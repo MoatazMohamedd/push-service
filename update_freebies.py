@@ -117,15 +117,19 @@ def fetch_igdb_data(title):
            game_modes.name, screenshots.url, websites.url;
     limit 1;
     '''
+    
     try:
-        resp = requests.post(url, headers=headers, data=body, timeout=10)
+        resp = requests.post(url, headers=headers, data=body.strip(), timeout=10)
         resp.raise_for_status()
         results = resp.json()
-        if results and "game" in results[0]:
-            return transform_igdb(results[0]["game"])
+        if results:
+            return transform_igdb(results[0])
+    except requests.HTTPError as e:
+        print(f"IGDB fetch failed for {title} — HTTP error: {e.response.text}")
     except Exception as e:
         print(f"IGDB fetch failed for {title}: {e}")
     return {}
+
 
 
 def transform_igdb(raw_game):
