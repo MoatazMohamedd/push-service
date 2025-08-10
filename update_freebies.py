@@ -85,12 +85,18 @@ def fetch_gamerpower_games():
         return []
 
 
-def read_local_json():
-    if not os.path.exists(LOCAL_JSON_FILE):
+def read_local_json(file_path="freebies.json"):
+    if not os.path.exists(file_path):
         return []
-    with open(LOCAL_JSON_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
 
+    with open(file_path, "r", encoding="utf-8") as f:
+        try:
+            data = f.read().strip()
+            if not data:  # empty file
+                return []
+            return json.loads(data)
+        except json.JSONDecodeError:
+            return []
 
 def write_local_json(data):
     with open(LOCAL_JSON_FILE, "w", encoding="utf-8") as f:
