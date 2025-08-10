@@ -98,7 +98,7 @@ def write_local_json(data):
 
 
 def fetch_igdb_data(title):
-    url = "https://api.igdb.com/v4/search"
+    url = "https://api.igdb.com/v4/games"
     headers = {
         "Client-ID": IGDB_CLIENT_ID,
         "Authorization": f"Bearer {IGDB_ACCESS_TOKEN}",
