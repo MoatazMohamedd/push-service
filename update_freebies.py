@@ -188,26 +188,38 @@ def send_fcm_notification(game):
 
 def main():
     print("Fetching GamerPower freebies...")
-    current_list = fetch_gamerpower_games()  # fresh API data
-    old_list = read_local_json()             # last saved data
+    gp_games = fetch_gamerpower_games()   # Step 1: Get API response
+    old_list = read_local_json()          # Step 2: Last saved snapshot
 
-    # Only proceed if there’s a change
-    if current_list != old_list:
-        print("New freebies found! Updating Firestore...")
+    if gp_games != old_list:
+        print("Freebies updated, fetching IGDB details...")
 
-        # Send notifications for the *new* games
+        # Step 3: Enrich with IGDB data
+        enriched_games = []
+        for gp_game in gp_games:
+            igdb_data = fetch_igdb_details(gp_game["title"])  # search by title or ID
+            enriched_games.append({
+                **gp_game,        # keep original gamerpower data
+                **igdb_data       # merge IGDB fields (cover, genres, etc.)
+            })
+
+        # Step 4: Send notifications only for new games
         #old_ids = {g["gamerpower_id"] for g in old_list}
-       # for game in current_list:
-           # if game["gamerpower_id"] not in old_ids:
-                #send_fcm_notification(game)  # one per game
+        #for game in enriched_games:
+            #if game["gamerpower_id"] not in old_ids:
+           #     send_fcm_notification(game)
 
-        # Overwrite freebies collection with new data
-        firestore_client.collection("freebies").document("games").set({"games": current_list})
+        # Step 5: Overwrite freebies collection
+        firestore_client.collection("freebies").document("games").set({
+            "games": enriched_games
+        })
 
-        # Save to local JSON for next run comparison
-        write_local_json(current_list)
+        # Step 6: Save enriched list for future comparison
+        write_local_json(gp_games)  # or enriched_games if you want to compare enriched data next time
+
     else:
         print("No changes in freebies.")
+
 
 
 
