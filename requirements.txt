@@ -1,0 +1,4 @@
+requests
+firebase-admin
+google-cloud-firestore
+google-auth
