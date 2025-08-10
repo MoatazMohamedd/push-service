@@ -109,8 +109,14 @@ def fetch_igdb_data(title):
         "Client-ID": IGDB_CLIENT_ID,
         "Authorization": f"Bearer {IGDB_ACCESS_TOKEN}",
     }
-    body = f'search "{title}"; fields game.id, game.name, game.cover.url, game.total_rating, game.storyline, game.first_release_date, game.summary, game.genres.name, game.player_perspectives.name, game.game_engines.name, game.game_modes.name, game.screenshots.url, game.websites.url; limit 1;'
-
+    
+    body = f'''
+    search "{title}";
+    fields id, name, cover.url, total_rating, storyline, first_release_date,
+           summary, genres.name, player_perspectives.name, game_engines.name,
+           game_modes.name, screenshots.url, websites.url;
+    limit 1;
+    '''
     try:
         resp = requests.post(url, headers=headers, data=body, timeout=10)
         resp.raise_for_status()
