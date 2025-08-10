@@ -197,7 +197,7 @@ def main():
         # Step 3: Enrich with IGDB data
         enriched_games = []
         for gp_game in gp_games:
-            igdb_data = fetch_igdb_details(gp_game["title"])  # search by title or ID
+            igdb_data = fetch_igdb_data(gp_game["title"])  # search by title or ID
             enriched_games.append({
                 **gp_game,        # keep original gamerpower data
                 **igdb_data       # merge IGDB fields (cover, genres, etc.)
