@@ -188,26 +188,27 @@ def send_fcm_notification(game):
 
 def main():
     print("Fetching GamerPower freebies...")
-    current_list = fetch_gamerpower_games()
-    old_list = read_local_json()
+    current_list = fetch_gamerpower_games()  # fresh API data
+    old_list = read_local_json()             # last saved data
 
-    old_ids = {g["gamerpower_id"] for g in old_list}
-    new_ids = {g["gamerpower_id"] for g in current_list}
-    added_ids = new_ids - old_ids
+    # Only proceed if there’s a change
+    if current_list != old_list:
+        print("New freebies found! Updating Firestore...")
 
-    merged_games = []
-    for game in current_list:
-        igdb_data = fetch_igdb_data(game["title"])
-        merged_game = {**igdb_data, **game}
-        merged_games.append(merged_game)
+        # Send notifications for the *new* games
+        #old_ids = {g["gamerpower_id"] for g in old_list}
+       # for game in current_list:
+           # if game["gamerpower_id"] not in old_ids:
+                #send_fcm_notification(game)  # one per game
 
-       # if game["gamerpower_id"] in added_ids:
-        #    send_fcm_notification(merged_game)
+        # Overwrite freebies collection with new data
+        firestore_client.collection("freebies").document("games").set({"games": current_list})
 
-    firestore_client.collection("freebies").document("games").set({"games": merged_games})
-    print(f"Uploaded {len(merged_games)} games to Firestore.")
+        # Save to local JSON for next run comparison
+        write_local_json(current_list)
+    else:
+        print("No changes in freebies.")
 
-    write_local_json(current_list)
 
 
 if __name__ == "__main__":
