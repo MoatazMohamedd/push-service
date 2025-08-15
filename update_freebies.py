@@ -204,10 +204,10 @@ def main():
             })
 
         # Step 4: Send notifications only for new games
-        #old_ids = {g["gamerpower_id"] for g in old_list}
-        #for game in enriched_games:
-            #if game["gamerpower_id"] not in old_ids:
-           #     send_fcm_notification(game)
+        old_ids = {g["gamerpower_id"] for g in old_list}
+        for game in enriched_games:
+            if game["gamerpower_id"] not in old_ids:
+                send_fcm_notification(game)
 
         # Step 5: Overwrite freebies collection
         firestore_client.collection("freebies").document("games").set({
