@@ -8,7 +8,6 @@ from google.cloud import firestore
 from google.oauth2 import service_account
 import firebase_admin
 from firebase_admin import messaging
-
 # -----------------
 # ENV VARIABLES
 # -----------------
@@ -49,7 +48,20 @@ def fetch_gamerpower_games():
     try:
         resp = requests.get(GAMERPOWER_API, timeout=10)
         resp.raise_for_status()
-        offers = resp.json()
+        offers = [
+            {
+                "title": "Control",
+                "store": "Epic Games Store",
+                "worth": "$29.99",
+                "gamerpower_id": 1
+            },
+            {
+                "title": "Metro 2033 Redux",
+                "store": "GOG",
+                "worth": "$19.99",
+                "gamerpower_id": 2
+            }
+        ]
 
         games = []
         for offer in offers:
@@ -84,7 +96,6 @@ def fetch_gamerpower_games():
         print(f"Error fetching GamerPower data: {e}")
         return []
 
-
 def read_local_json(file_path="freebies.json"):
     if not os.path.exists(file_path):
         return []
@@ -109,27 +120,48 @@ def fetch_igdb_data(title):
         "Client-ID": IGDB_CLIENT_ID,
         "Authorization": f"Bearer {IGDB_ACCESS_TOKEN}",
     }
-    
+
     body = f'''
     search "{title}";
     fields id, name, cover.url, total_rating, storyline, first_release_date,
            summary, genres.name, player_perspectives.name, game_engines.name,
            game_modes.name, screenshots.url, websites.url;
-    limit 1;
+    limit 10;
     '''
-    
+
     try:
         resp = requests.post(url, headers=headers, data=body.strip(), timeout=10)
         resp.raise_for_status()
         results = resp.json()
-        if results:
-            return transform_igdb(results[0])
+
+        if not results:
+            return {}
+
+        # Normalize the input title
+        normalized_title = normalize_title(title)
+
+        # Pick the best match based on string similarity
+        best_match = None
+        best_score = 0
+        for r in results:
+            candidate_name = r.get("name", "")
+            score = similar(normalized_title, normalize_title(candidate_name))
+            if score > best_score:
+                best_score = score
+                best_match = r
+
+        # If similarity is too low (<0.6), probably wrong result
+        if best_match and best_score >= 0.6:
+            return transform_igdb(best_match)
+        else:
+            print(f"No strong IGDB match found for {title}, best score={best_score}")
+            return {}
+
     except requests.HTTPError as e:
         print(f"IGDB fetch failed for {title} — HTTP error: {e.response.text}")
     except Exception as e:
         print(f"IGDB fetch failed for {title}: {e}")
     return {}
-
 
 
 def transform_igdb(raw_game):
