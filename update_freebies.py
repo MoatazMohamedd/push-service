@@ -53,13 +53,13 @@ def fetch_gamerpower_games():
                 "title": "Control",
                 "store": "Epic Games Store",
                 "worth": "$29.99",
-                "gamerpower_id": 1
+                "id": 1
             },
             {
                 "title": "Metro 2033 Redux",
                 "store": "GOG",
                 "worth": "$19.99",
-                "gamerpower_id": 2
+                "id": 2
             }
         ]
 
