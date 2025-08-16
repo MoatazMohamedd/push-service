@@ -8,6 +8,7 @@ from google.cloud import firestore
 from google.oauth2 import service_account
 import firebase_admin
 from firebase_admin import messaging
+from difflib import SequenceMatcher
 # -----------------
 # ENV VARIABLES
 # -----------------
@@ -48,20 +49,7 @@ def fetch_gamerpower_games():
     try:
         resp = requests.get(GAMERPOWER_API, timeout=10)
         resp.raise_for_status()
-        offers = [
-            {
-                "title": "Control",
-                "store": "Epic Games Store",
-                "worth": "$29.99",
-                "id": 1
-            },
-            {
-                "title": "Metro 2033 Redux",
-                "store": "GOG",
-                "worth": "$19.99",
-                "id": 2
-            }
-        ]
+        offers = resp.json()
 
         games = []
         for offer in offers:
@@ -95,6 +83,9 @@ def fetch_gamerpower_games():
     except Exception as e:
         print(f"Error fetching GamerPower data: {e}")
         return []
+
+def similar(a, b):
+    return SequenceMatcher(None, a.lower(), b.lower()).ratio()
 
 def read_local_json(file_path="freebies.json"):
     if not os.path.exists(file_path):
@@ -162,6 +153,8 @@ def fetch_igdb_data(title):
     except Exception as e:
         print(f"IGDB fetch failed for {title}: {e}")
     return {}
+
+
 
 
 def transform_igdb(raw_game):
