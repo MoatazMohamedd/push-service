@@ -22,6 +22,23 @@ IGDB_ACCESS_TOKEN = os.getenv("IGDB_ACCESS_TOKEN")
 FIREBASE_CREDENTIALS_JSON = os.getenv("FIREBASE_CREDENTIALS_JSON")
 FIRESTORE_PROJECT_ID = os.getenv("FIRESTORE_PROJECT_ID")
 
+MANUAL_SHOWCASE_GAMES = [
+    {
+        "gamerpower_id": "manual-1",
+        "title": "Control",
+        "worth": "29.99",
+        "store": "Epic Games Store",
+        "expiry_date": "N/A"
+    },
+    {
+        "gamerpower_id": "manual-2",
+        "title": "Metro 2033 Redux",
+        "worth": "19.99",
+        "store": "Steam",
+        "expiry_date": "N/A"
+    }
+]
+
 # -----------------
 # FIREBASE SETUP
 # -----------------
@@ -213,7 +230,8 @@ def send_fcm_notification(game):
 
 def main():
     print("Fetching GamerPower freebies...")
-    gp_games = fetch_gamerpower_games()   # Step 1: Get API response
+    gp_games = fetch_gamerpower_games() 
+    gp_games.extend(MANUAL_SHOWCASE_GAMES)  # Step 1: Get API response
     old_list = read_local_json()          # Step 2: Last saved snapshot
 
     if gp_games != old_list:
