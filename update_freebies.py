@@ -194,7 +194,8 @@ def send_fcm_notification(game):
         topic="free_games",
         notification=messaging.Notification(
             title="FREE GAME ALERT 🎮",
-            body=f"{game['name']} is now FREE on {game['store']}!"
+            body=f"{game['name']} is now FREE on {game['store']}!",
+            icon= "ic_notification"
         ),
         data={
             "game_name": game["name"],
