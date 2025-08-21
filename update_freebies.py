@@ -4,6 +4,7 @@ import re
 import string
 import requests
 from datetime import datetime
+from datetime import timezone
 from google.cloud import firestore
 from google.oauth2 import service_account
 import firebase_admin
@@ -190,12 +191,15 @@ def transform_igdb(raw_game):
 
 
 def parse_expiry(expiry_str):
-    """Convert expiry string to datetime (UTC) or None."""
+    """Convert expiry string to UTC datetime or None."""
     if not expiry_str or expiry_str == "N/A":
         return None
     try:
-        return datetime.fromisoformat(expiry_str.replace("Z", "+00:00"))
+        # Format: "2025-08-21 23:59:00"
+        dt = datetime.strptime(expiry_str, "%Y-%m-%d %H:%M:%S")
+        return dt.replace(tzinfo=timezone.utc)
     except Exception:
+        print(f"[WARN] Could not parse expiry date: {expiry_str}")
         return None
 
 
@@ -233,12 +237,10 @@ def main():
     gp_games = fetch_gamerpower_games()
     old_list = read_local_json()
 
-    # Convert old list into dict for easy lookup
     old_dict = {g["gamerpower_id"]: g for g in old_list}
     enriched_games = []
-    now = datetime.utcnow()
+    now = datetime.now(timezone.utc)
 
-    # Always process games (not only on change!)
     updated = False
 
     for gp_game in gp_games:
@@ -249,9 +251,17 @@ def main():
         expiry_dt = parse_expiry(gp_game.get("expiry_date"))
         urgent_needed = False
 
+        # --- Debugging log ---
+        if expiry_dt:
+            hours_left = (expiry_dt - now).total_seconds() / 3600
+            print(f"[CHECK] {gp_game['title']} expires in {hours_left:.2f}h")
+        else:
+            print(f"[CHECK] {gp_game['title']} has no expiry")
+
         # --- Expiry Check ---
         if expiry_dt and (expiry_dt - now).total_seconds() <= 86400:
-            if not old_game or not old_game.get("urgent_notified", False):
+            already_notified = old_game.get("urgent_notified", False) if old_game else False
+            if not already_notified:
                 urgent_needed = True
                 merged_game["urgent_notified"] = True
                 updated = True
@@ -262,16 +272,15 @@ def main():
                 merged_game["urgent_notified"] = True
 
         # --- Notifications ---
-        if not old_game:  # new game → send normal notification
+        if not old_game:  # new game
             send_fcm_notification(merged_game, urgent=False)
             updated = True
 
-        if urgent_needed:  # expiring soon → send urgent notification
+        if urgent_needed:
             send_fcm_notification(merged_game, urgent=True)
 
         enriched_games.append(merged_game)
 
-    # Only update Firestore & local file if something changed
     if updated or gp_games != old_list:
         firestore_client.collection("freebies").document("games").set({
             "games": enriched_games
