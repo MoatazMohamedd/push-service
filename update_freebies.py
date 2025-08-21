@@ -235,48 +235,50 @@ def main():
 
     # Convert old list into dict for easy lookup
     old_dict = {g["gamerpower_id"]: g for g in old_list}
-    enriched_games = []
-    now = datetime.utcnow()
 
-    # Always process games (not only on change!)
-    updated = False
+    if gp_games != old_list:
+        print("Freebies updated, fetching IGDB details...")
 
-    for gp_game in gp_games:
-        igdb_data = fetch_igdb_data(gp_game["title"])
-        merged_game = {**gp_game, **igdb_data}
+        enriched_games = []
+        now = datetime.utcnow()
 
-        old_game = old_dict.get(gp_game["gamerpower_id"])
-        expiry_dt = parse_expiry(gp_game.get("expiry_date"))
-        urgent_needed = False
+        for gp_game in gp_games:
+            igdb_data = fetch_igdb_data(gp_game["title"])
+            merged_game = {**gp_game, **igdb_data}
 
-        # --- Expiry Check ---
-        if expiry_dt and (expiry_dt - now).total_seconds() <= 86400:
-            if not old_game or not old_game.get("urgent_notified", False):
-                urgent_needed = True
-                merged_game["urgent_notified"] = True
-                updated = True
+            old_game = old_dict.get(gp_game["gamerpower_id"])
+
+            expiry_dt = parse_expiry(gp_game.get("expiry_date"))
+            urgent_needed = False
+
+            if expiry_dt and (expiry_dt - now).total_seconds() <= 86400:
+                # If within 24h AND we haven’t sent urgent notification before
+                if not old_game or not old_game.get("urgent_notified", False):
+                    urgent_needed = True
+                    merged_game["urgent_notified"] = True
+                else:
+                    merged_game["urgent_notified"] = True  # already sent
             else:
-                merged_game["urgent_notified"] = True
-        else:
-            if old_game and old_game.get("urgent_notified", False):
-                merged_game["urgent_notified"] = True
+                # Carry forward the old flag if exists
+                if old_game and old_game.get("urgent_notified", False):
+                    merged_game["urgent_notified"] = True
 
-        # --- Notifications ---
-        if not old_game:  # new game → send normal notification
-            send_fcm_notification(merged_game, urgent=False)
-            updated = True
+            # --- Notifications ---
+            if not old_game:  # new game
+                send_fcm_notification(merged_game, urgent=False)
 
-        if urgent_needed:  # expiring soon → send urgent notification
-            send_fcm_notification(merged_game, urgent=True)
+            if urgent_needed:
+                send_fcm_notification(merged_game, urgent=True)
 
-        enriched_games.append(merged_game)
+            enriched_games.append(merged_game)
 
-    # Only update Firestore & local file if something changed
-    if updated or gp_games != old_list:
+        # Save to Firestore
         firestore_client.collection("freebies").document("games").set({
             "games": enriched_games
         })
+
+        # Save locally
         write_local_json(enriched_games)
-        print("Database & local JSON updated.")
+
     else:
-        print("No new freebies or urgent expiries.")
+        print("No changes in freebies.")
