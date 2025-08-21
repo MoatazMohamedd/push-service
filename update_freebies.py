@@ -189,29 +189,12 @@ def transform_igdb(raw_game):
     return transformed
 
 
-def parse_expiry(expiry_str):
-    """Convert expiry string to datetime (UTC) or None."""
-    if not expiry_str or expiry_str == "N/A":
-        return None
-    try:
-        return datetime.fromisoformat(expiry_str.replace("Z", "+00:00"))
-    except Exception:
-        return None
-
-
-def send_fcm_notification(game, urgent=False):
-    if urgent:
-        title = "⚡ LAST CHANCE: Free Game Ending Soon!"
-        body = f"{game['name']} is FREE on {game['store']} but HURRY—offer ends within 24h!"
-    else:
-        title = "FREE GAME ALERT 🎮"
-        body = f"{game['name']} is now FREE on {game['store']}!"
-
+def send_fcm_notification(game):
     message = messaging.Message(
         topic="free_games",
         notification=messaging.Notification(
-            title=title,
-            body=body
+            title="FREE GAME ALERT 🎮",
+            body=f"{game['name']} is now FREE on {game['store']}!"
         ),
         data={
             "game_name": game["name"],
@@ -223,62 +206,47 @@ def send_fcm_notification(game, urgent=False):
     )
     try:
         messaging.send(message)
-        print(f"Notification sent for {game['name']} (urgent={urgent})")
+        print(f"Notification sent for {game['name']}")
     except Exception as e:
         print(f"Notification failed for {game['name']}: {e}")
 
 
 def main():
     print("Fetching GamerPower freebies...")
-    gp_games = fetch_gamerpower_games()
-    old_list = read_local_json()
-
-    # Convert old list into dict for easy lookup
-    old_dict = {g["gamerpower_id"]: g for g in old_list}
+    gp_games = fetch_gamerpower_games()   # Step 1: Get API response
+    old_list = read_local_json()          # Step 2: Last saved snapshot
 
     if gp_games != old_list:
         print("Freebies updated, fetching IGDB details...")
 
+        # Step 3: Enrich with IGDB data
         enriched_games = []
-        now = datetime.utcnow()
-
         for gp_game in gp_games:
-            igdb_data = fetch_igdb_data(gp_game["title"])
-            merged_game = {**gp_game, **igdb_data}
+            igdb_data = fetch_igdb_data(gp_game["title"])  # search by title or ID
+            enriched_games.append({
+                **gp_game,        # keep original gamerpower data
+                **igdb_data       # merge IGDB fields (cover, genres, etc.)
+            })
 
-            old_game = old_dict.get(gp_game["gamerpower_id"])
+        # Step 4: Send notifications only for new games
+        old_ids = {g["gamerpower_id"] for g in old_list}
+        for game in enriched_games:
+            if game["gamerpower_id"] not in old_ids:
+                send_fcm_notification(game)
 
-            expiry_dt = parse_expiry(gp_game.get("expiry_date"))
-            urgent_needed = False
-
-            if expiry_dt and (expiry_dt - now).total_seconds() <= 86400:
-                # If within 24h AND we haven’t sent urgent notification before
-                if not old_game or not old_game.get("urgent_notified", False):
-                    urgent_needed = True
-                    merged_game["urgent_notified"] = True
-                else:
-                    merged_game["urgent_notified"] = True  # already sent
-            else:
-                # Carry forward the old flag if exists
-                if old_game and old_game.get("urgent_notified", False):
-                    merged_game["urgent_notified"] = True
-
-            # --- Notifications ---
-            if not old_game:  # new game
-                send_fcm_notification(merged_game, urgent=False)
-
-            if urgent_needed:
-                send_fcm_notification(merged_game, urgent=True)
-
-            enriched_games.append(merged_game)
-
-        # Save to Firestore
+        # Step 5: Overwrite freebies collection
         firestore_client.collection("freebies").document("games").set({
             "games": enriched_games
         })
 
-        # Save locally
-        write_local_json(enriched_games)
+        # Step 6: Save enriched list for future comparison
+        write_local_json(gp_games)  # or enriched_games if you want to compare enriched data next time
 
     else:
         print("No changes in freebies.")
+
+
+
+
+if __name__ == "__main__":
+    main()
