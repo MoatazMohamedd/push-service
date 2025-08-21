@@ -13,7 +13,7 @@ from difflib import SequenceMatcher
 # -----------------
 # ENV VARIABLES
 # -----------------
-FCM_TOPIC = "free_games"
+FCM_TOPIC = "/topics/free_games"
 GAMERPOWER_API = "https://www.gamerpower.com/api/filter?platform=epic-games-store.steam.gog.origin&type=game&sort-by=date"
 LOCAL_JSON_FILE = "freebies.json"
 
