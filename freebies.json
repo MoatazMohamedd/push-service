@@ -1,5 +1,19 @@
 [
   {
+    "gamerpower_id": 3261,
+    "title": "Kamaeru: A Frog Refuge",
+    "worth": "19.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-08-28 23:59:00"
+  },
+  {
+    "gamerpower_id": 3260,
+    "title": "Strange Horticulture",
+    "worth": "14.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-08-28 23:59:00"
+  },
+  {
     "gamerpower_id": 3256,
     "title": "Shade Silver",
     "worth": "2.99",
