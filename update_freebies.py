@@ -117,6 +117,7 @@ def fetch_igdb_data(title):
     fields id, name, cover.url, total_rating, storyline, first_release_date,
            summary, genres.name, player_perspectives.name, game_engines.name,
            game_modes.name, screenshots.url, websites.url;
+           where platforms = (6);   
     limit 10;
     '''
 
