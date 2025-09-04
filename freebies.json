@@ -5,19 +5,5 @@
     "worth": "14.99",
     "store": "Epic Games Store",
     "expiry_date": "2025-09-11 23:59:00"
-  },
-  {
-    "gamerpower_id": 3265,
-    "title": "Make Way",
-    "worth": "14.99",
-    "store": "Epic Games Store",
-    "expiry_date": "2025-09-04 23:59:00"
-  },
-  {
-    "gamerpower_id": 3264,
-    "title": "Machinarium",
-    "worth": "19.99",
-    "store": "Epic Games Store",
-    "expiry_date": "2025-09-04 23:59:00"
   }
 ]
