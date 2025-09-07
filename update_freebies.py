@@ -2,19 +2,21 @@ import os
 import json
 import re
 import string
+import unicodedata
 import requests
 from datetime import datetime
 from google.cloud import firestore
 from google.oauth2 import service_account
 import firebase_admin
 from firebase_admin import messaging
-from difflib import SequenceMatcher
+
 # -----------------
 # ENV VARIABLES
 # -----------------
 FCM_TOPIC = "/topics/free_games"
 GAMERPOWER_API = "https://www.gamerpower.com/api/filter?platform=epic-games-store.steam.gog.origin&type=game&sort-by=date"
 LOCAL_JSON_FILE = "freebies.json"
+SKIPPED_JSON_FILE = "skipped_games.json"  # quarantine log
 
 IGDB_CLIENT_ID = os.getenv("IGDB_CLIENT_ID")
 IGDB_ACCESS_TOKEN = os.getenv("IGDB_ACCESS_TOKEN")
@@ -34,15 +36,53 @@ firebase_admin.initialize_app(firebase_admin.credentials.Certificate(firebase_cr
 credentials = service_account.Credentials.from_service_account_info(firebase_cred_dict)
 firestore_client = firestore.Client(project=FIRESTORE_PROJECT_ID, credentials=credentials)
 
-
 # -----------------
 # HELPERS
 # -----------------
-def normalize_title(title):
-    title = title.lower()
-    title = re.sub(rf"[{re.escape(string.punctuation)}]", "", title)
-    title = re.sub(r"\s+", " ", title)
-    return title.strip()
+_ROMAN_MAP = {
+    "i":"1","ii":"2","iii":"3","iv":"4","v":"5","vi":"6","vii":"7","viii":"8","ix":"9","x":"10",
+    "xi":"11","xii":"12","xiii":"13","xiv":"14","xv":"15","xvi":"16","xvii":"17","xviii":"18","xix":"19","xx":"20"
+}
+
+_EDITION_KEYWORDS = {
+    "remastered", "definitive", "goty", "complete", "hd",
+    "ultimate", "anniversary", "collection", "trilogy", "bundle",
+    "director", "redux", "reloaded", "remake"
+}
+
+
+def normalize_title(title: str) -> str:
+    """Normalize game titles for strict equality checks."""
+    if not title:
+        return ""
+    t = unicodedata.normalize("NFKD", title)
+    t = "".join(ch for ch in t if not unicodedata.combining(ch))
+    t = t.lower()
+    t = t.replace("&", " and ")
+    t = re.sub(r"[™®©]", "", t)
+    t = re.sub(rf"[{re.escape(string.punctuation)}]", " ", t)
+    tokens = t.split()
+    tokens = [_ROMAN_MAP.get(tok, tok) for tok in tokens]
+    t = " ".join(tokens)
+    t = re.sub(r"\s+", " ", t).strip()
+    return t
+
+
+def is_confusing_match(gp_title: str, igdb_name: str) -> bool:
+    """Reject sequels/editions that GamerPower title didn’t specify."""
+    gp_norm = normalize_title(gp_title)
+    igdb_norm = normalize_title(igdb_name)
+
+    gp_digits = re.findall(r"\d+", gp_norm)
+    igdb_digits = re.findall(r"\d+", igdb_norm)
+    if igdb_digits and not gp_digits:
+        return True
+
+    for kw in _EDITION_KEYWORDS:
+        if kw in igdb_norm and kw not in gp_norm:
+            return True
+
+    return False
 
 
 def fetch_gamerpower_games():
@@ -50,28 +90,24 @@ def fetch_gamerpower_games():
         resp = requests.get(GAMERPOWER_API, timeout=10)
         resp.raise_for_status()
         offers = resp.json()
-
         games = []
         for offer in offers:
             if "Key Giveaway" in offer["title"]:
                 continue
-
             clean_title = re.sub(r"\s*\(.*?\)", "", offer["title"])
             clean_title = re.sub(r"\s*Giveaway", "", clean_title).strip()
-
-            # Store detection
-            store = "Unknown"
-            if "Steam" in offer.get("platforms", ""):
+            platforms = offer.get("platforms", "") or ""
+            if "Steam" in platforms:
                 store = "Steam"
-            elif "Epic Games" in offer.get("platforms", ""):
+            elif "Epic Games" in platforms:
                 store = "Epic Games Store"
-            elif "GoG" in offer.get("platforms", ""):
+            elif "GoG" in platforms:
                 store = "GoG"
-            elif "Origin" in offer.get("platforms", ""):
+            elif "Origin" in platforms:
                 store = "Origin"
-
+            else:
+                store = "Unknown"
             worth = offer.get("worth", "$0.00").replace("$", "").strip() or "0.00"
-
             games.append({
                 "gamerpower_id": offer["id"],
                 "title": clean_title,
@@ -84,87 +120,80 @@ def fetch_gamerpower_games():
         print(f"Error fetching GamerPower data: {e}")
         return []
 
-def similar(a, b):
-    return SequenceMatcher(None, a.lower(), b.lower()).ratio()
 
 def read_local_json(file_path="freebies.json"):
     if not os.path.exists(file_path):
         return []
-
     with open(file_path, "r", encoding="utf-8") as f:
         try:
             data = f.read().strip()
-            if not data:  # empty file
+            if not data:
                 return []
             return json.loads(data)
         except json.JSONDecodeError:
             return []
 
-def write_local_json(data):
-    with open(LOCAL_JSON_FILE, "w", encoding="utf-8") as f:
+
+def write_local_json(data, file_path=LOCAL_JSON_FILE):
+    with open(file_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-def fetch_igdb_data(title):
+def append_skipped(game, reason):
+    """Save skipped game info for later manual review."""
+    entry = {**game, "reason": reason, "skipped_at": datetime.utcnow().isoformat()}
+    skipped = []
+    if os.path.exists(SKIPPED_JSON_FILE):
+        with open(SKIPPED_JSON_FILE, "r", encoding="utf-8") as f:
+            try:
+                skipped = json.load(f)
+            except:
+                skipped = []
+    skipped.append(entry)
+    with open(SKIPPED_JSON_FILE, "w", encoding="utf-8") as f:
+        json.dump(skipped, f, indent=2, ensure_ascii=False)
+
+
+def fetch_igdb_data(title: str, normalized_target: str, gp_game: dict):
     url = "https://api.igdb.com/v4/games"
     headers = {
         "Client-ID": IGDB_CLIENT_ID,
         "Authorization": f"Bearer {IGDB_ACCESS_TOKEN}",
     }
-
     body = f'''
     search "{title}";
     fields id, name, cover.url, total_rating, storyline, first_release_date,
            summary, genres.name, player_perspectives.name, game_engines.name,
-           game_modes.name, screenshots.url, websites.url;
-           where platforms = (6);   
-    limit 10;
+           game_modes.name, screenshots.url, websites.url, platforms;
+    limit 25;
     '''
-
     try:
         resp = requests.post(url, headers=headers, data=body.strip(), timeout=10)
         resp.raise_for_status()
-        results = resp.json()
-
-        if not results:
-            return {}
-
-        # Normalize the input title
-        normalized_title = normalize_title(title)
-
-        # Pick the best match based on string similarity
-        best_match = None
-        best_score = 0
+        results = resp.json() or []
         for r in results:
-            candidate_name = r.get("name", "")
-            score = similar(normalized_title, normalize_title(candidate_name))
-            if score > best_score:
-                best_score = score
-                best_match = r
-
-        # If similarity is too low (<0.6), probably wrong result
-        if best_match and best_score >= 0.6:
-            return transform_igdb(best_match)
-        else:
-            print(f"No strong IGDB match found for {title}, best score={best_score}")
-            return {}
-
-    except requests.HTTPError as e:
-        print(f"IGDB fetch failed for {title} — HTTP error: {e.response.text}")
+            candidate_name = r.get("name", "") or ""
+            if normalize_title(candidate_name) == normalized_target:
+                if is_confusing_match(title, candidate_name):
+                    append_skipped(gp_game, f"Confusing match with '{candidate_name}'")
+                    continue
+                platforms = [str(p) for p in r.get("platforms", [])]
+                if not any(pid in platforms for pid in ("6", "14", "92")):
+                    append_skipped(gp_game, f"Non-PC platform match: {candidate_name}")
+                    continue
+                return transform_igdb(r)
+        append_skipped(gp_game, "No strict safe IGDB match")
+        return {}
     except Exception as e:
-        print(f"IGDB fetch failed for {title}: {e}")
-    return {}
-
-
+        append_skipped(gp_game, f"IGDB fetch error: {e}")
+        return {}
 
 
 def transform_igdb(raw_game):
     def format_cover(url):
         return "https:" + url.replace("t_thumb", "t_cover_big")
-
     def format_screenshot(url):
         return "https:" + url.replace("t_thumb", "t_screenshot_med")
-
     transformed = {
         "id": raw_game.get("id"),
         "name": raw_game.get("name"),
@@ -173,20 +202,15 @@ def transform_igdb(raw_game):
         "total_rating": raw_game.get("total_rating"),
         "first_release_date": raw_game.get("first_release_date"),
     }
-
     if "cover" in raw_game and raw_game["cover"].get("url"):
         transformed["cover_url"] = format_cover(raw_game["cover"]["url"])
-
     if "screenshots" in raw_game:
         transformed["screenshots"] = [format_screenshot(s["url"]) for s in raw_game["screenshots"] if s.get("url")]
-
     if "websites" in raw_game:
         transformed["websites"] = [w["url"] for w in raw_game["websites"] if w.get("url")]
-
     for field in ["player_perspectives", "game_engines", "game_modes", "genres"]:
         if field in raw_game:
             transformed[field] = [item["name"] for item in raw_game[field] if item.get("name")]
-
     return transformed
 
 
@@ -214,39 +238,25 @@ def send_fcm_notification(game):
 
 def main():
     print("Fetching GamerPower freebies...")
-    gp_games = fetch_gamerpower_games()   # Step 1: Get API response
-    old_list = read_local_json()          # Step 2: Last saved snapshot
-
+    gp_games = fetch_gamerpower_games()
+    old_list = read_local_json()
     if gp_games != old_list:
-        print("Freebies updated, fetching IGDB details...")
-
-        # Step 3: Enrich with IGDB data
+        print("Freebies updated, fetching IGDB details with STRICT SAFE matching...")
         enriched_games = []
         for gp_game in gp_games:
-            igdb_data = fetch_igdb_data(gp_game["title"])  # search by title or ID
-            enriched_games.append({
-                **gp_game,        # keep original gamerpower data
-                **igdb_data       # merge IGDB fields (cover, genres, etc.)
-            })
-
-        # Step 4: Send notifications only for new games
+            gp_norm = normalize_title(gp_game["title"])
+            igdb_data = fetch_igdb_data(gp_game["title"], gp_norm, gp_game)
+            if igdb_data:
+                enriched_games.append({**gp_game, **igdb_data})
         old_ids = {g["gamerpower_id"] for g in old_list}
-        for game in enriched_games:
-            if game["gamerpower_id"] not in old_ids:
-                send_fcm_notification(game)
-
-        # Step 5: Overwrite freebies collection
-        firestore_client.collection("freebies").document("games").set({
-            "games": enriched_games
-        })
-
-        # Step 6: Save enriched list for future comparison
-        write_local_json(gp_games)  # or enriched_games if you want to compare enriched data next time
-
+        #for game in enriched_games:
+            #if game["gamerpower_id"] not in old_ids:
+                #send_fcm_notification(game)
+        firestore_client.collection("freebies_test").document("games").set({"games": enriched_games})
+        write_local_json(gp_games)
+        print(f"Saved {len(enriched_games)} strict-match games to Firestore.")
     else:
         print("No changes in freebies.")
-
-
 
 
 if __name__ == "__main__":
