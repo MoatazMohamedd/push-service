@@ -249,9 +249,9 @@ def main():
             if igdb_data:
                 enriched_games.append({**gp_game, **igdb_data})
         old_ids = {g["gamerpower_id"] for g in old_list}
-        # for game in enriched_games:
-        #     if game["gamerpower_id"] not in old_ids:
-        #         send_fcm_notification(game)
+        for game in enriched_games:
+            if game["gamerpower_id"] not in old_ids:
+                send_fcm_notification(game)
         firestore_client.collection("freebies").document("games").set({"games": enriched_games})
         write_local_json(gp_games)
         print(f"Saved {len(enriched_games)} strict-match games to Firestore.")
