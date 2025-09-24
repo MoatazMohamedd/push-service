@@ -1,5 +1,12 @@
 [
   {
+    "gamerpower_id": 3295,
+    "title": "The Deed",
+    "worth": "0.99",
+    "store": "Steam",
+    "expiry_date": "2025-09-27 23:59:00"
+  },
+  {
     "gamerpower_id": 3293,
     "title": "DungeonLoot: Open Beta Has Arrived!",
     "worth": "N/A",
@@ -19,12 +26,5 @@
     "worth": "4.99",
     "store": "Epic Games Store",
     "expiry_date": "2025-09-25 23:59:00"
-  },
-  {
-    "gamerpower_id": 3281,
-    "title": "Away",
-    "worth": "2.99",
-    "store": "Steam",
-    "expiry_date": "2025-09-24 23:59:00"
   }
 ]
