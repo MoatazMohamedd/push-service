@@ -1,5 +1,19 @@
 [
   {
+    "gamerpower_id": 3298,
+    "title": "Eastern Exorcist",
+    "worth": "17.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-10-02 23:59:00"
+  },
+  {
+    "gamerpower_id": 3297,
+    "title": "Jorel’s Brother and The Most Important Game of the Galaxy",
+    "worth": "14.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-10-02 23:59:00"
+  },
+  {
     "gamerpower_id": 3295,
     "title": "The Deed",
     "worth": "0.99",
