@@ -26,19 +26,5 @@
     "worth": "N/A",
     "store": "Steam",
     "expiry_date": "N/A"
-  },
-  {
-    "gamerpower_id": 3283,
-    "title": "Project Winter",
-    "worth": "9.99",
-    "store": "Epic Games Store",
-    "expiry_date": "2025-09-25 23:59:00"
-  },
-  {
-    "gamerpower_id": 3282,
-    "title": "Samorost 2",
-    "worth": "4.99",
-    "store": "Epic Games Store",
-    "expiry_date": "2025-09-25 23:59:00"
   }
 ]
