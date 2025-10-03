@@ -5,7 +5,42 @@
     "worth": "6.99",
     "store": "Steam",
     "expiry_date": "2025-10-06 23:59:00",
-    "open_giveaway_url": "https://www.gamerpower.com/open/zomborg-steam-giveaway"
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/zomborg-steam-giveaway",
+    "id": 75006,
+    "name": "Zomborg",
+    "summary": "It is the year 2000, and the United Nations has established several quarantine zones around the world to\nstem the tide of an unknown virus pandemic. The United Nations called upon a private military company, highly skilled mercenaries to retrieve the data and uncover the secret of the zone.",
+    "storyline": null,
+    "total_rating": 50.0,
+    "first_release_date": 1510272000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7jp7.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/fgxk807nverq5upvhuqv.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/zzf9xmdzotqvl839zkvm.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/cqiy8qkyophza5f3iqfi.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/uhcqdt4u9xemzonk5z2v.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rpdddpdtivxguhgslgkg.jpg"
+    ],
+    "websites": [
+      "https://store.playstation.com/en-us/concept/10001349",
+      "https://www.nintendo.com/us/store/products/zomborg-switch/",
+      "http://www.gamedevlab.com/",
+      "https://www.twitch.tv/directory/game/Zomborg",
+      "https://store.steampowered.com/app/729720"
+    ],
+    "game_engines": [
+      "Unity 2017"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Shooter",
+      "Strategy",
+      "Adventure",
+      "Indie",
+      "Arcade"
+    ]
   },
   {
     "gamerpower_id": 3310,
@@ -13,7 +48,57 @@
     "worth": "29.99",
     "store": "Epic Games Store",
     "expiry_date": "2025-10-09 23:59:00",
-    "open_giveaway_url": "https://www.gamerpower.com/open/nightingale-epic-games-giveaway"
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/nightingale-epic-games-giveaway",
+    "id": 185249,
+    "name": "Nightingale",
+    "summary": "Nightingale is a shared world survival-crafting game set in a rich gaslamp Victorian fantasy setting. Players venture through portals where adventure and mystery awaits across a myriad of beautiful and increasingly-dangerous worlds.",
+    "storyline": "You are stranded beyond our world, cut off by the sudden collapse of the arcane portal network. This catastrophic event has left you - and countless others - fighting to survive in a labyrinth of mysterious and perilous realms.\n‍\nPrepare for a journey of adventure, danger, and discovery - as you search for a way back to the last haven of humanity, Nightingale.",
+    "total_rating": 71.63287180255321,
+    "first_release_date": 1708387200,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8sxo.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgq3f.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgq3g.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgq3h.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgq3i.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgq3j.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgq3k.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgq3l.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgq3m.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgq3n.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgq3o.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgq3p.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgq3q.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgq3r.jpg"
+    ],
+    "websites": [
+      "https://www.playnightingale.com/",
+      "https://en.wikipedia.org/wiki/Nightingale_(video_game)",
+      "https://store.steampowered.com/app/1928980/Nightingale",
+      "https://www.epicgames.com/store/p/nightingale",
+      "https://www.instagram.com/playnightingale/",
+      "https://www.youtube.com/channel/UC28LUMsL0CdbaCJV5Xxky_A",
+      "https://discord.gg/invite/playnightingale",
+      "https://twitter.com/playnightingale",
+      "https://www.facebook.com/playnightingale"
+    ],
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "game_engines": [
+      "Unreal Engine 5"
+    ],
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
   },
   {
     "gamerpower_id": 3309,
@@ -21,23 +106,47 @@
     "worth": "19.99",
     "store": "STOVE",
     "expiry_date": "2025-10-07 23:59:00",
-    "open_giveaway_url": "https://www.gamerpower.com/open/blue-wednesday-pc-giveaway"
-  },
-  {
-    "gamerpower_id": 3305,
-    "title": "Train Sim World 6: Free Starter Pack",
-    "worth": "N/A",
-    "store": "Steam",
-    "expiry_date": "2025-11-11 23:59:00",
-    "open_giveaway_url": "https://www.gamerpower.com/open/train-sim-world-6-free-starter-pack-steam-giveaway"
-  },
-  {
-    "gamerpower_id": 3304,
-    "title": "Ashanti Protocol-Unmanned peacekeepers amidst conflict",
-    "worth": "17.99",
-    "store": "STOVE",
-    "expiry_date": "2025-10-12 23:59:00",
-    "open_giveaway_url": "https://www.gamerpower.com/open/ashanti-protocol-unmanned-peacekeepers-amidst-conflict-pc-giveaway"
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/blue-wednesday-pc-giveaway",
+    "id": 216668,
+    "name": "Blue Wednesday",
+    "summary": "Blue Wednesday is a story about jazz and love, and about failure. The boring days pass for failed jazz pianist Morris. One day is the same as the next until Morris meets jazz saxophonist Angela.",
+    "storyline": null,
+    "total_rating": 90.0,
+    "first_release_date": 1693180800,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co63jp.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirfy.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirg1.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirg2.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirg3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirfx.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirg0.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirfz.jpg"
+    ],
+    "websites": [
+      "https://www.xbox.com/en-us/games/store/blue-wednesday/9NJ300GBPJBR",
+      "https://store.playstation.com/en-us/concept/10013077",
+      "https://www.nintendo.com/us/store/products/blue-wednesday-switch/",
+      "https://play.google.com/store/apps/details?id=com.buffstudio.bluewednesday",
+      "https://store.steampowered.com/app/2129160",
+      "https://www.twitch.tv/directory/game/Blue%20Wednesday",
+      "https://twitter.com/buff_studio",
+      "https://apps.apple.com/app/blue-wednesday/id6472153069",
+      "https://www.gog.com/en/game/blue_wednesday"
+    ],
+    "player_perspectives": [
+      "Side view"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Point-and-click",
+      "Music",
+      "Puzzle",
+      "Adventure"
+    ]
   },
   {
     "gamerpower_id": 3303,
@@ -45,7 +154,38 @@
     "worth": "4.99",
     "store": "Steam",
     "expiry_date": "2025-10-03 23:59:00",
-    "open_giveaway_url": "https://www.gamerpower.com/open/snake-eyes-dungeon-steam-giveaway"
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/snake-eyes-dungeon-steam-giveaway",
+    "id": 76940,
+    "name": "Snake Eyes Dungeon",
+    "summary": "Enter the dungeon, get lost and roll the dice against the monsters!\nPlay your chances against dangerous monsters like ghosts, werewolves or even the frankenstein monster himself!",
+    "storyline": null,
+    "total_rating": 60.0,
+    "first_release_date": 1513814400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coalat.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/zpyq4hbjejfcrbyitvmg.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/hliafbzjjhcdezm2fzva.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rez3sb9z02yyd74jopkr.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/muwepssi6s4rbl6lp5sq.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/qmyarabuzlmu49gplmgy.jpg"
+    ],
+    "websites": [
+      "http://moun.es",
+      "http://itunes.apple.com/us/app/id1206456033#?platform=iphone",
+      "https://store.steampowered.com/app/740240",
+      "https://www.twitch.tv/directory/game/Snake%20Eyes%20Dungeon",
+      "http://itunes.apple.com/us/app/id1206456033#?platform=ipad"
+    ],
+    "player_perspectives": [
+      "Side view"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Strategy"
+    ]
   },
   {
     "gamerpower_id": 1482,
@@ -53,6 +193,36 @@
     "worth": "2.99",
     "store": "Itch.io",
     "expiry_date": "2025-10-06 23:59:59",
-    "open_giveaway_url": "https://www.gamerpower.com/open/will-glow-the-wisp-itchio"
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/will-glow-the-wisp-itchio",
+    "id": 36978,
+    "name": "Will Glow the Wisp",
+    "summary": "Will Glow the Wisp is a physics based abstract platformer without platforms, with a unique particle based theme and movement mechanics. It is best described as a mix of Super Meat Boy and Geometry Wars.",
+    "storyline": null,
+    "total_rating": 47.14577214618244,
+    "first_release_date": 1505433600,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7h5a.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/w8p6nm3b2pprm6mu5lan.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/jdalnmbpwmyfj3ga9e02.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xulweirhgyr7rarmtqkl.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/aweous3qjga4yxui7fwl.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/cydighw9ynuerwu1rhxm.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/640890",
+      "https://parttimeindie.com/will-glow-the-wisp/",
+      "https://www.twitch.tv/directory/game/Will%20Glow%20the%20Wisp"
+    ],
+    "player_perspectives": [
+      "Side view"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Indie",
+      "Arcade"
+    ]
   }
 ]
