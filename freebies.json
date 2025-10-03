@@ -4,34 +4,39 @@
     "title": "Zomborg",
     "worth": "6.99",
     "store": "Steam",
-    "expiry_date": "2025-10-06 23:59:00"
+    "expiry_date": "2025-10-06 23:59:00",
+    "open_giveaway_url": "https://www.gamerpower.com/open/zomborg-steam-giveaway"
   },
   {
     "gamerpower_id": 3310,
     "title": "Nightingale",
     "worth": "29.99",
     "store": "Epic Games Store",
-    "expiry_date": "2025-10-09 23:59:00"
+    "expiry_date": "2025-10-09 23:59:00",
+    "open_giveaway_url": "https://www.gamerpower.com/open/nightingale-epic-games-giveaway"
   },
   {
     "gamerpower_id": 3305,
     "title": "Train Sim World 6: Free Starter Pack",
     "worth": "N/A",
     "store": "Steam",
-    "expiry_date": "2025-11-11 23:59:00"
+    "expiry_date": "2025-11-11 23:59:00",
+    "open_giveaway_url": "https://www.gamerpower.com/open/train-sim-world-6-free-starter-pack-steam-giveaway"
   },
   {
     "gamerpower_id": 3303,
     "title": "Snake Eyes Dungeon",
     "worth": "4.99",
     "store": "Steam",
-    "expiry_date": "2025-10-03 23:59:00"
+    "expiry_date": "2025-10-03 23:59:00",
+    "open_giveaway_url": "https://www.gamerpower.com/open/snake-eyes-dungeon-steam-giveaway"
   },
   {
     "gamerpower_id": 3293,
     "title": "DungeonLoot: Open Beta Has Arrived!",
     "worth": "N/A",
     "store": "Steam",
-    "expiry_date": "N/A"
+    "expiry_date": "N/A",
+    "open_giveaway_url": "https://www.gamerpower.com/open/dungeonloot-open-beta-has-arrived"
   }
 ]
