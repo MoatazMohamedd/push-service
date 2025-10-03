@@ -85,6 +85,37 @@ def is_confusing_match(gp_title: str, igdb_name: str) -> bool:
     return False
 
 
+def detect_store(offer):
+    """Detect store from platforms/description/title."""
+    title = offer.get("title", "").lower()
+    desc = (offer.get("description", "") or "").lower()
+    platforms = (offer.get("platforms", "") or "").lower()
+
+    if "steam" in title or "steam" in platforms:
+        return "Steam"
+    if "epic" in title or "epic" in platforms:
+        return "Epic Games Store"
+    if "gog" in title or "gog" in platforms:
+        return "GoG"
+    if "origin" in title or "origin" in platforms:
+        return "Origin"
+    if "indiegala" in desc or "indiegala" in platforms:
+        return "IndieGala"
+    if "stove" in desc or "stove" in platforms:
+        return "STOVE"
+    if "itch" in desc or "itch" in platforms:
+        return "Itch.io"
+    if "drm-free" in platforms:
+        return "DRM-Free"
+    return "Unknown"
+
+def merge_game_data(gp_game, igdb_data):
+    """Merge IGDB + GamerPower data into final object."""
+    merged = {**gp_game, **igdb_data}
+    # overwrite websites with open_giveaway_url
+    merged["open_giveaway_url"] = gp_game.get("open_giveaway_url")
+    return merged
+
 def fetch_gamerpower_games():
     try:
         resp = requests.get(GAMERPOWER_API, timeout=10)
@@ -92,28 +123,23 @@ def fetch_gamerpower_games():
         offers = resp.json()
         games = []
         for offer in offers:
+            # skip non-full games (keys, DLC, etc.)
             if "Key Giveaway" in offer["title"]:
                 continue
+
             clean_title = re.sub(r"\s*\(.*?\)", "", offer["title"])
             clean_title = re.sub(r"\s*Giveaway", "", clean_title).strip()
-            platforms = offer.get("platforms", "") or ""
-            if "Steam" in platforms:
-                store = "Steam"
-            elif "Epic Games" in platforms:
-                store = "Epic Games Store"
-            elif "GoG" in platforms:
-                store = "GoG"
-            elif "Origin" in platforms:
-                store = "Origin"
-            else:
-                store = "Unknown"
+
+            store = detect_store(offer)
             worth = offer.get("worth", "$0.00").replace("$", "").strip() or "0.00"
+
             games.append({
                 "gamerpower_id": offer["id"],
                 "title": clean_title,
                 "worth": worth,
                 "store": store,
-                "expiry_date": offer.get("end_date", "N/A")
+                "expiry_date": offer.get("end_date", "N/A"),
+                "open_giveaway_url": offer.get("open_giveaway_url") or offer.get("open_giveaway")
             })
         return games
     except Exception as e:
@@ -246,17 +272,22 @@ def main():
         for gp_game in gp_games:
             gp_norm = normalize_title(gp_game["title"])
             igdb_data = fetch_igdb_data(gp_game["title"], gp_norm, gp_game)
+
             if igdb_data:
-                enriched_games.append({**gp_game, **igdb_data})
+                merged_game = merge_game_data(gp_game, igdb_data)
+                enriched_games.append(merged_game)
+
         old_ids = {g["gamerpower_id"] for g in old_list}
         for game in enriched_games:
             if game["gamerpower_id"] not in old_ids:
                 send_fcm_notification(game)
-        firestore_client.collection("freebies").document("games").set({"games": enriched_games})
+
+        firestore_client.collection("all_freebies").document("games").set({"games": enriched_games})
         write_local_json(gp_games)
         print(f"Saved {len(enriched_games)} strict-match games to Firestore.")
     else:
         print("No changes in freebies.")
+
 
 
 if __name__ == "__main__":
