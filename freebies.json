@@ -154,7 +154,7 @@
     "worth": "4.99",
     "store": "Steam",
     "expiry_date": "2025-10-03 23:59:00",
-    "reminder_sent": false,
+    "reminder_sent": true,
     "open_giveaway_url": "https://www.gamerpower.com/open/snake-eyes-dungeon-steam-giveaway",
     "id": 76940,
     "name": "Snake Eyes Dungeon",
