@@ -151,15 +151,12 @@ def send_expiry_reminders(games, old_list):
                     }
                 )
                 try:
-                    #messaging.send(message)
-                    safe_send(message)
+                    messaging.send(message)
                     print(f"Reminder sent for {game['name']}")
                     game["reminder_sent"] = True
                 except Exception as e:
                     print(f"Reminder failed for {game['name']}: {e}")
 
-def safe_send(message):
-        print("Would send:", message.notification.title, message.notification.body, message.data)
 
 def fetch_gamerpower_games():
     try:
@@ -333,9 +330,9 @@ def main():
                 enriched_games.append(merged_game)
 
         old_ids = {g["gamerpower_id"] for g in old_list}
-        #for game in enriched_games:
-            #if game["gamerpower_id"] not in old_ids:
-                #send_fcm_notification(game)
+        for game in enriched_games:
+            if game["gamerpower_id"] not in old_ids:
+                send_fcm_notification(game)
 
         send_expiry_reminders(enriched_games, old_list)
         firestore_client.collection("all_freebies").document("games").set({"games": enriched_games})
