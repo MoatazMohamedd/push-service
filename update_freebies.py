@@ -9,6 +9,8 @@ from google.cloud import firestore
 from google.oauth2 import service_account
 import firebase_admin
 from firebase_admin import messaging
+from datetime import datetime, timezone
+
 
 # -----------------
 # ENV VARIABLES
@@ -109,6 +111,15 @@ def detect_store(offer):
         return "DRM-Free"
     return "Unknown"
 
+def is_expiring_today(expiry_date: str) -> bool:
+    """Check if expiry_date matches today's date (UTC)."""
+    try:
+        exp_date = datetime.fromisoformat(expiry_date.replace("Z", "+00:00"))
+    except ValueError:
+        return False
+    today = datetime.now(timezone.utc).date()
+    return exp_date.date() == today
+
 def merge_game_data(gp_game, igdb_data):
     """Merge IGDB + GamerPower data into final object."""
     merged = {**gp_game, **igdb_data}
@@ -116,17 +127,53 @@ def merge_game_data(gp_game, igdb_data):
     merged["open_giveaway_url"] = gp_game.get("open_giveaway_url")
     return merged
 
+def send_expiry_reminders(games, old_list):
+    old_map = {g["gamerpower_id"]: g for g in old_list}
+
+    for game in games:
+        if is_expiring_today(game["expiry_date"]):
+            old_entry = old_map.get(game["gamerpower_id"], {})
+            already_sent = old_entry.get("reminder_sent", False)
+
+            if not already_sent:
+                # Send reminder
+                message = messaging.Message(
+                    topic="free_games",
+                    notification=messaging.Notification(
+                        title="⏰ Last Chance!",
+                        body=f"{game['name']} freebie ends today on {game['store']}!"
+                    ),
+                    data={
+                        "game_name": game["name"],
+                        "store": game["store"],
+                        "expiry_date": game["expiry_date"],
+                        "click_action": "OPEN_GAME_PAGE"
+                    }
+                )
+                try:
+                    #messaging.send(message)
+                    safe_send(f"Sent for {game['name']}")
+                    print(f"Reminder sent for {game['name']}")
+                    game["reminder_sent"] = True
+                except Exception as e:
+                    print(f"Reminder failed for {game['name']}: {e}")
+
+def safe_send(message):
+        print("Would send:", message.notification.title, message.notification.body, message.data)
+
 def fetch_gamerpower_games():
     try:
         resp = requests.get(GAMERPOWER_API, timeout=10)
         resp.raise_for_status()
         offers = resp.json()
+        old_games = read_local_json()  # 👈 get local data
+        old_map = {g["gamerpower_id"]: g for g in old_games}
         games = []
+
         for offer in offers:
             # skip non-full games (keys, DLC, etc.)
             if "Key Giveaway" in offer["title"]:
                 continue
-
             # skip games without expiry date
             if not offer.get("end_date") or offer.get("end_date") == "N/A":
                 continue
@@ -137,12 +184,16 @@ def fetch_gamerpower_games():
             store = detect_store(offer)
             worth = offer.get("worth", "$0.00").replace("$", "").strip() or "0.00"
 
+            old_entry = old_map.get(offer["id"], {})
+            reminder_sent = old_entry.get("reminder_sent", False)  # 👈 preserve state
+
             games.append({
                 "gamerpower_id": offer["id"],
                 "title": clean_title,
                 "worth": worth,
                 "store": store,
-                "expiry_date": offer.get("end_date", "N/A"),
+                "expiry_date": offer.get("end_date"),
+                "reminder_sent": reminder_sent,
                 "open_giveaway_url": offer.get("open_giveaway_url") or offer.get("open_giveaway")
             })
         return games
@@ -286,8 +337,9 @@ def main():
             #if game["gamerpower_id"] not in old_ids:
                 #send_fcm_notification(game)
 
+        send_expiry_reminders(enriched_games, old_list)
         firestore_client.collection("all_freebies").document("games").set({"games": enriched_games})
-        write_local_json(gp_games)
+        write_local_json(enriched_games)
         print(f"Saved {len(enriched_games)} strict-match games to Firestore.")
     else:
         print("No changes in freebies.")
