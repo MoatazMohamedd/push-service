@@ -16,12 +16,36 @@
     "open_giveaway_url": "https://www.gamerpower.com/open/nightingale-epic-games-giveaway"
   },
   {
+    "gamerpower_id": 3309,
+    "title": "Blue Wednesday",
+    "worth": "19.99",
+    "store": "STOVE",
+    "expiry_date": "2025-10-07 23:59:00",
+    "open_giveaway_url": "https://www.gamerpower.com/open/blue-wednesday-pc-giveaway"
+  },
+  {
+    "gamerpower_id": 3306,
+    "title": "Whiskey Mafia: Frank's Story",
+    "worth": "5.99",
+    "store": "IndieGala",
+    "expiry_date": "N/A",
+    "open_giveaway_url": "https://www.gamerpower.com/open/whiskey-mafia-frank-s-story"
+  },
+  {
     "gamerpower_id": 3305,
     "title": "Train Sim World 6: Free Starter Pack",
     "worth": "N/A",
     "store": "Steam",
     "expiry_date": "2025-11-11 23:59:00",
     "open_giveaway_url": "https://www.gamerpower.com/open/train-sim-world-6-free-starter-pack-steam-giveaway"
+  },
+  {
+    "gamerpower_id": 3304,
+    "title": "Ashanti Protocol-Unmanned peacekeepers amidst conflict",
+    "worth": "17.99",
+    "store": "STOVE",
+    "expiry_date": "2025-10-12 23:59:00",
+    "open_giveaway_url": "https://www.gamerpower.com/open/ashanti-protocol-unmanned-peacekeepers-amidst-conflict-pc-giveaway"
   },
   {
     "gamerpower_id": 3303,
@@ -32,11 +56,67 @@
     "open_giveaway_url": "https://www.gamerpower.com/open/snake-eyes-dungeon-steam-giveaway"
   },
   {
+    "gamerpower_id": 1482,
+    "title": "Will Glow the Wisp",
+    "worth": "2.99",
+    "store": "Itch.io",
+    "expiry_date": "2025-10-06 23:59:59",
+    "open_giveaway_url": "https://www.gamerpower.com/open/will-glow-the-wisp-itchio"
+  },
+  {
+    "gamerpower_id": 3301,
+    "title": "Bad cat Sam",
+    "worth": "2.99",
+    "store": "IndieGala",
+    "expiry_date": "N/A",
+    "open_giveaway_url": "https://www.gamerpower.com/open/bad-cat-sam-pc-giveaway"
+  },
+  {
+    "gamerpower_id": 3294,
+    "title": "Whiskey.Mafia. Leo's Family",
+    "worth": "5.99",
+    "store": "IndieGala",
+    "expiry_date": "N/A",
+    "open_giveaway_url": "https://www.gamerpower.com/open/whiskey-mafia-leo-s-family-pc-giveaway"
+  },
+  {
     "gamerpower_id": 3293,
     "title": "DungeonLoot: Open Beta Has Arrived!",
     "worth": "N/A",
     "store": "Steam",
     "expiry_date": "N/A",
     "open_giveaway_url": "https://www.gamerpower.com/open/dungeonloot-open-beta-has-arrived"
+  },
+  {
+    "gamerpower_id": 3287,
+    "title": "Mr.Brocco And Co",
+    "worth": "9.99",
+    "store": "IndieGala",
+    "expiry_date": "N/A",
+    "open_giveaway_url": "https://www.gamerpower.com/open/mr-brocco-and-co-pc-giveaway"
+  },
+  {
+    "gamerpower_id": 3279,
+    "title": "Blacklist Mafia",
+    "worth": "9.99",
+    "store": "IndieGala",
+    "expiry_date": "N/A",
+    "open_giveaway_url": "https://www.gamerpower.com/open/blacklist-mafia-pc-giveaway"
+  },
+  {
+    "gamerpower_id": 2204,
+    "title": "Dual Chroma: Academy Carols",
+    "worth": "2.00",
+    "store": "Itch.io",
+    "expiry_date": "N/A",
+    "open_giveaway_url": "https://www.gamerpower.com/open/dual-chroma-academy-carols-itch-io-giveaway"
+  },
+  {
+    "gamerpower_id": 1604,
+    "title": "Dora Diginoid: Metroidvania sci-fi adventure game",
+    "worth": "6.00",
+    "store": "Itch.io",
+    "expiry_date": "N/A",
+    "open_giveaway_url": "https://www.gamerpower.com/open/dora-diginoid-metroidvania-sci-fi-adventure-game"
   }
 ]
