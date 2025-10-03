@@ -127,6 +127,10 @@ def fetch_gamerpower_games():
             if "Key Giveaway" in offer["title"]:
                 continue
 
+            # skip games without expiry date
+            if not offer.get("end_date") or offer.get("end_date") == "N/A":
+                continue
+
             clean_title = re.sub(r"\s*\(.*?\)", "", offer["title"])
             clean_title = re.sub(r"\s*Giveaway", "", clean_title).strip()
 
