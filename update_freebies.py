@@ -152,7 +152,7 @@ def send_expiry_reminders(games, old_list):
                 )
                 try:
                     #messaging.send(message)
-                    safe_send(f"Sent for {game['name']}")
+                    safe_send(message)
                     print(f"Reminder sent for {game['name']}")
                     game["reminder_sent"] = True
                 except Exception as e:
