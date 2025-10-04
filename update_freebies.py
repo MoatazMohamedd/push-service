@@ -140,8 +140,8 @@ def send_expiry_reminders(games, old_list):
                 message = messaging.Message(
                     topic="free_games",
                     notification=messaging.Notification(
-                        title="⏰ Last Chance!",
-                        body=f"{game['name']} freebie ends today on {game['store']}!"
+                        title=f"Last Chance for {game['name']}!",
+                        body=f"Free offer ends soon on {game['store']}. Tap before it's gone forever!"
                     ),
                     data={
                         "game_name": game["name"],
@@ -296,8 +296,8 @@ def send_fcm_notification(game):
     message = messaging.Message(
         topic="free_games",
         notification=messaging.Notification(
-            title="FREE GAME ALERT 🎮",
-            body=f"{game['name']} is now FREE on {game['store']}!"
+            title=f"{game['name']} Just Turned FREE!",
+            body=f"Claim it on {game['store']} fast before it's gone!"
         ),
         data={
             "game_name": game["name"],
