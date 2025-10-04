@@ -149,45 +149,6 @@
     ]
   },
   {
-    "gamerpower_id": 3303,
-    "title": "Snake Eyes Dungeon",
-    "worth": "4.99",
-    "store": "Steam",
-    "expiry_date": "2025-10-03 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/snake-eyes-dungeon-steam-giveaway",
-    "id": 76940,
-    "name": "Snake Eyes Dungeon",
-    "summary": "Enter the dungeon, get lost and roll the dice against the monsters!\nPlay your chances against dangerous monsters like ghosts, werewolves or even the frankenstein monster himself!",
-    "storyline": null,
-    "total_rating": 60.0,
-    "first_release_date": 1513814400,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coalat.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/zpyq4hbjejfcrbyitvmg.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/hliafbzjjhcdezm2fzva.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rez3sb9z02yyd74jopkr.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/muwepssi6s4rbl6lp5sq.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/qmyarabuzlmu49gplmgy.jpg"
-    ],
-    "websites": [
-      "http://moun.es",
-      "http://itunes.apple.com/us/app/id1206456033#?platform=iphone",
-      "https://store.steampowered.com/app/740240",
-      "https://www.twitch.tv/directory/game/Snake%20Eyes%20Dungeon",
-      "http://itunes.apple.com/us/app/id1206456033#?platform=ipad"
-    ],
-    "player_perspectives": [
-      "Side view"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Strategy"
-    ]
-  },
-  {
     "gamerpower_id": 1482,
     "title": "Will Glow the Wisp",
     "worth": "2.99",
