@@ -49,49 +49,6 @@
     ]
   },
   {
-    "gamerpower_id": 3311,
-    "title": "Zomborg",
-    "worth": "6.99",
-    "store": "Steam",
-    "expiry_date": "2025-10-06 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/zomborg-steam-giveaway",
-    "id": 75006,
-    "name": "Zomborg",
-    "summary": "It is the year 2000, and the United Nations has established several quarantine zones around the world to\nstem the tide of an unknown virus pandemic. The United Nations called upon a private military company, highly skilled mercenaries to retrieve the data and uncover the secret of the zone.",
-    "storyline": null,
-    "total_rating": 50.0,
-    "first_release_date": 1510272000,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7jp7.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/fgxk807nverq5upvhuqv.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/zzf9xmdzotqvl839zkvm.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/cqiy8qkyophza5f3iqfi.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/uhcqdt4u9xemzonk5z2v.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rpdddpdtivxguhgslgkg.jpg"
-    ],
-    "websites": [
-      "https://store.playstation.com/en-us/concept/10001349",
-      "https://www.nintendo.com/us/store/products/zomborg-switch/",
-      "http://www.gamedevlab.com/",
-      "https://www.twitch.tv/directory/game/Zomborg",
-      "https://store.steampowered.com/app/729720"
-    ],
-    "game_engines": [
-      "Unity 2017"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Shooter",
-      "Strategy",
-      "Adventure",
-      "Indie",
-      "Arcade"
-    ]
-  },
-  {
     "gamerpower_id": 3310,
     "title": "Nightingale",
     "worth": "29.99",
@@ -195,44 +152,6 @@
       "Music",
       "Puzzle",
       "Adventure"
-    ]
-  },
-  {
-    "gamerpower_id": 1482,
-    "title": "Will Glow the Wisp",
-    "worth": "2.99",
-    "store": "Itch.io",
-    "expiry_date": "2025-10-06 23:59:59",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/will-glow-the-wisp-itchio",
-    "id": 36978,
-    "name": "Will Glow the Wisp",
-    "summary": "Will Glow the Wisp is a physics based abstract platformer without platforms, with a unique particle based theme and movement mechanics. It is best described as a mix of Super Meat Boy and Geometry Wars.",
-    "storyline": null,
-    "total_rating": 47.14577214618244,
-    "first_release_date": 1505433600,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7h5a.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/w8p6nm3b2pprm6mu5lan.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/jdalnmbpwmyfj3ga9e02.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xulweirhgyr7rarmtqkl.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/aweous3qjga4yxui7fwl.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/cydighw9ynuerwu1rhxm.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/640890",
-      "https://parttimeindie.com/will-glow-the-wisp/",
-      "https://www.twitch.tv/directory/game/Will%20Glow%20the%20Wisp"
-    ],
-    "player_perspectives": [
-      "Side view"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Indie",
-      "Arcade"
     ]
   }
 ]
