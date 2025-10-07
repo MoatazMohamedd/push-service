@@ -112,7 +112,7 @@
     "worth": "19.99",
     "store": "STOVE",
     "expiry_date": "2025-10-07 23:59:00",
-    "reminder_sent": false,
+    "reminder_sent": true,
     "open_giveaway_url": "https://www.gamerpower.com/open/blue-wednesday-pc-giveaway",
     "id": 216668,
     "name": "Blue Wednesday",
