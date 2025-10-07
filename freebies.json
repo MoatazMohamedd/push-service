@@ -105,53 +105,5 @@
       "Role-playing (RPG)",
       "Adventure"
     ]
-  },
-  {
-    "gamerpower_id": 3309,
-    "title": "Blue Wednesday",
-    "worth": "19.99",
-    "store": "STOVE",
-    "expiry_date": "2025-10-07 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/blue-wednesday-pc-giveaway",
-    "id": 216668,
-    "name": "Blue Wednesday",
-    "summary": "Blue Wednesday is a story about jazz and love, and about failure. The boring days pass for failed jazz pianist Morris. One day is the same as the next until Morris meets jazz saxophonist Angela.",
-    "storyline": null,
-    "total_rating": 90.0,
-    "first_release_date": 1693180800,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co63jp.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirfy.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirg1.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirg2.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirg3.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirfx.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirg0.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirfz.jpg"
-    ],
-    "websites": [
-      "https://www.xbox.com/en-us/games/store/blue-wednesday/9NJ300GBPJBR",
-      "https://store.playstation.com/en-us/concept/10013077",
-      "https://www.nintendo.com/us/store/products/blue-wednesday-switch/",
-      "https://play.google.com/store/apps/details?id=com.buffstudio.bluewednesday",
-      "https://store.steampowered.com/app/2129160",
-      "https://www.twitch.tv/directory/game/Blue%20Wednesday",
-      "https://twitter.com/buff_studio",
-      "https://apps.apple.com/app/blue-wednesday/id6472153069",
-      "https://www.gog.com/en/game/blue_wednesday"
-    ],
-    "player_perspectives": [
-      "Side view"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Point-and-click",
-      "Music",
-      "Puzzle",
-      "Adventure"
-    ]
   }
 ]
