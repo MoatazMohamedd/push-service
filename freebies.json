@@ -1,43 +1,49 @@
 [
   {
-    "gamerpower_id": 3311,
-    "title": "Zomborg",
-    "worth": "6.99",
-    "store": "Steam",
-    "expiry_date": "2025-10-06 23:59:00",
+    "gamerpower_id": 3314,
+    "title": "Lynn, The Girl Drawn On Puzzles",
+    "worth": "7.99",
+    "store": "STOVE",
+    "expiry_date": "2025-10-12 23:59:00",
     "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/zomborg-steam-giveaway",
-    "id": 75006,
-    "name": "Zomborg",
-    "summary": "It is the year 2000, and the United Nations has established several quarantine zones around the world to\nstem the tide of an unknown virus pandemic. The United Nations called upon a private military company, highly skilled mercenaries to retrieve the data and uncover the secret of the zone.",
-    "storyline": null,
-    "total_rating": 50.0,
-    "first_release_date": 1510272000,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7jp7.jpg",
+    "open_giveaway_url": "https://www.gamerpower.com/open/lynn-the-girl-drawn-on-puzzles-pc-giveaway",
+    "id": 130233,
+    "name": "Lynn: The Girl Drawn on Puzzles",
+    "summary": "Easy move, difficult thinking A new type of puzzle rules that controls the room, not the characters Simple rules as it only need a simple control Still requires a lot of thinking and calculating in order to solve the puzzle.",
+    "storyline": "[ Stories from traditional fairy tales ]\nTakes place a long time ago, in a faraway land, when monsters and ghosts were often seen by humans.\nA story about the girl who is in search of the disappeared Nine-tailed Fox, and its secret diary, uncover the secrets of both stories.\n\nFollow as their fates intertwine, right up to the Heartwarming conclusion, this short story will forever be part of your memories.",
+    "total_rating": null,
+    "first_release_date": 1597276800,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kcr.jpg",
     "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/fgxk807nverq5upvhuqv.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/zzf9xmdzotqvl839zkvm.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/cqiy8qkyophza5f3iqfi.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/uhcqdt4u9xemzonk5z2v.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rpdddpdtivxguhgslgkg.jpg"
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc84ug.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc84ue.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc84uf.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc84ui.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc84uj.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc84uh.jpg"
     ],
     "websites": [
-      "https://store.playstation.com/en-us/concept/10001349",
-      "https://www.nintendo.com/us/store/products/zomborg-switch/",
-      "http://www.gamedevlab.com/",
-      "https://www.twitch.tv/directory/game/Zomborg",
-      "https://store.steampowered.com/app/729720"
+      "http://capers.co.kr/",
+      "https://www.nintendo.com/games/detail/lynn-the-girl-drawn-on-puzzles-switch/",
+      "https://google.com/3jauJYb",
+      "https://apple.com/3lbjIre",
+      "https://store.steampowered.com/app/1249080",
+      "https://www.twitch.tv/directory/game/Lynn%20%2C%20The%20Girl%20Drawn%20On%20Puzzles",
+      "https://www.gog.com/en/game/lynn_the_girl_drawn_on_puzzles",
+      "https://www.youtube.com/channel/UCVFFyGd_f6D3KJYouaL2NJg",
+      "https://twitter.com/CAPERS2TUDIO"
     ],
     "game_engines": [
-      "Unity 2017"
+      "Unity3D"
     ],
     "game_modes": [
       "Single player"
     ],
     "genres": [
-      "Shooter",
+      "Point-and-click",
+      "Puzzle",
       "Strategy",
-      "Adventure",
+      "Tactical",
       "Indie",
       "Arcade"
     ]
@@ -98,92 +104,6 @@
     "genres": [
       "Role-playing (RPG)",
       "Adventure"
-    ]
-  },
-  {
-    "gamerpower_id": 3309,
-    "title": "Blue Wednesday",
-    "worth": "19.99",
-    "store": "STOVE",
-    "expiry_date": "2025-10-07 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/blue-wednesday-pc-giveaway",
-    "id": 216668,
-    "name": "Blue Wednesday",
-    "summary": "Blue Wednesday is a story about jazz and love, and about failure. The boring days pass for failed jazz pianist Morris. One day is the same as the next until Morris meets jazz saxophonist Angela.",
-    "storyline": null,
-    "total_rating": 90.0,
-    "first_release_date": 1693180800,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co63jp.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirfy.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirg1.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirg2.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirg3.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirfx.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirg0.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scirfz.jpg"
-    ],
-    "websites": [
-      "https://www.xbox.com/en-us/games/store/blue-wednesday/9NJ300GBPJBR",
-      "https://store.playstation.com/en-us/concept/10013077",
-      "https://www.nintendo.com/us/store/products/blue-wednesday-switch/",
-      "https://play.google.com/store/apps/details?id=com.buffstudio.bluewednesday",
-      "https://store.steampowered.com/app/2129160",
-      "https://www.twitch.tv/directory/game/Blue%20Wednesday",
-      "https://twitter.com/buff_studio",
-      "https://apps.apple.com/app/blue-wednesday/id6472153069",
-      "https://www.gog.com/en/game/blue_wednesday"
-    ],
-    "player_perspectives": [
-      "Side view"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Point-and-click",
-      "Music",
-      "Puzzle",
-      "Adventure"
-    ]
-  },
-  {
-    "gamerpower_id": 1482,
-    "title": "Will Glow the Wisp",
-    "worth": "2.99",
-    "store": "Itch.io",
-    "expiry_date": "2025-10-06 23:59:59",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/will-glow-the-wisp-itchio",
-    "id": 36978,
-    "name": "Will Glow the Wisp",
-    "summary": "Will Glow the Wisp is a physics based abstract platformer without platforms, with a unique particle based theme and movement mechanics. It is best described as a mix of Super Meat Boy and Geometry Wars.",
-    "storyline": null,
-    "total_rating": 47.14577214618244,
-    "first_release_date": 1505433600,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7h5a.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/w8p6nm3b2pprm6mu5lan.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/jdalnmbpwmyfj3ga9e02.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xulweirhgyr7rarmtqkl.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/aweous3qjga4yxui7fwl.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/cydighw9ynuerwu1rhxm.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/640890",
-      "https://parttimeindie.com/will-glow-the-wisp/",
-      "https://www.twitch.tv/directory/game/Will%20Glow%20the%20Wisp"
-    ],
-    "player_perspectives": [
-      "Side view"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Indie",
-      "Arcade"
     ]
   }
 ]
