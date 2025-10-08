@@ -325,11 +325,11 @@ def main():
                 enriched_games.append(merged_game)
 
         # send notification only for newly added IDs
-        for game in enriched_games:
-            if game["gamerpower_id"] in added_ids:
-                send_fcm_notification(game)
+      #  for game in enriched_games:
+           # if game["gamerpower_id"] in added_ids:
+                #send_fcm_notification(game)
 
-        send_expiry_reminders(enriched_games, old_list)
+    #    send_expiry_reminders(enriched_games, old_list)
         firestore_client.collection("all_freebies").document("games").set({"games": enriched_games})
         write_local_json(enriched_games)
         print(f"Saved {len(enriched_games)} strict-match games to Firestore.")
