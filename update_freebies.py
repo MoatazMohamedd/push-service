@@ -4,13 +4,11 @@ import re
 import string
 import unicodedata
 import requests
-from datetime import datetime
+from datetime import datetime, timezone
 from google.cloud import firestore
 from google.oauth2 import service_account
 import firebase_admin
 from firebase_admin import messaging
-from datetime import datetime, timezone
-
 
 # -----------------
 # ENV VARIABLES
@@ -52,7 +50,6 @@ _EDITION_KEYWORDS = {
     "director", "redux", "reloaded", "remake"
 }
 
-
 def normalize_title(title: str) -> str:
     """Normalize game titles for strict equality checks."""
     if not title:
@@ -69,7 +66,6 @@ def normalize_title(title: str) -> str:
     t = re.sub(r"\s+", " ", t).strip()
     return t
 
-
 def is_confusing_match(gp_title: str, igdb_name: str) -> bool:
     """Reject sequels/editions that GamerPower title didn’t specify."""
     gp_norm = normalize_title(gp_title)
@@ -85,7 +81,6 @@ def is_confusing_match(gp_title: str, igdb_name: str) -> bool:
             return True
 
     return False
-
 
 def detect_store(offer):
     """Detect store from platforms/description/title."""
@@ -123,7 +118,6 @@ def is_expiring_today(expiry_date: str) -> bool:
 def merge_game_data(gp_game, igdb_data):
     """Merge IGDB + GamerPower data into final object."""
     merged = {**gp_game, **igdb_data}
-    # overwrite websites with open_giveaway_url
     merged["open_giveaway_url"] = gp_game.get("open_giveaway_url")
     return merged
 
@@ -136,7 +130,6 @@ def send_expiry_reminders(games, old_list):
             already_sent = old_entry.get("reminder_sent", False)
 
             if not already_sent:
-                # Send reminder
                 message = messaging.Message(
                     topic="free_games",
                     notification=messaging.Notification(
@@ -157,21 +150,18 @@ def send_expiry_reminders(games, old_list):
                 except Exception as e:
                     print(f"Reminder failed for {game['name']}: {e}")
 
-
 def fetch_gamerpower_games():
     try:
         resp = requests.get(GAMERPOWER_API, timeout=10)
         resp.raise_for_status()
         offers = resp.json()
-        old_games = read_local_json()  # 👈 get local data
+        old_games = read_local_json()
         old_map = {g["gamerpower_id"]: g for g in old_games}
         games = []
 
         for offer in offers:
-            # skip non-full games (keys, DLC, etc.)
             if "Key Giveaway" in offer["title"]:
                 continue
-            # skip games without expiry date
             if not offer.get("end_date") or offer.get("end_date") == "N/A":
                 continue
 
@@ -182,7 +172,7 @@ def fetch_gamerpower_games():
             worth = offer.get("worth", "$0.00").replace("$", "").strip() or "0.00"
 
             old_entry = old_map.get(offer["id"], {})
-            reminder_sent = old_entry.get("reminder_sent", False)  # 👈 preserve state
+            reminder_sent = old_entry.get("reminder_sent", False)
 
             games.append({
                 "gamerpower_id": offer["id"],
@@ -198,8 +188,7 @@ def fetch_gamerpower_games():
         print(f"Error fetching GamerPower data: {e}")
         return []
 
-
-def read_local_json(file_path="freebies.json"):
+def read_local_json(file_path=LOCAL_JSON_FILE):
     if not os.path.exists(file_path):
         return []
     with open(file_path, "r", encoding="utf-8") as f:
@@ -211,14 +200,11 @@ def read_local_json(file_path="freebies.json"):
         except json.JSONDecodeError:
             return []
 
-
 def write_local_json(data, file_path=LOCAL_JSON_FILE):
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
-
 def append_skipped(game, reason):
-    """Save skipped game info for later manual review."""
     entry = {**game, "reason": reason, "skipped_at": datetime.utcnow().isoformat()}
     skipped = []
     if os.path.exists(SKIPPED_JSON_FILE):
@@ -230,7 +216,6 @@ def append_skipped(game, reason):
     skipped.append(entry)
     with open(SKIPPED_JSON_FILE, "w", encoding="utf-8") as f:
         json.dump(skipped, f, indent=2, ensure_ascii=False)
-
 
 def fetch_igdb_data(title: str, normalized_target: str, gp_game: dict):
     url = "https://api.igdb.com/v4/games"
@@ -266,7 +251,6 @@ def fetch_igdb_data(title: str, normalized_target: str, gp_game: dict):
         append_skipped(gp_game, f"IGDB fetch error: {e}")
         return {}
 
-
 def transform_igdb(raw_game):
     def format_cover(url):
         return "https:" + url.replace("t_thumb", "t_cover_big")
@@ -291,7 +275,6 @@ def transform_igdb(raw_game):
             transformed[field] = [item["name"] for item in raw_game[field] if item.get("name")]
     return transformed
 
-
 def send_fcm_notification(game):
     message = messaging.Message(
         topic="free_games",
@@ -313,25 +296,37 @@ def send_fcm_notification(game):
     except Exception as e:
         print(f"Notification failed for {game['name']}: {e}")
 
-
 def main():
     print("Fetching GamerPower freebies...")
     gp_games = fetch_gamerpower_games()
     old_list = read_local_json()
-    if gp_games != old_list:
-        print("Freebies updated, fetching IGDB details with STRICT SAFE matching...")
+
+    # Compare by gamerpower_id only
+    old_ids = {g["gamerpower_id"] for g in old_list}
+    new_ids = {g["gamerpower_id"] for g in gp_games}
+
+    added_ids = new_ids - old_ids
+    removed_ids = old_ids - new_ids
+
+    if added_ids or removed_ids:
+        print("Detected changes in free games IDs:")
+        if added_ids:
+            print(f"  Added: {added_ids}")
+        if removed_ids:
+            print(f"  Removed: {removed_ids}")
+
+        print("Fetching IGDB details for updated list...")
         enriched_games = []
         for gp_game in gp_games:
             gp_norm = normalize_title(gp_game["title"])
             igdb_data = fetch_igdb_data(gp_game["title"], gp_norm, gp_game)
-
             if igdb_data:
                 merged_game = merge_game_data(gp_game, igdb_data)
                 enriched_games.append(merged_game)
 
-        old_ids = {g["gamerpower_id"] for g in old_list}
+        # send notification only for newly added IDs
         for game in enriched_games:
-            if game["gamerpower_id"] not in old_ids:
+            if game["gamerpower_id"] in added_ids:
                 send_fcm_notification(game)
 
         send_expiry_reminders(enriched_games, old_list)
@@ -339,9 +334,7 @@ def main():
         write_local_json(enriched_games)
         print(f"Saved {len(enriched_games)} strict-match games to Firestore.")
     else:
-        print("No changes in freebies.")
-
-
+        print("No new or removed games. Skipping notifications and enrichment.")
 
 if __name__ == "__main__":
     main()
