@@ -5,7 +5,7 @@
     "worth": "7.99",
     "store": "STOVE",
     "expiry_date": "2025-10-12 23:59:00",
-    "reminder_sent": true,
+    "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/lynn-the-girl-drawn-on-puzzles-pc-giveaway",
     "id": 130233,
     "name": "Lynn: The Girl Drawn on Puzzles",
@@ -33,8 +33,12 @@
       "https://www.youtube.com/channel/UCVFFyGd_f6D3KJYouaL2NJg",
       "https://twitter.com/CAPERS2TUDIO"
     ],
-    "game_engines": ["Unity3D"],
-    "game_modes": ["Single player"],
+    "game_engines": [
+      "Unity3D"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
     "genres": [
       "Point-and-click",
       "Puzzle",
@@ -85,9 +89,21 @@
       "https://twitter.com/playnightingale",
       "https://www.facebook.com/playnightingale"
     ],
-    "player_perspectives": ["First person", "Third person"],
-    "game_engines": ["Unreal Engine 5"],
-    "game_modes": ["Single player", "Multiplayer", "Co-operative"],
-    "genres": ["Role-playing (RPG)", "Adventure"]
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "game_engines": [
+      "Unreal Engine 5"
+    ],
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
   }
 ]
