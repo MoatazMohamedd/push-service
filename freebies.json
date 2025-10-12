@@ -56,7 +56,7 @@
     "worth": "7.99",
     "store": "STOVE",
     "expiry_date": "2025-10-12 23:59:00",
-    "reminder_sent": false,
+    "reminder_sent": true,
     "open_giveaway_url": "https://www.gamerpower.com/open/lynn-the-girl-drawn-on-puzzles-pc-giveaway",
     "id": 130233,
     "name": "Lynn: The Girl Drawn on Puzzles",
