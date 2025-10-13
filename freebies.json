@@ -49,54 +49,5 @@
       "Indie",
       "Arcade"
     ]
-  },
-  {
-    "gamerpower_id": 3314,
-    "title": "Lynn, The Girl Drawn On Puzzles",
-    "worth": "7.99",
-    "store": "STOVE",
-    "expiry_date": "2025-10-12 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/lynn-the-girl-drawn-on-puzzles-pc-giveaway",
-    "id": 130233,
-    "name": "Lynn: The Girl Drawn on Puzzles",
-    "summary": "Easy move, difficult thinking A new type of puzzle rules that controls the room, not the characters Simple rules as it only need a simple control Still requires a lot of thinking and calculating in order to solve the puzzle.",
-    "storyline": "[ Stories from traditional fairy tales ]\nTakes place a long time ago, in a faraway land, when monsters and ghosts were often seen by humans.\nA story about the girl who is in search of the disappeared Nine-tailed Fox, and its secret diary, uncover the secrets of both stories.\n\nFollow as their fates intertwine, right up to the Heartwarming conclusion, this short story will forever be part of your memories.",
-    "total_rating": null,
-    "first_release_date": 1597276800,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kcr.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc84ug.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc84ue.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc84uf.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc84ui.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc84uj.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc84uh.jpg"
-    ],
-    "websites": [
-      "http://capers.co.kr/",
-      "https://www.nintendo.com/games/detail/lynn-the-girl-drawn-on-puzzles-switch/",
-      "https://google.com/3jauJYb",
-      "https://apple.com/3lbjIre",
-      "https://store.steampowered.com/app/1249080",
-      "https://www.twitch.tv/directory/game/Lynn%20%2C%20The%20Girl%20Drawn%20On%20Puzzles",
-      "https://www.gog.com/en/game/lynn_the_girl_drawn_on_puzzles",
-      "https://www.youtube.com/channel/UCVFFyGd_f6D3KJYouaL2NJg",
-      "https://twitter.com/CAPERS2TUDIO"
-    ],
-    "game_engines": [
-      "Unity3D"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Point-and-click",
-      "Puzzle",
-      "Strategy",
-      "Tactical",
-      "Indie",
-      "Arcade"
-    ]
   }
 ]
