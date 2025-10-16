@@ -116,56 +116,5 @@
       "Adventure",
       "Indie"
     ]
-  },
-  {
-    "gamerpower_id": 3318,
-    "title": "Gravity Circuit",
-    "worth": "16.99",
-    "store": "Epic Games Store",
-    "expiry_date": "2025-10-16 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/gravity-circuit-epic-games-giveaway",
-    "id": 106534,
-    "name": "Gravity Circuit",
-    "summary": "Gravity Circuit is a flashy action packed 2D platformer in the spirit of console classics. Follow Kai, a lone operative war hero who harnesses the mysterious powers of the Gravity Circuit, on an adventure in a futuristic world inhabited by sentient robots.",
-    "storyline": null,
-    "total_rating": 89.9280898603343,
-    "first_release_date": 1689206400,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54xb.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scijez.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scijf0.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scijf1.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scijf2.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scijf4.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scijf5.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scijex.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scijey.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scijf3.jpg"
-    ],
-    "websites": [
-      "https://www.gog.com/en/game/gravity_circuit",
-      "https://store.playstation.com/en-us/concept/10006297",
-      "https://www.nintendo.com/store/products/gravity-circuit-switch/",
-      "https://twitter.com/GravityCircuit",
-      "https://twitter.com/GravityCircuit",
-      "https://www.twitch.tv/directory/game/Gravity%20Circuit",
-      "https://store.epicgames.com/en-US/p/gravity-circuit-489baa",
-      "https://store.steampowered.com/app/858710"
-    ],
-    "player_perspectives": [
-      "Side view"
-    ],
-    "game_engines": [
-      "LÖVE"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Platform",
-      "Indie",
-      "Arcade"
-    ]
   }
 ]
