@@ -5,7 +5,7 @@
     "worth": "16.99",
     "store": "Epic Games Store",
     "expiry_date": "2025-10-16 23:59:00",
-    "reminder_sent": false,
+    "reminder_sent": true,
     "open_giveaway_url": "https://www.gamerpower.com/open/gravity-circuit-epic-games-giveaway",
     "id": 106534,
     "name": "Gravity Circuit",
