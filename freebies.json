@@ -1,1 +1,153 @@
-[]
+[
+  {
+    "gamerpower_id": 2921,
+    "title": "Distant Space",
+    "worth": "0.99",
+    "store": "Steam",
+    "expiry_date": "2025-10-31 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/distant-space-steam-giveaway",
+    "id": 30060,
+    "name": "Distant Space",
+    "summary": "Distant Space are present the arcade game of cosmic fights in arcade style of the 80's, this is a game where you can control the spaceship and forced to destroy extraterrestrials, which are moving in the certain order.",
+    "storyline": null,
+    "total_rating": 50.0,
+    "first_release_date": 1482192000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ske.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/wxeuydjm1aoartxnvrs5.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/dhw8j17gnfnlhdjyhtjt.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/wvdrzfjwxo7wvfm2rgvx.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/vbievks7l4kjicv8v6uc.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pqm5qwd5klvvtyjys21v.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/569610/Distant_Space/"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3326,
+    "title": "Amnesia: The Bunker",
+    "worth": "24.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-10-23 23:59:00",
+    "reminder_sent": true,
+    "open_giveaway_url": "https://www.gamerpower.com/open/amnesia-the-bunker-epic-games-giveaway",
+    "id": 228258,
+    "name": "Amnesia: The Bunker",
+    "summary": "Amnesia: The Bunker is a first-person horror game set in a desolate WW1 Bunker. Face the oppressing terrors stalking the dark corridors. Search for and use the tools and weapons at your disposal, while keeping the lights on at all costs. Overcome fear, persevere, and make your way out alive.",
+    "storyline": "Left all alone in a desolate WW1 bunker with only one bullet remaining in the barrel, it’s up to you to face the oppressing terrors in the dark. Keep the lights on at all costs, persevere, and make your way out alive. A truly intense horror experience.\n\nImmerse yourself in the multiple ways of tackling survival. In the shoes of the French soldier Henri Clément, you are armed with a revolver gun, a noisy dynamo flashlight, and other scarce supplies to scavenge and craft along the way. With randomization and unpredictable behavior, no play-through is the same.\n\nHunted by an ever-present threat reacting to your every move and sound, you must adapt your play-style to face hell. Every decision will change the outcome of how the game responds. Actions bear consequences.\n\nSolve things your own way in a semi-open world. You must explore and experiment to make your way out. Figure out what’s going on down here - what has happened to the other soldiers? Where have all the officers gone? What diabolical nightmare lurks underneath this hellscape? Unravel the mysteries of the Bunker and get to know the nooks and crannies of this cruel sandbox to up your odds of survival.",
+    "total_rating": 79.02798295988038,
+    "first_release_date": 1686009600,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5us3.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sck9j8.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmumy.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmumu.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmumw.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmumv.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmumx.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/1944430/Amnesia_The_Bunker",
+      "https://www.xbox.com/en-us/games/store/amnesia-the-bunker/9PC15H56NGJK",
+      "https://store.playstation.com/en-us/concept/10007451",
+      "https://www.gog.com/game/amnesia_the_bunker",
+      "https://store.epicgames.com/en-US/p/amnesia-the-bunker-9d5799",
+      "https://www.twitch.tv/directory/game/Amnesia:%20The%20Bunker",
+      "https://www.reddit.com/r/Amnesia_The_Bunker/",
+      "https://frictionalgames.com/",
+      "https://twitter.com/frictionalgames",
+      "https://en.wikipedia.org/wiki/Amnesia:_The_Bunker",
+      "https://www.instagram.com/frictionalgames/",
+      "https://www.youtube.com/@frictionalgames"
+    ],
+    "player_perspectives": [
+      "First person"
+    ],
+    "game_engines": [
+      "HPL Engine"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Shooter",
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3325,
+    "title": "Samorost 3",
+    "worth": "19.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-10-23 23:59:00",
+    "reminder_sent": true,
+    "open_giveaway_url": "https://www.gamerpower.com/open/samorost-3-epic-games-giveaway",
+    "id": 15537,
+    "name": "Samorost 3",
+    "summary": "Samorost 3 is an exploration adventure and puzzle game from the award-winning creators of Machinarium and Botanicula. Travel across space to nine unique worlds teeming with colorful challenges, creatures and surprises to discover, brought to life with beautiful artwork, sound and music.",
+    "storyline": "Samorost 3 starts when a magical flute falls near the Gnome's house.The Gnome decides to find out where it came from and sets out on a journey through the cosmos. He speaks to an engineer and asks him to build a toadstool rocket, which he builds by reusing parts found scattered on his home planet.The Gnome flies from planet to planet and meets multiple creatures whom he helps with their problems using the flute.\n\nThe Gnome eventually discovers two illustrated books and learns that the flute belongs to four monks. Not long ago, the monks were all at peace, until a giant orange space octopus arrived from a black wormhole and started consuming planets. The monks saw the octopus coming and consulted an engineer (the same one from the Gnome's home planet) to build a three-headed watering spaceship controlled by the flutes on the back of which they can fly, and a mechanical knight powered by a black orb with which to fight the octopus and save the universe. The knight dismembers and kills the octopus, then the knight goes to sleep on a moon, and the orb is locked away and protected by a guardian monk.\n\nIn the second book, one of the four monks uses his flute to create evil spirits, and the other three monks banish him for doing so. He secretly takes the spaceship and converts it into a three-headed fire-breathing mechanical dragon. Flying on the dragon, he snatches the other three flutes from the monks and casts the monks out of their mountain castle. However one of the flutes flew away, and this is the flute that landed on the Gnome's planet. He then uses the dragon to consume good spirits which he finds on other planets and then seizes the black orb so that the knight cannot be awakened.\n\nThe Gnome eventually reaches the planet of monks, sneakily steals the black orb from the evil monk, and uses it to revive the mechanical knight who then slays the dragon and presumably killing the evil monk in the process.The Gnome celebrates by playing music with the remaining three monks, who reward him with the power to travel instantly across all the planets and returns the black orb to its guarded storage.The Gnome finally returns to his home planet to greet his dog.",
+    "total_rating": 77.12759593655582,
+    "first_release_date": 1457913600,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uye.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/o6ydtfcuxjb1pyef9tvo.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/qdlqfmfxqjmdx3gmnndo.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/ercifcvsddfk09werslr.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyo8tytxli0wmvhs24d.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pagzbf5jayw9ggyzccbm.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/yit5ngkoecrltxvuokow.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/b4fawrofzs6cejrjvirz.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/e5xf4jtu4j1hamjfpzve.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/fcg0cefovcdg2kbiy9vc.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/dmkn3bfpugpysfoesgw3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/frivpma6hevdxdbxf8qk.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/efjmqbmqscpx21nxznyu.jpg"
+    ],
+    "websites": [
+      "https://play.google.com/store/apps/details?id=amanita_design.samorost3.GP",
+      "https://store.steampowered.com/app/421120",
+      "https://www.gog.com/game/samorost_3",
+      "https://bsky.app/profile/amanita-design.net",
+      "https://itunes.apple.com/us/app/samorost-3/id1121782467?mt=8&uo=4",
+      "https://en.wikipedia.org/wiki/Samorost_3",
+      "https://www.facebook.com/Amanita.Design",
+      "http://samorost.wikia.com/wiki/Samorost_3",
+      "http://samorost3.net",
+      "https://amanitadesign.itch.io/samorost-3",
+      "http://itunes.apple.com/us/app/id1121782467#?platform=ipad",
+      "https://www.reddit.com/r/Samorost/",
+      "https://store.epicgames.com/en-US/p/samorost-3-0c4489",
+      "https://www.instagram.com/amanita_design_",
+      "https://discordapp.com/invite/Gr4Ec6K",
+      "https://www.youtube.com/c/amanitadesign/featured",
+      "https://twitter.com/amanita_design",
+      "https://www.twitch.tv/directory/game/Samorost%203"
+    ],
+    "player_perspectives": [
+      "Side view"
+    ],
+    "game_engines": [
+      "Adobe AIR"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Point-and-click",
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ]
+  }
+]
