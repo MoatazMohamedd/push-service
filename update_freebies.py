@@ -162,8 +162,13 @@ def fetch_gamerpower_games():
         for offer in offers:
             if "Key Giveaway" in offer["title"]:
                 continue
-            if not offer.get("end_date") or offer.get("end_date") == "N/A":
-                continue
+
+            # ✅ If no end date, assign 30 days from now
+            end_date = offer.get("end_date")
+            if not end_date or end_date == "N/A":
+                expiry_date = (datetime.utcnow() + timedelta(days=30)).replace(tzinfo=timezone.utc).isoformat()
+            else:
+                expiry_date = end_date
 
             clean_title = re.sub(r"\s*\(.*?\)", "", offer["title"])
             clean_title = re.sub(r"\s*Giveaway", "", clean_title).strip()
@@ -179,7 +184,7 @@ def fetch_gamerpower_games():
                 "title": clean_title,
                 "worth": worth,
                 "store": store,
-                "expiry_date": offer.get("end_date"),
+                "expiry_date": expiry_date,  # ✅ now always has a valid date
                 "reminder_sent": reminder_sent,
                 "open_giveaway_url": offer.get("open_giveaway_url") or offer.get("open_giveaway")
             })
@@ -325,9 +330,9 @@ def main():
                 enriched_games.append(merged_game)
 
         # send notification only for newly added IDs
-        for game in enriched_games:
-            if game["gamerpower_id"] in added_ids:
-                send_fcm_notification(game)
+        # for game in enriched_games:
+        #     if game["gamerpower_id"] in added_ids:
+        #         send_fcm_notification(game)
 
         send_expiry_reminders(enriched_games, old_list)
         firestore_client.collection("all_freebies").document("games").set({"games": enriched_games})
