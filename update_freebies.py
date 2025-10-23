@@ -14,7 +14,7 @@ from firebase_admin import messaging
 # ENV VARIABLES
 # -----------------
 FCM_TOPIC = "/topics/free_games"
-GAMERPOWER_API = "https://www.gamerpower.com/api/filter?platform=pc&type=game"
+GAMERPOWER_API = "https://www.gamerpower.com/api/filter?type=game"
 LOCAL_JSON_FILE = "freebies.json"
 SKIPPED_JSON_FILE = "skipped_games.json"  # quarantine log
 
