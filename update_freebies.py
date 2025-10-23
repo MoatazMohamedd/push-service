@@ -163,10 +163,10 @@ def fetch_gamerpower_games():
             if "Key Giveaway" in offer["title"]:
                 continue
 
-            # ✅ If no end date, assign 30 days from now
+            # ✅ If no end date, assign 30 days from now (as string "YYYY-MM-DD 23:59:00")
             end_date = offer.get("end_date")
             if not end_date or end_date == "N/A":
-                expiry_date = (datetime.utcnow() + timedelta(days=30)).replace(tzinfo=timezone.utc).isoformat()
+                expiry_date = (datetime.utcnow() + timedelta(days=30)).strftime("%Y-%m-%d 23:59:00")
             else:
                 expiry_date = end_date
 
@@ -184,7 +184,7 @@ def fetch_gamerpower_games():
                 "title": clean_title,
                 "worth": worth,
                 "store": store,
-                "expiry_date": expiry_date,  # ✅ now always has a valid date
+                "expiry_date": expiry_date,  # ✅ Always consistent format
                 "reminder_sent": reminder_sent,
                 "open_giveaway_url": offer.get("open_giveaway_url") or offer.get("open_giveaway")
             })
@@ -192,6 +192,7 @@ def fetch_gamerpower_games():
     except Exception as e:
         print(f"Error fetching GamerPower data: {e}")
         return []
+
 
 def read_local_json(file_path=LOCAL_JSON_FILE):
     if not os.path.exists(file_path):
