@@ -1,5 +1,45 @@
 [
   {
+    "gamerpower_id": 3333,
+    "title": "The Lost Prince",
+    "worth": "12.99",
+    "store": "STOVE",
+    "expiry_date": "2025-10-31 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/the-lost-prince-pc-giveaway",
+    "id": 261737,
+    "name": "The Lost Prince",
+    "summary": "The Lost Prince is a story-based package game developed inspired by the fairy tale 'The Little Prince'. It is a visual novel-based complex genre in which the story begins with the assumption that the prince died from a snakebite.\n\nIt's an indie game developed by one person, so it's not enough, but please take care of it.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1702252800,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7dac.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scny6f.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scny6h.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scny6j.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scny6k.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scny6m.jpg"
+    ],
+    "websites": [
+      "https://www.youtube.com/@wildtalky2955",
+      "https://store.steampowered.com/app/2525830",
+      "https://www.twitch.tv/directory/category/the-lost-prince",
+      "https://twitter.com/WildTalky",
+      "https://www.instagram.com/wildtalky/"
+    ],
+    "game_engines": [
+      "Defold"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 3332,
     "title": "Fear the Spotlight",
     "worth": "19.99",
