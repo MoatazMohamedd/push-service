@@ -1,5 +1,35 @@
 [
   {
+    "gamerpower_id": 3334,
+    "title": "Mysterious House",
+    "worth": "0.99",
+    "store": "IndieGala",
+    "expiry_date": "2025-11-24 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/mysterious-house-pc-giveaway",
+    "id": 190916,
+    "name": "Mysterious House",
+    "summary": "Logic platformer with logic tasks with all sorts of obstacles and teleports. Closed doors, assistants can open. The main thing is to remember, they are very stupid, so it is worth protecting them.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1640563200,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5nug.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9m.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9l.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9n.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9k.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9o.jpg"
+    ],
+    "websites": [
+      "https://www.twitch.tv/directory/game/Mysterious%20House",
+      "https://store.steampowered.com/app/1848150"
+    ],
+    "genres": [
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 3333,
     "title": "The Lost Prince",
     "worth": "12.99",
@@ -286,48 +316,6 @@
     "genres": [
       "Sport",
       "Adventure",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3313,
-    "title": "Wordle",
-    "worth": "29.99",
-    "store": "IndieGala",
-    "expiry_date": "2025-11-24 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/wordle-pc-giveaway",
-    "id": 150086,
-    "name": "Wordle",
-    "summary": "Wordle is a fun and addictive word game that challenges your vocabulary skills. Try it now and see how many words you can create!",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1618185600,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co84sp.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbylt.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbylv.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbyly.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbylp.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbylr.jpg"
-    ],
-    "websites": [
-      "https://www.powerlanguage.co.uk/wordle",
-      "https://play.google.com/store/apps/details?id=com.gigantumsgames.wordle",
-      "https://www.twitch.tv/directory/game/Wordle",
-      "https://store.steampowered.com/app/1334000/Wordle"
-    ],
-    "player_perspectives": [
-      "Text"
-    ],
-    "game_engines": [
-      "Unity"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Puzzle",
       "Indie"
     ]
   },
