@@ -1,5 +1,67 @@
 [
   {
+    "gamerpower_id": 3335,
+    "title": "911 Operator",
+    "worth": "14.99",
+    "store": "Steam",
+    "expiry_date": "2025-10-29 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/911-operator-steam-giveaway",
+    "id": 20927,
+    "name": "911 Operator",
+    "summary": "911 Operator is a game about the difficult work of people that manage emergency lines and services. Main task is to answer incoming calls and to react properly - give first aid instructions, advise, dispatch correct number of firemen / police / ambulances, or sometimes just ignore the call.",
+    "storyline": null,
+    "total_rating": 73.08100616083625,
+    "first_release_date": 1487894400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gjv.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/cpulvgrxsigep6x20wo2.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/eicanpghrups6wq7u5wp.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/ykrqpp9jprrcbyh2udju.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/wfjg2dx7i7ulwlo2iind.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/znj2wltzwywjzmhl3z52.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sqowbhiw2iaxxd1nisdq.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/breykyaze7vrjlt4mgip.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/uxhrenpevghzax6bvvpt.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/wybcwy4uulhvdfidkoj3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/ltsldbnqipdczs1dhzhn.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/r7hopivtlmdy0jmpilut.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/p6ybxa06cn439qgrklra.jpg"
+    ],
+    "websites": [
+      "https://www.xbox.com/en-us/games/store/911-operator/bzw89t099xxb",
+      "https://www.youtube.com/channel/UC03hSKQ0dafUtpRg9jxcjQw/",
+      "http://itunes.apple.com/us/app/id1199822686#?platform=ipad",
+      "https://store.playstation.com/en-us/concept/229825",
+      "https://www.nintendo.com/games/detail/911-operator-switch/",
+      "https://store.steampowered.com/app/503560",
+      "http://www.jutsugames.com/911",
+      "https://play.google.com/store/apps/details?id=com.jutsugames.operator911",
+      "https://www.twitch.tv/directory/game/911%20Operator",
+      "https://apps.apple.com/app/911-operator/id1199822686",
+      "https://en.wikipedia.org/wiki/911_Operator_(video_game)",
+      "https://store.epicgames.com/en-US/p/911-operator-585edd",
+      "https://twitter.com/911_operator?lang=en",
+      "https://www.reddit.com/r/911Operator/",
+      "https://911-operator.fandom.com/wiki/911/112_Operator_Wiki",
+      "https://www.facebook.com/911OperatorGame"
+    ],
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "game_engines": [
+      "Unity 2021"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 3334,
     "title": "Mysterious House",
     "worth": "0.99",
