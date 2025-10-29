@@ -1,11 +1,54 @@
 [
   {
+    "gamerpower_id": 3338,
+    "title": "Drive Me to Hell",
+    "worth": "1.99",
+    "store": "Itch.io",
+    "expiry_date": "2025-11-04 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/drive-me-to-hell-itch-io-giveaway",
+    "id": 253969,
+    "name": "Drive Me to Hell",
+    "summary": "As the night darkens and you set out for home, an unsettling occurrence takes place on the road. Will this lead you to hell? Unveil the truth in a bone-chilling driving horror game that will keep you on the edge of your seat!",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1704326400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7dgl.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1rx.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1s0.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1s3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1s6.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1s9.jpg"
+    ],
+    "websites": [
+      "https://twitter.com/Maxrohrberg",
+      "https://www.twitch.tv/directory/category/drive-me-to-hell",
+      "https://www.youtube.com/@maxrohrberg",
+      "https://www.instagram.com/max_rohrberg/",
+      "https://store.steampowered.com/app/2446680",
+      "https://max-rohrberg.itch.io/drive-me-to-hell"
+    ],
+    "player_perspectives": [
+      "First person"
+    ],
+    "game_engines": [
+      "Unity"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Racing"
+    ]
+  },
+  {
     "gamerpower_id": 3335,
     "title": "911 Operator",
     "worth": "14.99",
     "store": "Steam",
     "expiry_date": "2025-10-29 23:59:00",
-    "reminder_sent": false,
+    "reminder_sent": true,
     "open_giveaway_url": "https://www.gamerpower.com/open/911-operator-steam-giveaway",
     "id": 20927,
     "name": "911 Operator",
@@ -66,7 +109,7 @@
     "title": "Mysterious House",
     "worth": "0.99",
     "store": "IndieGala",
-    "expiry_date": "2025-11-27 23:59:00",
+    "expiry_date": "2025-11-28 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/mysterious-house-pc-giveaway",
     "id": 190916,
@@ -186,7 +229,7 @@
     "title": "Last Room",
     "worth": "29.99",
     "store": "DRM-Free",
-    "expiry_date": "2025-11-27 23:59:00",
+    "expiry_date": "2025-11-28 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/last-room-pc-giveaway",
     "id": 150804,
@@ -251,7 +294,7 @@
     "title": "Best Plumber",
     "worth": "29.99",
     "store": "IndieGala",
-    "expiry_date": "2025-11-27 23:59:00",
+    "expiry_date": "2025-11-28 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/best-plumber-pc-giveaway",
     "id": 125397,
@@ -285,7 +328,7 @@
     "title": "Battle Ram",
     "worth": "29.99",
     "store": "IndieGala",
-    "expiry_date": "2025-11-27 23:59:00",
+    "expiry_date": "2025-11-28 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/battle-ram-pc-giveaway",
     "id": 132780,
@@ -323,7 +366,7 @@
     "title": "Sausage Hunter",
     "worth": "29.99",
     "store": "IndieGala",
-    "expiry_date": "2025-11-27 23:59:00",
+    "expiry_date": "2025-11-28 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/sausage-hunter-pc-giveaway",
     "id": 143901,
@@ -354,7 +397,7 @@
     "title": "Leaper",
     "worth": "4.99",
     "store": "IndieGala",
-    "expiry_date": "2025-11-27 23:59:00",
+    "expiry_date": "2025-11-28 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/leaper-pc-giveaway",
     "id": 155760,
@@ -386,7 +429,7 @@
     "title": "Dual Chroma: Academy Carols",
     "worth": "2.00",
     "store": "Itch.io",
-    "expiry_date": "2025-11-27 23:59:00",
+    "expiry_date": "2025-11-28 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/dual-chroma-academy-carols-itch-io-giveaway",
     "id": 238546,
