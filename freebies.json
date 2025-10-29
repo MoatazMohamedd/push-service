@@ -1,5 +1,73 @@
 [
   {
+    "gamerpower_id": 3340,
+    "title": "ANCIENT EVIL",
+    "worth": "4.99",
+    "store": "IndieGala",
+    "expiry_date": "2025-11-28 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/ancient-evil-pc-giveaway",
+    "id": 170504,
+    "name": "Ancient Evil",
+    "summary": "ANCIENT EVIL is a real-time tactical puzzle game where you need to pass severe tests and win the final battle with the enemy.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1631318400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co57up.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbu.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbv.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbx.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbz.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc0.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc2.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc4.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/1341620",
+      "https://www.twitch.tv/directory/game/Ancient%20Evil"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3339,
+    "title": "Space Pilgrim Episode III: Delta Pavonis",
+    "worth": "1.99",
+    "store": "Steam",
+    "expiry_date": "2025-11-01 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/space-pilgrim-episode-iii-delta-pavonis-steam-giveaway",
+    "id": 33601,
+    "name": "Space Pilgrim Episode III: Delta Pavonis",
+    "summary": "Still reeling from the life-changing events of the previous episode, Gail seeks out a safe haven with her father in the Delta Pavonis system. \nHowever, she soon learns that the politics of Planet Leto can be as treacherous and unpredictable as the local weather. What's more, her father seems to have disappeared under suspicious circumstances ... can she find him before her enemies catch up with her?",
+    "storyline": null,
+    "total_rating": 80.0,
+    "first_release_date": 1454544000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qbr.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/o00lcglu605evbzoviki.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/fdqjijip1giodfi9saaa.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pwgum7xeozz6y41cwhj8.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/a446lja2uc56lloduacf.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bnnxf6ttf7faghyjyvkk.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/439250",
+      "https://www.twitch.tv/directory/game/Space%20Pilgrim%20Episode%20III%3A%20Delta%20Pavonis"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 3338,
     "title": "Drive Me to Hell",
     "worth": "1.99",
@@ -40,68 +108,6 @@
     ],
     "genres": [
       "Racing"
-    ]
-  },
-  {
-    "gamerpower_id": 3335,
-    "title": "911 Operator",
-    "worth": "14.99",
-    "store": "Steam",
-    "expiry_date": "2025-10-29 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/911-operator-steam-giveaway",
-    "id": 20927,
-    "name": "911 Operator",
-    "summary": "911 Operator is a game about the difficult work of people that manage emergency lines and services. Main task is to answer incoming calls and to react properly - give first aid instructions, advise, dispatch correct number of firemen / police / ambulances, or sometimes just ignore the call.",
-    "storyline": null,
-    "total_rating": 73.08100616083625,
-    "first_release_date": 1487894400,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gjv.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/cpulvgrxsigep6x20wo2.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/eicanpghrups6wq7u5wp.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/ykrqpp9jprrcbyh2udju.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/wfjg2dx7i7ulwlo2iind.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/znj2wltzwywjzmhl3z52.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sqowbhiw2iaxxd1nisdq.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/breykyaze7vrjlt4mgip.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/uxhrenpevghzax6bvvpt.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/wybcwy4uulhvdfidkoj3.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/ltsldbnqipdczs1dhzhn.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/r7hopivtlmdy0jmpilut.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/p6ybxa06cn439qgrklra.jpg"
-    ],
-    "websites": [
-      "https://www.xbox.com/en-us/games/store/911-operator/bzw89t099xxb",
-      "https://www.youtube.com/channel/UC03hSKQ0dafUtpRg9jxcjQw/",
-      "http://itunes.apple.com/us/app/id1199822686#?platform=ipad",
-      "https://store.playstation.com/en-us/concept/229825",
-      "https://www.nintendo.com/games/detail/911-operator-switch/",
-      "https://store.steampowered.com/app/503560",
-      "http://www.jutsugames.com/911",
-      "https://play.google.com/store/apps/details?id=com.jutsugames.operator911",
-      "https://www.twitch.tv/directory/game/911%20Operator",
-      "https://apps.apple.com/app/911-operator/id1199822686",
-      "https://en.wikipedia.org/wiki/911_Operator_(video_game)",
-      "https://store.epicgames.com/en-US/p/911-operator-585edd",
-      "https://twitter.com/911_operator?lang=en",
-      "https://www.reddit.com/r/911Operator/",
-      "https://911-operator.fandom.com/wiki/911/112_Operator_Wiki",
-      "https://www.facebook.com/911OperatorGame"
-    ],
-    "player_perspectives": [
-      "Bird view / Isometric"
-    ],
-    "game_engines": [
-      "Unity 2021"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Simulator",
-      "Strategy",
-      "Indie"
     ]
   },
   {
