@@ -548,5 +548,44 @@
       "Adventure",
       "Indie"
     ]
+  },
+  {
+    "gamerpower_id": 2204,
+    "title": "Dual Chroma: Academy Carols",
+    "worth": "2.00",
+    "store": "Itch.io",
+    "expiry_date": "2025-11-29 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/dual-chroma-academy-carols-itch-io-giveaway",
+    "id": 238546,
+    "name": "Dual Chroma: Academy Carols",
+    "summary": "Spend winter break with the popular and unapproachable Prince of the Empire in this cozy and heartwarming magic academy dating sim.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1682640000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6zon.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldkz.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldl1.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldl3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldkw.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldky.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/2299730",
+      "https://www.galengames.com/",
+      "https://galengames.itch.io/academy-carols"
+    ],
+    "player_perspectives": [
+      "Text"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie",
+      "Visual Novel"
+    ]
   }
 ]
