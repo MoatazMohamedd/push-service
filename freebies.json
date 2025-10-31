@@ -1,5 +1,41 @@
 [
   {
+    "gamerpower_id": 1833,
+    "title": "STASIS",
+    "worth": "9.99",
+    "store": "GoG",
+    "expiry_date": "2025-11-02 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/stasis",
+    "id": 223055,
+    "name": "Stasis",
+    "summary": "Stasis is a fangame that combines Half-Life, Team Fortress 2, and Inscryption.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1649980800,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5phm.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjhdo.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjhdq.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjhdp.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjhdn.jpg"
+    ],
+    "websites": [
+      "https://html-earth.itch.io/stasis",
+      "https://www.twitch.tv/directory/game/Stasis"
+    ],
+    "player_perspectives": [
+      "First person"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Strategy",
+      "Card & Board Game"
+    ]
+  },
+  {
     "gamerpower_id": 3342,
     "title": "Five Nights at Freddy's: Into the Pit",
     "worth": "19.99",
