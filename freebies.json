@@ -11,7 +11,7 @@
     "name": "Death Fungeon",
     "summary": "A puzzle platform game, with both stealth and parkour elements. Use your wits, cunning and agility to escape this deadly prison. Take the stealthy approach, progressing slowly, hiding and staying out of sight. Or utilise your athleticism to wall jump, ledge grab and speed run your way to freedom.",
     "storyline": null,
-    "total_rating": 50.0,
+    "total_rating": 50,
     "first_release_date": 1534464000,
     "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3o9o.jpg",
     "screenshots": [
@@ -80,19 +80,18 @@
     "open_giveaway_url": "https://www.gamerpower.com/open/return-pc-giveaway",
     "id": 290597,
     "name": "Return",
-    "summary": "Return is an anime-style platformer-hack-and-slash game where an agent works for an organization that makes contracts with the government to take down any threat.",
+    "summary": "Return is a puzzle adventure game. In order to save his younger sister Kaira from a sudden disaster, the main character Noah explores the island and solves puzzles. He follows the fragmented clues to uncover the secret of the disaster and gradually advances to the top floor of the island.\n\n",
     "storyline": null,
-    "total_rating": null,
+    "total_rating": 93,
     "first_release_date": null,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7vlm.jpg",
+    "cover_url": "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/Return.webp",
     "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1sy.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1sv.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1sz.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1sw.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1t0.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1t1.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1sx.jpg"
+      "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/SkyIsland_1744282691519.webp",
+      "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/%EB%A7%88%EC%9D%84_%EC%9E%AC%EC%95%99%EC%A0%84_1744282705833.webp",
+      "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/%EC%9D%B4%EC%9E%A51_1744282717800.webp",
+      "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/%ED%83%9C%EC%96%91%EC%A0%9C%EB%8B%A81_1744282726059.webp",
+      "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/%EC%9C%84%EB%8B%89%EC%95%84%EC%A0%80%EC%94%A8%EC%A7%911_%EC%9E%AC%EC%95%99%EC%A0%84_1744282734404.webp",
+      "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/%EC%A0%9C%EB%8B%A8%20%EC%9C%84%EB%8B%89%EC%95%84%EC%A0%80%EC%94%A81_1744282743076.webp"
     ],
     "websites": [
       "https://store.steampowered.com/app/2719340"
@@ -101,9 +100,8 @@
       "Single player"
     ],
     "genres": [
-      "Hack and slash/Beat 'em up",
       "Adventure",
-      "Indie"
+      "Puzzle"
     ]
   },
   {
@@ -116,30 +114,32 @@
     "open_giveaway_url": "https://www.gamerpower.com/open/stasis",
     "id": 223055,
     "name": "Stasis",
-    "summary": "Stasis is a fangame that combines Half-Life, Team Fortress 2, and Inscryption.",
+    "summary": "Stasis is a point-and-click, sci-fi, horror adventure game played from a unique isometric perspective. Stasis intertwines a gruesome narrative with retro adventure gameplay. Combine items, interact with computers and solve puzzles while experiencing the gritty atmosphere.\\n\\nIn the distant future, aboard a seemingly abandoned spacecraft, John Maracheck awakes from stasis. He must push himself to new physical and emotional limits and unravel the mysteries around him.\\n\\nJohn is in tremendous pain, his wife and daughter are missing, and time is running out as the Groomlake plunges further into the swirling blue methane clouds of Neptune.",
     "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1649980800,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5phm.jpg",
+    "total_rating": 68.63021279954606,
+    "first_release_date": 1440979200,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2221.jpg",
     "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjhdo.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjhdq.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjhdp.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjhdn.jpg"
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sjynpjbszzhbevocj0ri.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/liuqouzsd3hsixpwkmkr.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/zcwjjpkcni00m4dv6jfj.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/mfcmgyni88c08wmku1vw.jpg"
     ],
     "websites": [
       "https://html-earth.itch.io/stasis",
       "https://www.twitch.tv/directory/game/Stasis"
     ],
     "player_perspectives": [
-      "First person"
+      "Bird view / Isometric"
     ],
     "game_modes": [
       "Single player"
     ],
     "genres": [
-      "Strategy",
-      "Card & Board Game"
+      "Point-and-click",
+      "Puzzle",
+      "Indie",
+      "Adventure"
     ]
   },
   {
@@ -307,7 +307,7 @@
     "name": "Space Pilgrim Episode III: Delta Pavonis",
     "summary": "Still reeling from the life-changing events of the previous episode, Gail seeks out a safe haven with her father in the Delta Pavonis system. \nHowever, she soon learns that the politics of Planet Leto can be as treacherous and unpredictable as the local weather. What's more, her father seems to have disappeared under suspicious circumstances ... can she find him before her enemies catch up with her?",
     "storyline": null,
-    "total_rating": 80.0,
+    "total_rating": 80,
     "first_release_date": 1454544000,
     "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qbr.jpg",
     "screenshots": [
@@ -519,7 +519,7 @@
     "name": "Best Plumber",
     "summary": "Help the young plumber hold the water in the right direction as fast as you can.",
     "storyline": null,
-    "total_rating": 70.0,
+    "total_rating": 70,
     "first_release_date": 1571270400,
     "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3m3d.jpg",
     "screenshots": [
@@ -553,7 +553,7 @@
     "name": "Battle Ram",
     "summary": "\"Battle Ram\" is a fun arcade game about a Battle Ram who fights against robots.",
     "storyline": null,
-    "total_rating": 70.0,
+    "total_rating": 70,
     "first_release_date": 1672963200,
     "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3m0i.jpg",
     "screenshots": [
@@ -640,6 +640,45 @@
       "Sport",
       "Adventure",
       "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 2204,
+    "title": "Dual Chroma: Academy Carols",
+    "worth": "2.00",
+    "store": "Itch.io",
+    "expiry_date": "2025-12-01 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/dual-chroma-academy-carols-itch-io-giveaway",
+    "id": 238546,
+    "name": "Dual Chroma: Academy Carols",
+    "summary": "Spend winter break with the popular and unapproachable Prince of the Empire in this cozy and heartwarming magic academy dating sim.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1682640000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6zon.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldkz.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldl1.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldl3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldkw.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldky.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/2299730",
+      "https://www.galengames.com/",
+      "https://galengames.itch.io/academy-carols"
+    ],
+    "player_perspectives": [
+      "Text"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie",
+      "Visual Novel"
     ]
   }
 ]
