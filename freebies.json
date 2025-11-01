@@ -1,10 +1,453 @@
 [
   {
+    "gamerpower_id": 3347,
+    "title": "Death Fungeon",
+    "worth": "2.99",
+    "store": "Steam",
+    "expiry_date": "2025-11-05 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/death-fungeon-steam-giveaway",
+    "id": 107938,
+    "name": "Death Fungeon",
+    "summary": "A puzzle platform game, with both stealth and parkour elements. Use your wits, cunning and agility to escape this deadly prison. Take the stealthy approach, progressing slowly, hiding and staying out of sight. Or utilise your athleticism to wall jump, ledge grab and speed run your way to freedom.",
+    "storyline": null,
+    "total_rating": 50.0,
+    "first_release_date": 1534464000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3o9o.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/vmnlex1x5hlcqlwcvwdl.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/uzuhe3pm3ocaxesuerkh.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/l7aisrr53ep38z2oe80c.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/hpcbvlcsxdti6dmosqhz.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/gen46tabjz4b17l3y8zv.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/tkhrauc5kj3c2jwfkkvo.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sptn0hykenkbedx9msbu.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/h2byiavfldqobx8x3r59.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/aqfwbqfn8o37uvnhscjo.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/im23ol2f7q1wjhupqfun.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/qgbisekw5tkew0myku7a.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/897630",
+      "https://www.twitch.tv/directory/game/Death%20Fungeon"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3346,
+    "title": "My Darkest Witch",
+    "worth": "4.99",
+    "store": "IndieGala",
+    "expiry_date": "2025-12-01 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/my-darkest-witch-pc-giveaway",
+    "id": 226038,
+    "name": "My Darkest Witch",
+    "summary": "My Darkest Witch is a survival arena with huge waves of enemies caused by massive infestations of an unholy plague.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1668816000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coagjc.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxu.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxp.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxx.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxm.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxs.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxl.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/2207120",
+      "https://www.twitch.tv/directory/game/My%20Darkest%20Witch"
+    ],
+    "genres": [
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3205,
+    "title": "RETURN",
+    "worth": "2.99",
+    "store": "STOVE",
+    "expiry_date": "2025-11-09 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/return-pc-giveaway",
+    "id": 290597,
+    "name": "Return",
+    "summary": "Return is an anime-style platformer-hack-and-slash game where an agent works for an organization that makes contracts with the government to take down any threat.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": null,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7vlm.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1sy.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1sv.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1sz.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1sw.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1t0.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1t1.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1sx.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/2719340"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 1833,
+    "title": "STASIS",
+    "worth": "9.99",
+    "store": "GoG",
+    "expiry_date": "2025-11-02 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/stasis",
+    "id": 223055,
+    "name": "Stasis",
+    "summary": "Stasis is a fangame that combines Half-Life, Team Fortress 2, and Inscryption.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1649980800,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5phm.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjhdo.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjhdq.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjhdp.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjhdn.jpg"
+    ],
+    "websites": [
+      "https://html-earth.itch.io/stasis",
+      "https://www.twitch.tv/directory/game/Stasis"
+    ],
+    "player_perspectives": [
+      "First person"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Strategy",
+      "Card & Board Game"
+    ]
+  },
+  {
+    "gamerpower_id": 3342,
+    "title": "Five Nights at Freddy's: Into the Pit",
+    "worth": "19.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-11-06 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/five-nights-at-freddy-s-into-the-pit-epic-games-giveaway",
+    "id": 283679,
+    "name": "Five Nights at Freddy's: Into the Pit",
+    "summary": "Jump into the pit and immerse yourself in a new chapter in the Five Nights at Freddy’s universe. Oswald wishes his town, and his life, weren’t so boring. That all changes when he explores the ball pit in a rundown pizzeria and finds himself in the past. However, Oswald’s deepest desire will have an unexpected cost…\n\nSurvive five nights of terror in this chilling adventure game. Travel between time periods, gather clues, and outrun the threat relentlessly pursuing you. Move swiftly and stay hidden, and you may just survive. But be careful—it’s not just your own life that’s on the line. Oswald’s father and children from the past could all meet their end if you don’t save them.",
+    "storyline": null,
+    "total_rating": 81.65752325323348,
+    "first_release_date": 1722988800,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8rf0.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsms9.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsms8.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsmsb.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsms7.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsms6.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsmsa.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7ky.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7kz.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l0.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l1.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l2.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l4.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l5.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l6.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l7.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l8.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l9.jpg"
+    ],
+    "websites": [
+      "https://www.nintendo.com/us/store/products/five-nights-at-freddys-into-the-pit-switch/",
+      "https://store.playstation.com/en-us/concept/10009158",
+      "https://www.xbox.com/en-us/games/store/five-nights-at-freddy's-into-the-pit/9PMP3DDWDRNW",
+      "https://www.twitch.tv/directory/category/five-nights-at-freddys-into-the-pit",
+      "https://www.reddit.com/r/fivenightsatfreddys/",
+      "https://store.steampowered.com/app/2638370/Five_Nights_at_Freddys_Into_the_Pit/",
+      "https://www.twitter.com/megacatstudios",
+      "https://www.instagram.com/megacatstudios",
+      "https://www.youtube.com/@megacatstudios",
+      "https://discord.gg/fnafreddys",
+      "https://megacatstudios.com/pages/five-nights-at-freddys-into-the-pit",
+      "https://www.facebook.com/megacatstudios/",
+      "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy%27s:_Into_the_Pit"
+    ],
+    "player_perspectives": [
+      "Side view"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3341,
+    "title": "Bendy and the Ink Machine",
+    "worth": "19.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-11-06 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/bendy-and-the-ink-machine-epic-games-giveaway",
+    "id": 28311,
+    "name": "Bendy and the Ink Machine",
+    "summary": "Bendy and the Ink Machine is an indie first person puzzle-action-horror game with a unique cartoon atmosphere and an intense, frightening story line that keeps you guessing throughout.",
+    "storyline": "Play as Henry as he revisits the demons of his past by exploring the abandoned animator's workshop of Joey Drew Studios. With twists and turns around every corner, \"Bendy and the Ink Machine\" is sure to thrill you... and decimate your childhood.\n\nYou'll never look at cartoons the same way again.",
+    "total_rating": 78.39112058983176,
+    "first_release_date": 1486684800,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67zs.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xp76ak3ysl1p7qom4c1q.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/wsqfchm36fcedoieziq7.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pogfmoa6aailrn8oknik.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/p8kfzkc9wj032zdapais.jpg"
+    ],
+    "websites": [
+      "https://store.playstation.com/en-us/concept/232792",
+      "https://en.wikipedia.org/wiki/Bendy_and_the_Ink_Machine",
+      "https://joeydrewstudios.itch.io/batim",
+      "https://epicgames.com/p/bendy-and-the-ink-machine-60cf5a",
+      "https://www.gog.com/en/game/bendy_and_the_ink_machine",
+      "https://www.xbox.com/en-us/games/store/bendy-and-the-ink-machine/BTQ96QTQ58F3",
+      "https://play.google.com/store/apps/details?id=com.jds.batim",
+      "https://www.nintendo.com/games/detail/bendy-and-the-ink-machine-switch/",
+      "https://www.facebook.com/BendyandtheInkMachine",
+      "https://store.steampowered.com/app/622650",
+      "https://twitter.com/batimgame",
+      "http://itunes.apple.com/us/app/id1437669537#?platform=ipad",
+      "https://www.reddit.com/r/BendyAndTheInkMachine",
+      "https://www.twitch.tv/directory/game/Bendy%20and%20the%20Ink%20Machine",
+      "https://www.joeydrewstudios.com/batim",
+      "https://www.youtube.com/JoeyDrewStudios",
+      "https://www.instagram.com/batimgame/",
+      "https://apps.apple.com/app/bendy-and-the-ink-machine/id1437669537",
+      "https://bendy.fandom.com/wiki/Bendy_and_the_Ink_Machine"
+    ],
+    "player_perspectives": [
+      "First person"
+    ],
+    "game_engines": [
+      "Unity"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3340,
+    "title": "ANCIENT EVIL",
+    "worth": "4.99",
+    "store": "IndieGala",
+    "expiry_date": "2025-12-01 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/ancient-evil-pc-giveaway",
+    "id": 170504,
+    "name": "Ancient Evil",
+    "summary": "ANCIENT EVIL is a real-time tactical puzzle game where you need to pass severe tests and win the final battle with the enemy.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1631318400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co57up.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbu.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbv.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbx.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbz.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc0.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc2.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc4.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/1341620",
+      "https://www.twitch.tv/directory/game/Ancient%20Evil"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3339,
+    "title": "Space Pilgrim Episode III: Delta Pavonis",
+    "worth": "1.99",
+    "store": "Steam",
+    "expiry_date": "2025-11-01 23:59:00",
+    "reminder_sent": true,
+    "open_giveaway_url": "https://www.gamerpower.com/open/space-pilgrim-episode-iii-delta-pavonis-steam-giveaway",
+    "id": 33601,
+    "name": "Space Pilgrim Episode III: Delta Pavonis",
+    "summary": "Still reeling from the life-changing events of the previous episode, Gail seeks out a safe haven with her father in the Delta Pavonis system. \nHowever, she soon learns that the politics of Planet Leto can be as treacherous and unpredictable as the local weather. What's more, her father seems to have disappeared under suspicious circumstances ... can she find him before her enemies catch up with her?",
+    "storyline": null,
+    "total_rating": 80.0,
+    "first_release_date": 1454544000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qbr.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/o00lcglu605evbzoviki.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/fdqjijip1giodfi9saaa.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pwgum7xeozz6y41cwhj8.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/a446lja2uc56lloduacf.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bnnxf6ttf7faghyjyvkk.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/439250",
+      "https://www.twitch.tv/directory/game/Space%20Pilgrim%20Episode%20III%3A%20Delta%20Pavonis"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3338,
+    "title": "Drive Me to Hell",
+    "worth": "1.99",
+    "store": "Itch.io",
+    "expiry_date": "2025-11-04 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/drive-me-to-hell-itch-io-giveaway",
+    "id": 253969,
+    "name": "Drive Me to Hell",
+    "summary": "As the night darkens and you set out for home, an unsettling occurrence takes place on the road. Will this lead you to hell? Unveil the truth in a bone-chilling driving horror game that will keep you on the edge of your seat!",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1704326400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7dgl.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1rx.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1s0.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1s3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1s6.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1s9.jpg"
+    ],
+    "websites": [
+      "https://twitter.com/Maxrohrberg",
+      "https://www.twitch.tv/directory/category/drive-me-to-hell",
+      "https://www.youtube.com/@maxrohrberg",
+      "https://www.instagram.com/max_rohrberg/",
+      "https://store.steampowered.com/app/2446680",
+      "https://max-rohrberg.itch.io/drive-me-to-hell"
+    ],
+    "player_perspectives": [
+      "First person"
+    ],
+    "game_engines": [
+      "Unity"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Racing"
+    ]
+  },
+  {
+    "gamerpower_id": 3334,
+    "title": "Mysterious House",
+    "worth": "0.99",
+    "store": "IndieGala",
+    "expiry_date": "2025-12-01 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/mysterious-house-pc-giveaway",
+    "id": 190916,
+    "name": "Mysterious House",
+    "summary": "Logic platformer with logic tasks with all sorts of obstacles and teleports. Closed doors, assistants can open. The main thing is to remember, they are very stupid, so it is worth protecting them.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1640563200,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5nug.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9m.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9l.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9n.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9k.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9o.jpg"
+    ],
+    "websites": [
+      "https://www.twitch.tv/directory/game/Mysterious%20House",
+      "https://store.steampowered.com/app/1848150"
+    ],
+    "genres": [
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3333,
+    "title": "The Lost Prince",
+    "worth": "12.99",
+    "store": "STOVE",
+    "expiry_date": "2025-10-31 23:59:00",
+    "reminder_sent": true,
+    "open_giveaway_url": "https://www.gamerpower.com/open/the-lost-prince-pc-giveaway",
+    "id": 261737,
+    "name": "The Lost Prince",
+    "summary": "The Lost Prince is a story-based package game developed inspired by the fairy tale 'The Little Prince'. It is a visual novel-based complex genre in which the story begins with the assumption that the prince died from a snakebite.\n\nIt's an indie game developed by one person, so it's not enough, but please take care of it.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1702252800,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7dac.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scny6f.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scny6h.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scny6j.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scny6k.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scny6m.jpg"
+    ],
+    "websites": [
+      "https://www.youtube.com/@wildtalky2955",
+      "https://store.steampowered.com/app/2525830",
+      "https://www.twitch.tv/directory/category/the-lost-prince",
+      "https://twitter.com/WildTalky",
+      "https://www.instagram.com/wildtalky/"
+    ],
+    "game_engines": [
+      "Defold"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 3331,
     "title": "Last Room",
     "worth": "29.99",
     "store": "DRM-Free",
-    "expiry_date": "2025-11-22 23:59:00",
+    "expiry_date": "2025-12-01 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/last-room-pc-giveaway",
     "id": 150804,
@@ -37,7 +480,7 @@
     "worth": "0.99",
     "store": "Steam",
     "expiry_date": "2025-10-31 23:59:00",
-    "reminder_sent": false,
+    "reminder_sent": true,
     "open_giveaway_url": "https://www.gamerpower.com/open/distant-space-steam-giveaway",
     "id": 30060,
     "name": "Distant Space",
@@ -69,7 +512,7 @@
     "title": "Best Plumber",
     "worth": "29.99",
     "store": "IndieGala",
-    "expiry_date": "2025-11-22 23:59:00",
+    "expiry_date": "2025-12-01 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/best-plumber-pc-giveaway",
     "id": 125397,
@@ -99,129 +542,11 @@
     ]
   },
   {
-    "gamerpower_id": 3326,
-    "title": "Amnesia: The Bunker",
-    "worth": "24.99",
-    "store": "Epic Games Store",
-    "expiry_date": "2025-10-23 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/amnesia-the-bunker-epic-games-giveaway",
-    "id": 228258,
-    "name": "Amnesia: The Bunker",
-    "summary": "Amnesia: The Bunker is a first-person horror game set in a desolate WW1 Bunker. Face the oppressing terrors stalking the dark corridors. Search for and use the tools and weapons at your disposal, while keeping the lights on at all costs. Overcome fear, persevere, and make your way out alive.",
-    "storyline": "Left all alone in a desolate WW1 bunker with only one bullet remaining in the barrel, it’s up to you to face the oppressing terrors in the dark. Keep the lights on at all costs, persevere, and make your way out alive. A truly intense horror experience.\n\nImmerse yourself in the multiple ways of tackling survival. In the shoes of the French soldier Henri Clément, you are armed with a revolver gun, a noisy dynamo flashlight, and other scarce supplies to scavenge and craft along the way. With randomization and unpredictable behavior, no play-through is the same.\n\nHunted by an ever-present threat reacting to your every move and sound, you must adapt your play-style to face hell. Every decision will change the outcome of how the game responds. Actions bear consequences.\n\nSolve things your own way in a semi-open world. You must explore and experiment to make your way out. Figure out what’s going on down here - what has happened to the other soldiers? Where have all the officers gone? What diabolical nightmare lurks underneath this hellscape? Unravel the mysteries of the Bunker and get to know the nooks and crannies of this cruel sandbox to up your odds of survival.",
-    "total_rating": 79.02798295988038,
-    "first_release_date": 1686009600,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5us3.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sck9j8.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmumy.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmumu.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmumw.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmumv.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmumx.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/1944430/Amnesia_The_Bunker",
-      "https://www.xbox.com/en-us/games/store/amnesia-the-bunker/9PC15H56NGJK",
-      "https://store.playstation.com/en-us/concept/10007451",
-      "https://www.gog.com/game/amnesia_the_bunker",
-      "https://store.epicgames.com/en-US/p/amnesia-the-bunker-9d5799",
-      "https://www.twitch.tv/directory/game/Amnesia:%20The%20Bunker",
-      "https://www.reddit.com/r/Amnesia_The_Bunker/",
-      "https://frictionalgames.com/",
-      "https://twitter.com/frictionalgames",
-      "https://en.wikipedia.org/wiki/Amnesia:_The_Bunker",
-      "https://www.instagram.com/frictionalgames/",
-      "https://www.youtube.com/@frictionalgames"
-    ],
-    "player_perspectives": [
-      "First person"
-    ],
-    "game_engines": [
-      "HPL Engine"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Shooter",
-      "Puzzle",
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3325,
-    "title": "Samorost 3",
-    "worth": "19.99",
-    "store": "Epic Games Store",
-    "expiry_date": "2025-10-23 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/samorost-3-epic-games-giveaway",
-    "id": 15537,
-    "name": "Samorost 3",
-    "summary": "Samorost 3 is an exploration adventure and puzzle game from the award-winning creators of Machinarium and Botanicula. Travel across space to nine unique worlds teeming with colorful challenges, creatures and surprises to discover, brought to life with beautiful artwork, sound and music.",
-    "storyline": "Samorost 3 starts when a magical flute falls near the Gnome's house.The Gnome decides to find out where it came from and sets out on a journey through the cosmos. He speaks to an engineer and asks him to build a toadstool rocket, which he builds by reusing parts found scattered on his home planet.The Gnome flies from planet to planet and meets multiple creatures whom he helps with their problems using the flute.\n\nThe Gnome eventually discovers two illustrated books and learns that the flute belongs to four monks. Not long ago, the monks were all at peace, until a giant orange space octopus arrived from a black wormhole and started consuming planets. The monks saw the octopus coming and consulted an engineer (the same one from the Gnome's home planet) to build a three-headed watering spaceship controlled by the flutes on the back of which they can fly, and a mechanical knight powered by a black orb with which to fight the octopus and save the universe. The knight dismembers and kills the octopus, then the knight goes to sleep on a moon, and the orb is locked away and protected by a guardian monk.\n\nIn the second book, one of the four monks uses his flute to create evil spirits, and the other three monks banish him for doing so. He secretly takes the spaceship and converts it into a three-headed fire-breathing mechanical dragon. Flying on the dragon, he snatches the other three flutes from the monks and casts the monks out of their mountain castle. However one of the flutes flew away, and this is the flute that landed on the Gnome's planet. He then uses the dragon to consume good spirits which he finds on other planets and then seizes the black orb so that the knight cannot be awakened.\n\nThe Gnome eventually reaches the planet of monks, sneakily steals the black orb from the evil monk, and uses it to revive the mechanical knight who then slays the dragon and presumably killing the evil monk in the process.The Gnome celebrates by playing music with the remaining three monks, who reward him with the power to travel instantly across all the planets and returns the black orb to its guarded storage.The Gnome finally returns to his home planet to greet his dog.",
-    "total_rating": 77.12759593655582,
-    "first_release_date": 1457913600,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uye.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/o6ydtfcuxjb1pyef9tvo.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/qdlqfmfxqjmdx3gmnndo.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/ercifcvsddfk09werslr.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyo8tytxli0wmvhs24d.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pagzbf5jayw9ggyzccbm.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/yit5ngkoecrltxvuokow.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/b4fawrofzs6cejrjvirz.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/e5xf4jtu4j1hamjfpzve.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/fcg0cefovcdg2kbiy9vc.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/dmkn3bfpugpysfoesgw3.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/frivpma6hevdxdbxf8qk.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/efjmqbmqscpx21nxznyu.jpg"
-    ],
-    "websites": [
-      "https://play.google.com/store/apps/details?id=amanita_design.samorost3.GP",
-      "https://store.steampowered.com/app/421120",
-      "https://www.gog.com/game/samorost_3",
-      "https://bsky.app/profile/amanita-design.net",
-      "https://itunes.apple.com/us/app/samorost-3/id1121782467?mt=8&uo=4",
-      "https://en.wikipedia.org/wiki/Samorost_3",
-      "https://www.facebook.com/Amanita.Design",
-      "http://samorost.wikia.com/wiki/Samorost_3",
-      "http://samorost3.net",
-      "https://amanitadesign.itch.io/samorost-3",
-      "http://itunes.apple.com/us/app/id1121782467#?platform=ipad",
-      "https://www.reddit.com/r/Samorost/",
-      "https://store.epicgames.com/en-US/p/samorost-3-0c4489",
-      "https://www.instagram.com/amanita_design_",
-      "https://discordapp.com/invite/Gr4Ec6K",
-      "https://www.youtube.com/c/amanitadesign/featured",
-      "https://twitter.com/amanita_design",
-      "https://www.twitch.tv/directory/game/Samorost%203"
-    ],
-    "player_perspectives": [
-      "Side view"
-    ],
-    "game_engines": [
-      "Adobe AIR"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Point-and-click",
-      "Puzzle",
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
     "gamerpower_id": 3324,
     "title": "Battle Ram",
     "worth": "29.99",
     "store": "IndieGala",
-    "expiry_date": "2025-11-22 23:59:00",
+    "expiry_date": "2025-12-01 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/battle-ram-pc-giveaway",
     "id": 132780,
@@ -259,7 +584,7 @@
     "title": "Sausage Hunter",
     "worth": "29.99",
     "store": "IndieGala",
-    "expiry_date": "2025-11-22 23:59:00",
+    "expiry_date": "2025-12-01 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/sausage-hunter-pc-giveaway",
     "id": 143901,
@@ -290,7 +615,7 @@
     "title": "Leaper",
     "worth": "4.99",
     "store": "IndieGala",
-    "expiry_date": "2025-11-22 23:59:00",
+    "expiry_date": "2025-12-01 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/leaper-pc-giveaway",
     "id": 155760,
@@ -318,53 +643,11 @@
     ]
   },
   {
-    "gamerpower_id": 3313,
-    "title": "Wordle",
-    "worth": "29.99",
-    "store": "IndieGala",
-    "expiry_date": "2025-11-22 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/wordle-pc-giveaway",
-    "id": 150086,
-    "name": "Wordle",
-    "summary": "Wordle is a fun and addictive word game that challenges your vocabulary skills. Try it now and see how many words you can create!",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1618185600,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co84sp.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbylt.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbylv.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbyly.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbylp.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbylr.jpg"
-    ],
-    "websites": [
-      "https://www.powerlanguage.co.uk/wordle",
-      "https://play.google.com/store/apps/details?id=com.gigantumsgames.wordle",
-      "https://www.twitch.tv/directory/game/Wordle",
-      "https://store.steampowered.com/app/1334000/Wordle"
-    ],
-    "player_perspectives": [
-      "Text"
-    ],
-    "game_engines": [
-      "Unity"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Puzzle",
-      "Indie"
-    ]
-  },
-  {
     "gamerpower_id": 2204,
     "title": "Dual Chroma: Academy Carols",
     "worth": "2.00",
     "store": "Itch.io",
-    "expiry_date": "2025-11-22 23:59:00",
+    "expiry_date": "2025-12-01 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/dual-chroma-academy-carols-itch-io-giveaway",
     "id": 238546,
