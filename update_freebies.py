@@ -373,3 +373,6 @@ def main():
 
     else:
         print("No new or removed games. Skipping Firestore read and enrichment.")
+
+if __name__ == "__main__":
+    main()
