@@ -366,7 +366,7 @@ def main():
         send_expiry_reminders(final_games, old_list)
 
         # Update Firestore and local JSON
-        firestore_client.collection("test").document("games").set({"games": final_games})
+        firestore_client.collection("all_freebies").document("games").set({"games": final_games})
         write_local_json(final_games)
 
         print(f"Saved {len(final_games)} strict-match games to Firestore (manual edits preserved).")
