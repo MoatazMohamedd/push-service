@@ -1,5 +1,36 @@
 [
   {
+    "gamerpower_id": 3346,
+    "title": "My Darkest Witch",
+    "worth": "4.99",
+    "store": "IndieGala",
+    "expiry_date": "2025-12-01 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/my-darkest-witch-pc-giveaway",
+    "id": 226038,
+    "name": "My Darkest Witch",
+    "summary": "My Darkest Witch is a survival arena with huge waves of enemies caused by massive infestations of an unholy plague.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1668816000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coagjc.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxu.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxp.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxx.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxm.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxs.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxl.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/2207120",
+      "https://www.twitch.tv/directory/game/My%20Darkest%20Witch"
+    ],
+    "genres": [
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 3205,
     "title": "RETURN",
     "worth": "2.99",
