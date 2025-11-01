@@ -1,5 +1,41 @@
 [
   {
+    "gamerpower_id": 3205,
+    "title": "RETURN",
+    "worth": "2.99",
+    "store": "STOVE",
+    "expiry_date": "2025-11-09 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/return-pc-giveaway",
+    "id": 290597,
+    "name": "Return",
+    "summary": "Return is an anime-style platformer-hack-and-slash game where an agent works for an organization that makes contracts with the government to take down any threat.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": null,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7vlm.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1sy.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1sv.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1sz.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1sw.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1t0.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1t1.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scr1sx.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/2719340"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 1833,
     "title": "STASIS",
     "worth": "9.99",
