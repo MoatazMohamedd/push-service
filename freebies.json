@@ -83,7 +83,7 @@
     "summary": "Return is a puzzle adventure game. In order to save his younger sister Kaira from a sudden disaster, the main character Noah explores the island and solves puzzles. He follows the fragmented clues to uncover the secret of the disaster and gradually advances to the top floor of the island.\n\n",
     "storyline": null,
     "total_rating": 93,
-    "first_release_date": null,
+    "first_release_date": 1533254400,
     "cover_url": "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/Return.webp",
     "screenshots": [
       "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/SkyIsland_1744282691519.webp",
@@ -95,6 +95,9 @@
     ],
     "websites": [
       "https://store.steampowered.com/app/2719340"
+    ],
+    "player_perspectives": [
+      "Side view"
     ],
     "game_modes": [
       "Single player"
