@@ -108,44 +108,6 @@
     ]
   },
   {
-    "gamerpower_id": 1833,
-    "title": "STASIS",
-    "worth": "9.99",
-    "store": "GoG",
-    "expiry_date": "2025-11-02 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/stasis",
-    "id": 223055,
-    "name": "Stasis",
-    "summary": "Stasis is a point-and-click, sci-fi, horror adventure game played from a unique isometric perspective. Stasis intertwines a gruesome narrative with retro adventure gameplay. Combine items, interact with computers and solve puzzles while experiencing the gritty atmosphere.\\n\\nIn the distant future, aboard a seemingly abandoned spacecraft, John Maracheck awakes from stasis. He must push himself to new physical and emotional limits and unravel the mysteries around him.\\n\\nJohn is in tremendous pain, his wife and daughter are missing, and time is running out as the Groomlake plunges further into the swirling blue methane clouds of Neptune.",
-    "storyline": null,
-    "total_rating": 68.63021279954606,
-    "first_release_date": 1440979200,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2221.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sjynpjbszzhbevocj0ri.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/liuqouzsd3hsixpwkmkr.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/zcwjjpkcni00m4dv6jfj.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/mfcmgyni88c08wmku1vw.jpg"
-    ],
-    "websites": [
-      "https://html-earth.itch.io/stasis",
-      "https://www.twitch.tv/directory/game/Stasis"
-    ],
-    "player_perspectives": [
-      "Bird view / Isometric"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Point-and-click",
-      "Puzzle",
-      "Indie",
-      "Adventure"
-    ]
-  },
-  {
     "gamerpower_id": 3342,
     "title": "Five Nights at Freddy's: Into the Pit",
     "worth": "19.99",
