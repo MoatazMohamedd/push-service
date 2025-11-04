@@ -1,5 +1,52 @@
 [
   {
+    "gamerpower_id": 1579,
+    "title": "BFF or Die",
+    "worth": "4.99",
+    "store": "Itch.io",
+    "expiry_date": "2025-11-07 23:59:59",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/bff-or-die",
+    "id": 94044,
+    "name": "BFF or Die",
+    "summary": "BFF or Die is a cozy/crazy couch co-op puzzle game for one to four players. As time traveling aliens you’re sent on a risky rescue mission to Earth! Use your gadgets collaboratively to overcome danger and survive as a team.",
+    "storyline": null,
+    "total_rating": 70.0,
+    "first_release_date": 1536796800,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2iv2.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8obs.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8obt.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8obu.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8obv.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8obw.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8obx.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8oby.jpg"
+    ],
+    "websites": [
+      "http://www.bffordie.com",
+      "https://www.nintendo.com/games/detail/bff-or-die-switch/",
+      "https://store.playstation.com/en-us/concept/10001424",
+      "https://store.steampowered.com/app/652360",
+      "https://asa-studio.itch.io/bff-or-die",
+      "https://twitter.com/bffordie",
+      "https://www.twitch.tv/directory/game/BFF%20or%20Die"
+    ],
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "genres": [
+      "Puzzle",
+      "Indie",
+      "Arcade"
+    ]
+  },
+  {
     "gamerpower_id": 3347,
     "title": "Death Fungeon",
     "worth": "2.99",
@@ -432,69 +479,6 @@
     ],
     "genres": [
       "Simulator",
-      "Sport",
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3322,
-    "title": "Sausage Hunter",
-    "worth": "29.99",
-    "store": "IndieGala",
-    "expiry_date": "2025-12-04 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/sausage-hunter-pc-giveaway",
-    "id": 143901,
-    "name": "Sausage Hunter",
-    "summary": "Sausage hunter is an exciting platformer in the best traditions of hand-drawn games.",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1592352000,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co40t9.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9pi3.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9pi4.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9pi5.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9pi6.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9pi7.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/1296880",
-      "https://www.twitch.tv/directory/game/Sausage%20Hunter"
-    ],
-    "genres": [
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3316,
-    "title": "Leaper",
-    "worth": "4.99",
-    "store": "IndieGala",
-    "expiry_date": "2025-12-04 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/leaper-pc-giveaway",
-    "id": 155760,
-    "name": "Leaper",
-    "summary": "Leaper is a pixel arcade side-scrolling platformer.",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1608681600,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co457c.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb77n.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb77o.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb77m.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb77r.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb77s.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/1495670",
-      "https://www.twitch.tv/directory/game/Leaper"
-    ],
-    "genres": [
       "Sport",
       "Adventure",
       "Indie"
