@@ -1,5 +1,40 @@
 [
   {
+    "gamerpower_id": 3353,
+    "title": "Cemetery Warrior 4",
+    "worth": "29.99",
+    "store": "IndieGala",
+    "expiry_date": "2025-12-05 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/cemetery-warrior-4-pc-giveaway",
+    "id": 122576,
+    "name": "Cemetery Warrior 4",
+    "summary": "The game immerses you in the chaotic gameplay under Heavy Metal. Shoot crowds of various monsters whose variety of AI is amazing: There are jumping monsters and earthworms, monsters shooting with spikes, monsters that run along walls, huge fiery demons and mighty titans.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1569974400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3mzc.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7bjk.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7bjl.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7bjm.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7bjn.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7bjo.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7bjp.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7bjq.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/1150990",
+      "https://www.twitch.tv/directory/game/Cemetery%20Warrior%204"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 1579,
     "title": "BFF or Die",
     "worth": "4.99",
