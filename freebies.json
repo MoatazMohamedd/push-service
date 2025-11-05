@@ -82,46 +82,6 @@
     ]
   },
   {
-    "gamerpower_id": 3347,
-    "title": "Death Fungeon",
-    "worth": "2.99",
-    "store": "Steam",
-    "expiry_date": "2025-11-05 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/death-fungeon-steam-giveaway",
-    "id": 107938,
-    "name": "Death Fungeon",
-    "summary": "A puzzle platform game, with both stealth and parkour elements. Use your wits, cunning and agility to escape this deadly prison. Take the stealthy approach, progressing slowly, hiding and staying out of sight. Or utilise your athleticism to wall jump, ledge grab and speed run your way to freedom.",
-    "storyline": null,
-    "total_rating": 50,
-    "first_release_date": 1534464000,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3o9o.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/vmnlex1x5hlcqlwcvwdl.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/uzuhe3pm3ocaxesuerkh.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/l7aisrr53ep38z2oe80c.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/hpcbvlcsxdti6dmosqhz.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/gen46tabjz4b17l3y8zv.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/tkhrauc5kj3c2jwfkkvo.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sptn0hykenkbedx9msbu.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/h2byiavfldqobx8x3r59.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/aqfwbqfn8o37uvnhscjo.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/im23ol2f7q1wjhupqfun.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/qgbisekw5tkew0myku7a.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/897630",
-      "https://www.twitch.tv/directory/game/Death%20Fungeon"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
     "gamerpower_id": 3346,
     "title": "My Darkest Witch",
     "worth": "4.99",
