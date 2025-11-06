@@ -1,5 +1,53 @@
 [
   {
+    "gamerpower_id": 3355,
+    "title": "Felix The Reaper",
+    "worth": "9.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-11-13 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/felix-the-reaper-epic-games-giveaway",
+    "id": 80006,
+    "name": "Felix the Reaper",
+    "summary": "Felix The Reaper - A romantic comedy game about the life of death.\n\nFelix The Reaper is a romantic comedy about the life of Death. It's brought to you on PC as a 3D shadow manipulation puzzle adventure game of dance, dying people and dangerous love.\n\nFelix has set out to conquer the heart of Betty The Maiden. He's fallen in love watching her from the train window commuting to work everyday for ages. He works at The Ministry of Death, she works at The Ministry of Life. Hence they don't meet.\n\nHe's taught himself to dance, because he's convinced, that will win Betty over. And he's gotten really good at it too.\n\nFinally Felix has come to realise, that it's not enough, that he can dance, if they never meet. And one day he decides to become a Field Reaper and go to work in the human world. That's where life and death collides. Hence he might finally get to ask Betty out for a dance.\n\nExcel at making sure people die, the way they are destined to, because that's what Field Reapers do, and Felix might finally get to meet Betty here in the human world.\n\nFelix The Reaper is produced by Kong Orange with support from The Danish Film Institute and The West Danish Film Fund, and the production has been invested in by CapNova.",
+    "storyline": null,
+    "total_rating": 73.64444303299544,
+    "first_release_date": 1571184000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wlt.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/fefcgvf3orlfuk217dtg.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/peqlhyiey3aqfrsio21c.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/iiomzqn5eu0llymk2b0i.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/btonlnykingm3l4cp0pq.jpg"
+    ],
+    "websites": [
+      "https://www.nintendo.com/games/detail/felix-the-reaper-switch/",
+      "https://store.playstation.com/en-us/concept/233591",
+      "https://www.youtube.com/channel/UCtKLRtq_eT6dCvCCR44UEJA",
+      "https://www.felixthereaper.com/",
+      "https://www.facebook.com/FelixTheReaper",
+      "https://twitter.com/FelixTheReaper",
+      "https://www.instagram.com/kong_orange",
+      "https://store.steampowered.com/app/919410",
+      "https://www.gog.com/game/felix_the_reaper",
+      "http://itunes.apple.com/us/app/id1503342078#?platform=iphone",
+      "http://itunes.apple.com/us/app/id1503342078#?platform=ipad",
+      "https://www.twitch.tv/directory/game/Felix%20The%20Reaper"
+    ],
+    "game_engines": [
+      "Unity 2019"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Music",
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 3353,
     "title": "Cemetery Warrior 4",
     "worth": "29.99",
@@ -147,125 +195,6 @@
     "genres": [
       "Adventure",
       "Puzzle"
-    ]
-  },
-  {
-    "gamerpower_id": 3342,
-    "title": "Five Nights at Freddy's: Into the Pit",
-    "worth": "19.99",
-    "store": "Epic Games Store",
-    "expiry_date": "2025-11-06 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/five-nights-at-freddy-s-into-the-pit-epic-games-giveaway",
-    "id": 283679,
-    "name": "Five Nights at Freddy's: Into the Pit",
-    "summary": "Jump into the pit and immerse yourself in a new chapter in the Five Nights at Freddy’s universe. Oswald wishes his town, and his life, weren’t so boring. That all changes when he explores the ball pit in a rundown pizzeria and finds himself in the past. However, Oswald’s deepest desire will have an unexpected cost…\n\nSurvive five nights of terror in this chilling adventure game. Travel between time periods, gather clues, and outrun the threat relentlessly pursuing you. Move swiftly and stay hidden, and you may just survive. But be careful—it’s not just your own life that’s on the line. Oswald’s father and children from the past could all meet their end if you don’t save them.",
-    "storyline": null,
-    "total_rating": 81.65752325323348,
-    "first_release_date": 1722988800,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8rf0.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsms9.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsms8.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsmsb.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsms7.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsms6.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsmsa.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7ky.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7kz.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l0.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l1.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l2.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l3.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l4.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l5.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l6.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l7.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l8.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l9.jpg"
-    ],
-    "websites": [
-      "https://www.nintendo.com/us/store/products/five-nights-at-freddys-into-the-pit-switch/",
-      "https://store.playstation.com/en-us/concept/10009158",
-      "https://www.xbox.com/en-us/games/store/five-nights-at-freddy's-into-the-pit/9PMP3DDWDRNW",
-      "https://www.twitch.tv/directory/category/five-nights-at-freddys-into-the-pit",
-      "https://www.reddit.com/r/fivenightsatfreddys/",
-      "https://store.steampowered.com/app/2638370/Five_Nights_at_Freddys_Into_the_Pit/",
-      "https://www.twitter.com/megacatstudios",
-      "https://www.instagram.com/megacatstudios",
-      "https://www.youtube.com/@megacatstudios",
-      "https://discord.gg/fnafreddys",
-      "https://megacatstudios.com/pages/five-nights-at-freddys-into-the-pit",
-      "https://www.facebook.com/megacatstudios/",
-      "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy%27s:_Into_the_Pit"
-    ],
-    "player_perspectives": [
-      "Side view"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Puzzle",
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3341,
-    "title": "Bendy and the Ink Machine",
-    "worth": "19.99",
-    "store": "Epic Games Store",
-    "expiry_date": "2025-11-06 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/bendy-and-the-ink-machine-epic-games-giveaway",
-    "id": 28311,
-    "name": "Bendy and the Ink Machine",
-    "summary": "Bendy and the Ink Machine is an indie first person puzzle-action-horror game with a unique cartoon atmosphere and an intense, frightening story line that keeps you guessing throughout.",
-    "storyline": "Play as Henry as he revisits the demons of his past by exploring the abandoned animator's workshop of Joey Drew Studios. With twists and turns around every corner, \"Bendy and the Ink Machine\" is sure to thrill you... and decimate your childhood.\n\nYou'll never look at cartoons the same way again.",
-    "total_rating": 78.39112058983176,
-    "first_release_date": 1486684800,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67zs.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xp76ak3ysl1p7qom4c1q.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/wsqfchm36fcedoieziq7.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pogfmoa6aailrn8oknik.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/p8kfzkc9wj032zdapais.jpg"
-    ],
-    "websites": [
-      "https://store.playstation.com/en-us/concept/232792",
-      "https://en.wikipedia.org/wiki/Bendy_and_the_Ink_Machine",
-      "https://joeydrewstudios.itch.io/batim",
-      "https://epicgames.com/p/bendy-and-the-ink-machine-60cf5a",
-      "https://www.gog.com/en/game/bendy_and_the_ink_machine",
-      "https://www.xbox.com/en-us/games/store/bendy-and-the-ink-machine/BTQ96QTQ58F3",
-      "https://play.google.com/store/apps/details?id=com.jds.batim",
-      "https://www.nintendo.com/games/detail/bendy-and-the-ink-machine-switch/",
-      "https://www.facebook.com/BendyandtheInkMachine",
-      "https://store.steampowered.com/app/622650",
-      "https://twitter.com/batimgame",
-      "http://itunes.apple.com/us/app/id1437669537#?platform=ipad",
-      "https://www.reddit.com/r/BendyAndTheInkMachine",
-      "https://www.twitch.tv/directory/game/Bendy%20and%20the%20Ink%20Machine",
-      "https://www.joeydrewstudios.com/batim",
-      "https://www.youtube.com/JoeyDrewStudios",
-      "https://www.instagram.com/batimgame/",
-      "https://apps.apple.com/app/bendy-and-the-ink-machine/id1437669537",
-      "https://bendy.fandom.com/wiki/Bendy_and_the_Ink_Machine"
-    ],
-    "player_perspectives": [
-      "First person"
-    ],
-    "game_engines": [
-      "Unity"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Puzzle",
-      "Adventure",
-      "Indie"
     ]
   },
   {
