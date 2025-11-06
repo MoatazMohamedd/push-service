@@ -1,5 +1,50 @@
 [
   {
+    "gamerpower_id": 3357,
+    "title": "OneShift",
+    "worth": "4.99",
+    "store": "Steam",
+    "expiry_date": "2025-11-10 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/oneshift-steam-giveaway",
+    "id": 104868,
+    "name": "OneShift",
+    "summary": "OneShift is a puzzle platformer where the player has the ability to freeze/unfreeze time and shift through worlds to collect blue cubes. But only one world can be active at a time. Later in the game, a world rotating mechanic is unveiled, which makes everything more complex!",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1533859200,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3qlr.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/vfrm9flayl0qtq3c9agg.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/tsm8zmo8wavnwi6afrw0.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/nhhcbiaz4rg4pbowhns4.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/aubr8jovkm0afkr7hmbt.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/b9aps6d89dziwowvtt6j.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xsr2veaumzkunsrrwtrj.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/knofeyldvghrvzmd7pmp.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvugqrowdg5eroifcyq.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/yjxh6uzzegplw6afnh4v.jpg"
+    ],
+    "websites": [
+      "https://www.youtube.com/channel/UCS8YxNuRTrIm-mOfsVsLiXg/",
+      "https://www.facebook.com/MazenGamesEu/",
+      "https://x.com/MazenGamesEu",
+      "https://store.steampowered.com/app/862740",
+      "https://www.twitch.tv/directory/game/OneShift"
+    ],
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 3355,
     "title": "Felix The Reaper",
     "worth": "9.99",
