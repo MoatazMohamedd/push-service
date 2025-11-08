@@ -1,5 +1,49 @@
 [
   {
+    "gamerpower_id": 3361,
+    "title": "Halt",
+    "worth": "4.99",
+    "store": "IndieGala",
+    "expiry_date": "2025-12-08 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/halt-pc-giveaway",
+    "id": 219493,
+    "name": "Halt",
+    "summary": "HALT is a story-driven run-&-gun platformer that combines classic RPG-style gameplay with intense arcade action-platforming.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": null,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5eto.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj36g.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj36b.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj36d.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj36c.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj36e.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj36f.jpg"
+    ],
+    "websites": [
+      "https://twitter.com/bunkbedfantasy",
+      "https://bunkbedfantasy.itch.io/halt",
+      "https://store.steampowered.com/app/2206680",
+      "https://www.twitch.tv/directory/game/Halt"
+    ],
+    "player_perspectives": [
+      "Bird view / Isometric",
+      "Side view"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Role-playing (RPG)",
+      "Indie",
+      "Arcade"
+    ]
+  },
+  {
     "gamerpower_id": 3360,
     "title": "Bulb Boy",
     "worth": "8.99",
@@ -346,78 +390,6 @@
     ],
     "genres": [
       "Strategy",
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3328,
-    "title": "Best Plumber",
-    "worth": "29.99",
-    "store": "IndieGala",
-    "expiry_date": "2025-12-08 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/best-plumber-pc-giveaway",
-    "id": 125397,
-    "name": "Best Plumber",
-    "summary": "Help the young plumber hold the water in the right direction as fast as you can.",
-    "storyline": null,
-    "total_rating": 70,
-    "first_release_date": 1571270400,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3m3d.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7e7c.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7e7d.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7e7f.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7e7e.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7e7b.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/1166580",
-      "https://www.twitch.tv/directory/game/Best%20Plumber"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Simulator",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3324,
-    "title": "Battle Ram",
-    "worth": "29.99",
-    "store": "IndieGala",
-    "expiry_date": "2025-12-08 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/battle-ram-pc-giveaway",
-    "id": 132780,
-    "name": "Battle Ram",
-    "summary": "\"Battle Ram\" is a fun arcade game about a Battle Ram who fights against robots.",
-    "storyline": null,
-    "total_rating": 70,
-    "first_release_date": 1672963200,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3m0i.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8u1p.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8u1q.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8u1r.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8u1s.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8u1t.jpg"
-    ],
-    "websites": [
-      "https://www.twitch.tv/directory/game/Battle%20Ram",
-      "https://store.epicgames.com/en-US/p/battle-ram-d001fd",
-      "https://store.steampowered.com/app/1262060",
-      "http://battleram.pro/"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Simulator",
-      "Sport",
       "Adventure",
       "Indie"
     ]
