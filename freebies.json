@@ -1,5 +1,43 @@
 [
   {
+    "gamerpower_id": 1069,
+    "title": "Will Glow the Wisp",
+    "worth": "2.99",
+    "store": "Steam",
+    "expiry_date": "2025-11-11 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/will-glow-the-wisp-steam",
+    "id": 36978,
+    "name": "Will Glow the Wisp",
+    "summary": "Will Glow the Wisp is a physics based abstract platformer without platforms, with a unique particle based theme and movement mechanics. It is best described as a mix of Super Meat Boy and Geometry Wars.",
+    "storyline": null,
+    "total_rating": 46.65735429532893,
+    "first_release_date": 1505433600,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7h5a.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/w8p6nm3b2pprm6mu5lan.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/jdalnmbpwmyfj3ga9e02.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xulweirhgyr7rarmtqkl.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/aweous3qjga4yxui7fwl.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/cydighw9ynuerwu1rhxm.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/640890",
+      "https://parttimeindie.com/will-glow-the-wisp/",
+      "https://www.twitch.tv/directory/game/Will%20Glow%20the%20Wisp"
+    ],
+    "player_perspectives": [
+      "Side view"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Indie",
+      "Arcade"
+    ]
+  },
+  {
     "gamerpower_id": 3362,
     "title": "Undercroft Warriors",
     "worth": "2.99",
