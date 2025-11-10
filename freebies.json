@@ -85,7 +85,7 @@
     "title": "Halt",
     "worth": "4.99",
     "store": "IndieGala",
-    "expiry_date": "2025-12-09 23:59:00",
+    "expiry_date": "2025-12-10 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/halt-pc-giveaway",
     "id": 219493,
@@ -125,71 +125,12 @@
     ]
   },
   {
-    "gamerpower_id": 3360,
-    "title": "Bulb Boy",
-    "worth": "8.99",
-    "store": "Steam",
-    "expiry_date": "2025-11-09 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/bulb-boy-steam-giveaway",
-    "id": 14393,
-    "name": "Bulb Boy",
-    "summary": "One gloomy night, Bulb Boy wakes suddenly from a frightening nightmare to discover that evil has overshadowed the Bulbhouse. His family has disappeared and there are horrid monsters lurking in the shadows. Gather the courage and use his glass head to save everything he loves.",
-    "storyline": "One gloomy night, Bulb Boy wakes suddenly from a frightening nightmare to discover that evil has overshadowed the Bulbhouse. His family has disappeared and there are horrid monsters lurking in the shadows.",
-    "total_rating": 76.35832594512436,
-    "first_release_date": 1446076800,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co230d.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/mhrl5gl5aezyfe35azke.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rqaxa1l9npjcjwmlgung.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/p0carx3fppkxbu6mjonr.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/ex1vz1al90aa0sxkgnnt.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/ic5fwolcygm2nygc0rha.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/uodt9dykgi7iuwla3mvg.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/kuytdcoig23rizg6xfkw.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/qytzof4qptgjv1hizf8c.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xouqai3xnu0yqzsrcq19.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/i6917tlmu5a2dxsy1czv.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/mufr93glqmtlidhqhb24.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/390290",
-      "https://apps.apple.com/us/app/bulb-boy/id1124453989",
-      "https://www.youtube.com/@Bulbware",
-      "https://twitter.com/Bulbware",
-      "https://en.wikipedia.org/wiki/Bulb_Boy",
-      "https://apps.apple.com/us/app/bulb-boy/id1124453989?platform=iphone",
-      "https://www.instagram.com/bulbware",
-      "https://www.gog.com/game/bulb_boy",
-      "https://www.nintendo.com/games/detail/bulb-boy-switch/",
-      "https://store.playstation.com/en-us/concept/228925",
-      "http://bulbboygame.com",
-      "https://play.google.com/store/apps/details?id=com.bulbware.bulbboyandroid",
-      "https://www.twitch.tv/directory/game/Bulb%20Boy"
-    ],
-    "player_perspectives": [
-      "Side view"
-    ],
-    "game_engines": [
-      "Unity"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Point-and-click",
-      "Puzzle",
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
     "gamerpower_id": 3357,
     "title": "OneShift",
     "worth": "4.99",
     "store": "Steam",
     "expiry_date": "2025-11-10 23:59:00",
-    "reminder_sent": false,
+    "reminder_sent": true,
     "open_giveaway_url": "https://www.gamerpower.com/open/oneshift-steam-giveaway",
     "id": 104868,
     "name": "OneShift",
@@ -281,7 +222,7 @@
     "title": "Cemetery Warrior 4",
     "worth": "29.99",
     "store": "IndieGala",
-    "expiry_date": "2025-12-09 23:59:00",
+    "expiry_date": "2025-12-10 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/cemetery-warrior-4-pc-giveaway",
     "id": 122576,
@@ -316,7 +257,7 @@
     "title": "My Darkest Witch",
     "worth": "4.99",
     "store": "IndieGala",
-    "expiry_date": "2025-12-09 23:59:00",
+    "expiry_date": "2025-12-10 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/my-darkest-witch-pc-giveaway",
     "id": 226038,
@@ -343,48 +284,11 @@
     ]
   },
   {
-    "gamerpower_id": 3205,
-    "title": "RETURN",
-    "worth": "2.99",
-    "store": "STOVE",
-    "expiry_date": "2025-11-09 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/return-pc-giveaway",
-    "id": 290597,
-    "name": "Return",
-    "summary": "Return is a puzzle adventure game. In order to save his younger sister Kaira from a sudden disaster, the main character Noah explores the island and solves puzzles. He follows the fragmented clues to uncover the secret of the disaster and gradually advances to the top floor of the island.\n\n",
-    "storyline": null,
-    "total_rating": 93,
-    "first_release_date": 1533254400,
-    "cover_url": "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/Return.webp",
-    "screenshots": [
-      "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/SkyIsland_1744282691519.webp",
-      "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/%EB%A7%88%EC%9D%84_%EC%9E%AC%EC%95%99%EC%A0%84_1744282705833.webp",
-      "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/%EC%9D%B4%EC%9E%A51_1744282717800.webp",
-      "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/%ED%83%9C%EC%96%91%EC%A0%9C%EB%8B%A81_1744282726059.webp",
-      "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/%EC%9C%84%EB%8B%89%EC%95%84%EC%A0%80%EC%94%A8%EC%A7%911_%EC%9E%AC%EC%95%99%EC%A0%84_1744282734404.webp",
-      "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/%EC%A0%9C%EB%8B%A8%20%EC%9C%84%EB%8B%89%EC%95%84%EC%A0%80%EC%94%A81_1744282743076.webp"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/2719340"
-    ],
-    "player_perspectives": [
-      "Side view"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Adventure",
-      "Puzzle"
-    ]
-  },
-  {
     "gamerpower_id": 3340,
     "title": "ANCIENT EVIL",
     "worth": "4.99",
     "store": "IndieGala",
-    "expiry_date": "2025-12-09 23:59:00",
+    "expiry_date": "2025-12-10 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/ancient-evil-pc-giveaway",
     "id": 170504,
@@ -418,7 +322,7 @@
     "title": "Mysterious House",
     "worth": "0.99",
     "store": "IndieGala",
-    "expiry_date": "2025-12-09 23:59:00",
+    "expiry_date": "2025-12-10 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/mysterious-house-pc-giveaway",
     "id": 190916,
@@ -448,7 +352,7 @@
     "title": "Last Room",
     "worth": "29.99",
     "store": "DRM-Free",
-    "expiry_date": "2025-12-09 23:59:00",
+    "expiry_date": "2025-12-10 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/last-room-pc-giveaway",
     "id": 150804,
@@ -480,7 +384,7 @@
     "title": "Dual Chroma: Academy Carols",
     "worth": "2.00",
     "store": "Itch.io",
-    "expiry_date": "2025-12-09 23:59:00",
+    "expiry_date": "2025-12-10 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/dual-chroma-academy-carols-itch-io-giveaway",
     "id": 238546,
