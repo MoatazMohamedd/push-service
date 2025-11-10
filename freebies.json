@@ -1,5 +1,51 @@
 [
   {
+    "gamerpower_id": 3364,
+    "title": "12 is Better Than 6",
+    "worth": "9.99",
+    "store": "Steam",
+    "expiry_date": "2025-11-13 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/12-is-better-than-6-steam-giveaway",
+    "id": 14688,
+    "name": "12 is Better than 6",
+    "summary": "12 is Better Than 6 is a dynamic top-down hardcore shooter with stealth elements, presented in a Wild West theme. The action takes place in 1873, the noon of lawless and cruelty all over North America.",
+    "storyline": "It is 1873. An escaped slave is slowly walking through the desert, making his way from Mexico to Texas. He keeps a revolver close and is wearing the sombrero stolen from a dead man.",
+    "total_rating": 64.72744130938695,
+    "first_release_date": 1447977600,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co267k.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bjgvybb5mxtr5j2xqhdr.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rioz2ou461nszpoazquo.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/d6ukzxpnucauk7tmjojn.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/gwerypiw2txhli0byh1e.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sy8tmvd516p6i1xhynf3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciev9.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scievc.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scievd.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scieva.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scievb.jpg"
+    ],
+    "websites": [
+      "https://www.nintendo.com/games/detail/12-is-better-than-6-switch/",
+      "http://12bt6.com/",
+      "https://store.steampowered.com/app/410110",
+      "https://www.twitch.tv/directory/game/12%20Is%20Better%20Than%206"
+    ],
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "Indie",
+      "Arcade"
+    ]
+  },
+  {
     "gamerpower_id": 1069,
     "title": "Will Glow the Wisp",
     "worth": "2.99",
