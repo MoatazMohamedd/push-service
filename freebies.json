@@ -1,5 +1,39 @@
 [
   {
+    "gamerpower_id": 3365,
+    "title": "Street karate 3",
+    "worth": "0.99",
+    "store": "IndieGala",
+    "expiry_date": "2025-12-12 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/street-karate-3-pc-giveaway",
+    "id": 169468,
+    "name": "Street Karate 3",
+    "summary": "Street karate 3 is a game in the genre of Beat'em up, in which you have to fight in an unequal duel with many opponents.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1611964800,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5odk.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbp7.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbpe.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbou.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbox.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbp0.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbp5.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbpc.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/1524340",
+      "https://www.twitch.tv/directory/game/Street%20Karate%203"
+    ],
+    "genres": [
+      "Sport",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 3364,
     "title": "12 is Better Than 6",
     "worth": "9.99",
