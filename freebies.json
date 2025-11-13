@@ -1,5 +1,177 @@
 [
   {
+    "gamerpower_id": 3369,
+    "title": "Zero Hour",
+    "worth": "9.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-11-20 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/zero-hour-epic-games-giveaway",
+    "id": 146042,
+    "name": "Zero Hour",
+    "summary": "Zero Hour is a tactical FPS with online team-based game play that takes place in a variety of fictional locations interpreted in Bangladesh with Real-life scale & resource management. It brings a grounded, close quarter combat experience to the game.",
+    "storyline": "The MS Task Force was founded in 1997. It is a private military corporation which is not affiliaited with the government. The organization started off by controlling riots and went on to gain Bangladesh's trust and gained recognition through succesful missions in SANA's (South Asian Nation Alliance) operations. It was founded in Bangladesh, but all the agents and operators are veterans or or trained special ops from various countries. To the public, MS consists of 8 units only. MS Unit-9 is a covert group of 5 that handle code red situations and specialize in indoor operations and CQC (Close Quarters Combat). They are thought of an urban myth among the ranks of the military, and is the bogeyman that haunts those who dare disturb peace.",
+    "total_rating": 40.24784645609792,
+    "first_release_date": 1725840000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yeh.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbqy1.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbqy3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbqy6.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbqy7.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbqyc.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbqyd.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbqyf.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbqyh.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sctlan.jpg"
+    ],
+    "websites": [
+      "https://m7productions.gg/games/zero-hour",
+      "https://www.facebook.com/zerohour2020",
+      "https://discord.gg/TWpHSDN",
+      "https://www.reddit.com/r/ZeroHour_Official",
+      "https://www.youtube.com/channel/UCwbMlbo1rKRKypQuRWvg5-g",
+      "https://www.instagram.com/zerohour_2020",
+      "https://store.steampowered.com/app/1359090/Zero_Hour",
+      "https://twitter.com/zerohour_2020",
+      "https://www.twitch.tv/directory/category/zero-hour"
+    ],
+    "player_perspectives": [
+      "First person"
+    ],
+    "game_engines": [
+      "Unity"
+    ],
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "genres": [
+      "Shooter",
+      "Simulator",
+      "Strategy",
+      "Tactical"
+    ]
+  },
+  {
+    "gamerpower_id": 3368,
+    "title": "Songs of Silence",
+    "worth": "29.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-11-20 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/songs-of-silence-epic-games-giveaway",
+    "id": 238460,
+    "name": "Songs of Silence",
+    "summary": "Songs of Silence is an Art Nouveau-inspired fantasy strategy game with a unique mix of turn-based kingdom management, hero development and real-time combat.",
+    "storyline": null,
+    "total_rating": 86.0,
+    "first_release_date": 1731456000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8c8s.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scugpj.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scugpg.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scugpk.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scugpe.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scugpf.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scugph.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scugpi.jpg"
+    ],
+    "websites": [
+      "https://www.facebook.com/people/Songs-of-Silence/61565912745989/",
+      "https://www.instagram.com/songsofsilence_game/",
+      "https://store.playstation.com/en-us/concept/10011866",
+      "https://www.reddit.com/r/songsofsilence/",
+      "https://store.steampowered.com/app/2195410",
+      "https://discord.gg/p3eEBrWaCj",
+      "https://songs-of-silence.com/",
+      "https://twitter.com/songsofsilence_",
+      "https://www.youtube.com/@songsofsilencegame",
+      "https://www.gog.com/en/game/songs_of_silence",
+      "https://www.twitch.tv/directory/category/songs-of-silence",
+      "https://bsky.app/profile/songsofsilence.bsky.social"
+    ],
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "game_engines": [
+      "Unity"
+    ],
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Turn-based strategy (TBS)"
+    ]
+  },
+  {
+    "gamerpower_id": 3367,
+    "title": "ScourgeBringer",
+    "worth": "16.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-11-20 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/scourgebringer-epic-games-giveaway",
+    "id": 115899,
+    "name": "ScourgeBringer",
+    "summary": "ScourgeBringer is a fast-paced free-moving roguelite platformer. Help Kyhra to explore the unknown and to slash her way through the ancient machines guarding the seal of her past, and maybe the redemption of humanity.",
+    "storyline": null,
+    "total_rating": 71.23849105086501,
+    "first_release_date": 1603152000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kce.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qve.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvf.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvg.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvh.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvi.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvj.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvk.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvl.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvm.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvn.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvo.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvp.jpg"
+    ],
+    "websites": [
+      "https://play.google.com/store/apps/details?id=com.pid.scourgebringer",
+      "https://store.playstation.com/en-us/concept/10001860",
+      "https://www.nintendo.com/games/detail/scourgebringer-switch/",
+      "https://www.epicgames.com/store/en-US/product/scourgebringer/home",
+      "https://store.steampowered.com/app/1037020",
+      "https://instagram.com/dearvillagers",
+      "https://www.youtube.com/c/dearvillagers",
+      "https://twitter.com/FlyingOakGames",
+      "https://flyingoakgames.itch.io/scourgebringer",
+      "https://www.twitch.tv/directory/game/ScourgeBringer",
+      "https://discord.gg/flyingoak",
+      "https://www.gog.com/game/scourgebringer",
+      "https://www.facebook.com/flyingoakgames",
+      "http://scourgebringer.com/",
+      "http://itunes.apple.com/us/app/id1552864378#?platform=iphone",
+      "http://itunes.apple.com/us/app/id1552864378#?platform=ipad"
+    ],
+    "player_perspectives": [
+      "Side view"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Fighting",
+      "Shooter",
+      "Platform",
+      "Adventure",
+      "Indie",
+      "Arcade"
+    ]
+  },
+  {
     "gamerpower_id": 3366,
     "title": "Immortals Fenyx Rising",
     "worth": "39.99",
