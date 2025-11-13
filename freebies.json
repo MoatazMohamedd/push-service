@@ -396,54 +396,6 @@
     ]
   },
   {
-    "gamerpower_id": 3355,
-    "title": "Felix The Reaper",
-    "worth": "9.99",
-    "store": "Epic Games Store",
-    "expiry_date": "2025-11-13 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/felix-the-reaper-epic-games-giveaway",
-    "id": 80006,
-    "name": "Felix the Reaper",
-    "summary": "Felix The Reaper - A romantic comedy game about the life of death.\n\nFelix The Reaper is a romantic comedy about the life of Death. It's brought to you on PC as a 3D shadow manipulation puzzle adventure game of dance, dying people and dangerous love.\n\nFelix has set out to conquer the heart of Betty The Maiden. He's fallen in love watching her from the train window commuting to work everyday for ages. He works at The Ministry of Death, she works at The Ministry of Life. Hence they don't meet.\n\nHe's taught himself to dance, because he's convinced, that will win Betty over. And he's gotten really good at it too.\n\nFinally Felix has come to realise, that it's not enough, that he can dance, if they never meet. And one day he decides to become a Field Reaper and go to work in the human world. That's where life and death collides. Hence he might finally get to ask Betty out for a dance.\n\nExcel at making sure people die, the way they are destined to, because that's what Field Reapers do, and Felix might finally get to meet Betty here in the human world.\n\nFelix The Reaper is produced by Kong Orange with support from The Danish Film Institute and The West Danish Film Fund, and the production has been invested in by CapNova.",
-    "storyline": null,
-    "total_rating": 73.64444303299544,
-    "first_release_date": 1571184000,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wlt.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/fefcgvf3orlfuk217dtg.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/peqlhyiey3aqfrsio21c.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/iiomzqn5eu0llymk2b0i.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/btonlnykingm3l4cp0pq.jpg"
-    ],
-    "websites": [
-      "https://www.nintendo.com/games/detail/felix-the-reaper-switch/",
-      "https://store.playstation.com/en-us/concept/233591",
-      "https://www.youtube.com/channel/UCtKLRtq_eT6dCvCCR44UEJA",
-      "https://www.felixthereaper.com/",
-      "https://www.facebook.com/FelixTheReaper",
-      "https://twitter.com/FelixTheReaper",
-      "https://www.instagram.com/kong_orange",
-      "https://store.steampowered.com/app/919410",
-      "https://www.gog.com/game/felix_the_reaper",
-      "http://itunes.apple.com/us/app/id1503342078#?platform=iphone",
-      "http://itunes.apple.com/us/app/id1503342078#?platform=ipad",
-      "https://www.twitch.tv/directory/game/Felix%20The%20Reaper"
-    ],
-    "game_engines": [
-      "Unity 2019"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Music",
-      "Puzzle",
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
     "gamerpower_id": 3353,
     "title": "Cemetery Warrior 4",
     "worth": "29.99",
