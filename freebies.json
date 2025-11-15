@@ -480,6 +480,38 @@
     ]
   },
   {
+    "gamerpower_id": 3331,
+    "title": "Last Room",
+    "worth": "29.99",
+    "store": "DRM-Free",
+    "expiry_date": "2025-12-15 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/last-room-pc-giveaway",
+    "id": 150804,
+    "name": "Last Room",
+    "summary": "Last Room is a logical puzzle game in the genre of fantasy horror.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1623628800,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co456l.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sca93j.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sca93k.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sca93l.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sca93m.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sca93n.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/1334010",
+      "https://www.twitch.tv/directory/game/Last%20Room"
+    ],
+    "genres": [
+      "Strategy",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 2204,
     "title": "Dual Chroma: Academy Carols",
     "worth": "2.00",
