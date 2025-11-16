@@ -1,5 +1,45 @@
 [
   {
+    "gamerpower_id": 3370,
+    "title": "Wordle 2",
+    "worth": "29.99",
+    "store": "IndieGala",
+    "expiry_date": "2025-12-16 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/wordle-2-pc-giveaway",
+    "id": 157751,
+    "name": "Wordle 2",
+    "summary": "Wordle 2 is a challenging and addictive word game that will put your vocabulary and spelling skills to the test with exciting new levels and hidden bonus words.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1598832000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co84sq.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbklr.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbklu.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbklw.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbklx.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbkly.jpg"
+    ],
+    "websites": [
+      "https://www.twitch.tv/directory/game/Wordle%202",
+      "https://store.steampowered.com/app/1386730"
+    ],
+    "player_perspectives": [
+      "Text"
+    ],
+    "game_engines": [
+      "Unity"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Puzzle",
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 3369,
     "title": "Zero Hour",
     "worth": "9.99",
@@ -263,49 +303,6 @@
     ]
   },
   {
-    "gamerpower_id": 3362,
-    "title": "Undercroft Warriors",
-    "worth": "2.99",
-    "store": "Itch.io",
-    "expiry_date": "2025-11-14 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/undercroft-warriors-itch-io-giveaway",
-    "id": 263727,
-    "name": "Undercroft Warriors",
-    "summary": "Crush the forces of hell and get a high score in this addictive, action-packed, arcade-inspired twin-stick shooter!",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1723161600,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co73ji.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sco5us.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sco5uu.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sco5uv.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sco5uw.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sco5ux.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sco5uy.jpg"
-    ],
-    "websites": [
-      "https://www.youtube.com/@fuzzystudios01",
-      "https://discord.gg/invite/scNWda52gc?utm_source=SteamDB",
-      "https://store.steampowered.com/app/2547140",
-      "https://www.twitch.tv/directory/category/undercroft-warriors"
-    ],
-    "player_perspectives": [
-      "Bird view / Isometric"
-    ],
-    "game_engines": [
-      "GDevelop"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Shooter",
-      "Indie"
-    ]
-  },
-  {
     "gamerpower_id": 3361,
     "title": "Halt",
     "worth": "4.99",
@@ -445,68 +442,6 @@
       "https://www.twitch.tv/directory/game/Ancient%20Evil"
     ],
     "genres": [
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3334,
-    "title": "Mysterious House",
-    "worth": "0.99",
-    "store": "IndieGala",
-    "expiry_date": "2025-12-16 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/mysterious-house-pc-giveaway",
-    "id": 190916,
-    "name": "Mysterious House",
-    "summary": "Logic platformer with logic tasks with all sorts of obstacles and teleports. Closed doors, assistants can open. The main thing is to remember, they are very stupid, so it is worth protecting them.",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1640563200,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5nug.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9m.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9l.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9n.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9k.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9o.jpg"
-    ],
-    "websites": [
-      "https://www.twitch.tv/directory/game/Mysterious%20House",
-      "https://store.steampowered.com/app/1848150"
-    ],
-    "genres": [
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3331,
-    "title": "Last Room",
-    "worth": "29.99",
-    "store": "DRM-Free",
-    "expiry_date": "2025-12-16 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/last-room-pc-giveaway",
-    "id": 150804,
-    "name": "Last Room",
-    "summary": "Last Room is a logical puzzle game in the genre of fantasy horror.",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1623628800,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co456l.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sca93j.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sca93k.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sca93l.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sca93m.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sca93n.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/1334010",
-      "https://www.twitch.tv/directory/game/Last%20Room"
-    ],
-    "genres": [
-      "Strategy",
       "Adventure",
       "Indie"
     ]
