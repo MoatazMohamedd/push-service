@@ -1,1 +1,488 @@
-[]
+[
+  {
+    "gamerpower_id": 3370,
+    "title": "Wordle 2",
+    "worth": "29.99",
+    "store": "IndieGala",
+    "expiry_date": "2025-12-18 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/wordle-2-pc-giveaway",
+    "id": 157751,
+    "name": "Wordle 2",
+    "summary": "Wordle 2 is a challenging and addictive word game that will put your vocabulary and spelling skills to the test with exciting new levels and hidden bonus words.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1598832000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co84sq.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbklr.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbklu.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbklw.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbklx.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbkly.jpg"
+    ],
+    "websites": [
+      "https://www.twitch.tv/directory/game/Wordle%202",
+      "https://store.steampowered.com/app/1386730"
+    ],
+    "player_perspectives": [
+      "Text"
+    ],
+    "game_engines": [
+      "Unity"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Puzzle",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3369,
+    "title": "Zero Hour",
+    "worth": "9.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-11-20 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/zero-hour-epic-games-giveaway",
+    "id": 146042,
+    "name": "Zero Hour",
+    "summary": "Zero Hour is a tactical FPS with online team-based game play that takes place in a variety of fictional locations interpreted in Bangladesh with Real-life scale & resource management. It brings a grounded, close quarter combat experience to the game.",
+    "storyline": "The MS Task Force was founded in 1997. It is a private military corporation which is not affiliaited with the government. The organization started off by controlling riots and went on to gain Bangladesh's trust and gained recognition through succesful missions in SANA's (South Asian Nation Alliance) operations. It was founded in Bangladesh, but all the agents and operators are veterans or or trained special ops from various countries. To the public, MS consists of 8 units only. MS Unit-9 is a covert group of 5 that handle code red situations and specialize in indoor operations and CQC (Close Quarters Combat). They are thought of an urban myth among the ranks of the military, and is the bogeyman that haunts those who dare disturb peace.",
+    "total_rating": 40.24784645609792,
+    "first_release_date": 1725840000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yeh.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbqy1.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbqy3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbqy6.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbqy7.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbqyc.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbqyd.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbqyf.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbqyh.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sctlan.jpg"
+    ],
+    "websites": [
+      "https://m7productions.gg/games/zero-hour",
+      "https://www.facebook.com/zerohour2020",
+      "https://discord.gg/TWpHSDN",
+      "https://www.reddit.com/r/ZeroHour_Official",
+      "https://www.youtube.com/channel/UCwbMlbo1rKRKypQuRWvg5-g",
+      "https://www.instagram.com/zerohour_2020",
+      "https://store.steampowered.com/app/1359090/Zero_Hour",
+      "https://twitter.com/zerohour_2020",
+      "https://www.twitch.tv/directory/category/zero-hour"
+    ],
+    "player_perspectives": [
+      "First person"
+    ],
+    "game_engines": [
+      "Unity"
+    ],
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "genres": [
+      "Shooter",
+      "Simulator",
+      "Strategy",
+      "Tactical"
+    ]
+  },
+  {
+    "gamerpower_id": 3368,
+    "title": "Songs of Silence",
+    "worth": "29.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-11-20 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/songs-of-silence-epic-games-giveaway",
+    "id": 238460,
+    "name": "Songs of Silence",
+    "summary": "Songs of Silence is an Art Nouveau-inspired fantasy strategy game with a unique mix of turn-based kingdom management, hero development and real-time combat.",
+    "storyline": null,
+    "total_rating": 86.0,
+    "first_release_date": 1731456000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8c8s.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scugpj.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scugpg.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scugpk.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scugpe.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scugpf.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scugph.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scugpi.jpg"
+    ],
+    "websites": [
+      "https://www.facebook.com/people/Songs-of-Silence/61565912745989/",
+      "https://www.instagram.com/songsofsilence_game/",
+      "https://store.playstation.com/en-us/concept/10011866",
+      "https://www.reddit.com/r/songsofsilence/",
+      "https://store.steampowered.com/app/2195410",
+      "https://discord.gg/p3eEBrWaCj",
+      "https://songs-of-silence.com/",
+      "https://twitter.com/songsofsilence_",
+      "https://www.youtube.com/@songsofsilencegame",
+      "https://www.gog.com/en/game/songs_of_silence",
+      "https://www.twitch.tv/directory/category/songs-of-silence",
+      "https://bsky.app/profile/songsofsilence.bsky.social"
+    ],
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "game_engines": [
+      "Unity"
+    ],
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Turn-based strategy (TBS)"
+    ]
+  },
+  {
+    "gamerpower_id": 3367,
+    "title": "ScourgeBringer",
+    "worth": "16.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-11-20 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/scourgebringer-epic-games-giveaway",
+    "id": 115899,
+    "name": "ScourgeBringer",
+    "summary": "ScourgeBringer is a fast-paced free-moving roguelite platformer. Help Kyhra to explore the unknown and to slash her way through the ancient machines guarding the seal of her past, and maybe the redemption of humanity.",
+    "storyline": null,
+    "total_rating": 71.23849105086501,
+    "first_release_date": 1603152000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kce.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qve.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvf.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvg.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvh.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvi.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvj.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvk.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvl.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvm.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvn.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvo.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8qvp.jpg"
+    ],
+    "websites": [
+      "https://play.google.com/store/apps/details?id=com.pid.scourgebringer",
+      "https://store.playstation.com/en-us/concept/10001860",
+      "https://www.nintendo.com/games/detail/scourgebringer-switch/",
+      "https://www.epicgames.com/store/en-US/product/scourgebringer/home",
+      "https://store.steampowered.com/app/1037020",
+      "https://instagram.com/dearvillagers",
+      "https://www.youtube.com/c/dearvillagers",
+      "https://twitter.com/FlyingOakGames",
+      "https://flyingoakgames.itch.io/scourgebringer",
+      "https://www.twitch.tv/directory/game/ScourgeBringer",
+      "https://discord.gg/flyingoak",
+      "https://www.gog.com/game/scourgebringer",
+      "https://www.facebook.com/flyingoakgames",
+      "http://scourgebringer.com/",
+      "http://itunes.apple.com/us/app/id1552864378#?platform=iphone",
+      "http://itunes.apple.com/us/app/id1552864378#?platform=ipad"
+    ],
+    "player_perspectives": [
+      "Side view"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Fighting",
+      "Shooter",
+      "Platform",
+      "Adventure",
+      "Indie",
+      "Arcade"
+    ]
+  },
+  {
+    "gamerpower_id": 3366,
+    "title": "Immortals Fenyx Rising",
+    "worth": "39.99",
+    "store": "Unknown",
+    "expiry_date": "2025-12-02 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/immortals-fenyx-rising-ubisoft-connect-giveaway",
+    "id": 119357,
+    "name": "Immortals Fenyx Rising",
+    "summary": "From the creators of Assassin’s Creed Odyssey comes a storybook adventure about a forgotten hero on a quest to save the Greek gods.\n\nEmbark on a journey to the Isle of the Blessed, taken over by dangerous creatures of mythology. Prove your legendary heroism by taking on their leader, Typhon, the deadliest monster in all of mythology in a face-off for the ages.\nExplore a beautiful fantasy world where tricky puzzles, mysterious dungeons and heroic feats await. The journey will be as challenging and rewarding as the final destination.\nWill you be the Hero of the legends foretold?",
+    "storyline": null,
+    "total_rating": 73.87601646363805,
+    "first_release_date": 1606867200,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9kcb.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6qeq.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8jcw.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8jcv.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8jcu.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8jct.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6qer.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6qes.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6qeo.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6qep.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sctl9d.jpg"
+    ],
+    "websites": [
+      "https://en.wikipedia.org/wiki/Immortals_Fenyx_Rising",
+      "https://store.steampowered.com/app/2221920",
+      "https://www.nintendo.com/games/detail/immortals-fenyx-rising-switch/",
+      "https://www.xbox.com/en-us/games/store/immortals-fenyx-rising/C07KJZRH0L7S",
+      "https://store.playstation.com/en-us/concept/234423",
+      "https://www.ubisoft.com/en-us/game/gods-and-monsters/",
+      "https://www.youtube.com/user/ubisoft",
+      "https://twitter.com/Ubisoft",
+      "https://discord.com/invite/FenyxRising",
+      "https://www.epicgames.com/store/product/immortals-fenyx-rising",
+      "https://www.facebook.com/Ubisoft.Nordic",
+      "https://www.instagram.com/ubisoft",
+      "https://www.twitch.tv/directory/game/Gods%20%26%20Monsters"
+    ],
+    "player_perspectives": [
+      "Third person"
+    ],
+    "game_engines": [
+      "Ubisoft Anvil"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "gamerpower_id": 3365,
+    "title": "Street karate 3",
+    "worth": "0.99",
+    "store": "IndieGala",
+    "expiry_date": "2025-12-18 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/street-karate-3-pc-giveaway",
+    "id": 169468,
+    "name": "Street Karate 3",
+    "summary": "Street karate 3 is a game in the genre of Beat'em up, in which you have to fight in an unequal duel with many opponents.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1611964800,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5odk.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbp7.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbpe.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbou.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbox.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbp0.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbp5.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbpc.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/1524340",
+      "https://www.twitch.tv/directory/game/Street%20Karate%203"
+    ],
+    "genres": [
+      "Sport",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3361,
+    "title": "Halt",
+    "worth": "4.99",
+    "store": "IndieGala",
+    "expiry_date": "2025-12-18 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/halt-pc-giveaway",
+    "id": 219493,
+    "name": "Halt",
+    "summary": "HALT is a story-driven run-&-gun platformer that combines classic RPG-style gameplay with intense arcade action-platforming.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": null,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5eto.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj36g.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj36b.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj36d.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj36c.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj36e.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj36f.jpg"
+    ],
+    "websites": [
+      "https://twitter.com/bunkbedfantasy",
+      "https://bunkbedfantasy.itch.io/halt",
+      "https://store.steampowered.com/app/2206680",
+      "https://www.twitch.tv/directory/game/Halt"
+    ],
+    "player_perspectives": [
+      "Bird view / Isometric",
+      "Side view"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Role-playing (RPG)",
+      "Indie",
+      "Arcade"
+    ]
+  },
+  {
+    "gamerpower_id": 3353,
+    "title": "Cemetery Warrior 4",
+    "worth": "29.99",
+    "store": "IndieGala",
+    "expiry_date": "2025-12-18 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/cemetery-warrior-4-pc-giveaway",
+    "id": 122576,
+    "name": "Cemetery Warrior 4",
+    "summary": "The game immerses you in the chaotic gameplay under Heavy Metal. Shoot crowds of various monsters whose variety of AI is amazing: There are jumping monsters and earthworms, monsters shooting with spikes, monsters that run along walls, huge fiery demons and mighty titans.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1569974400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3mzc.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7bjk.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7bjl.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7bjm.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7bjn.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7bjo.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7bjp.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7bjq.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/1150990",
+      "https://www.twitch.tv/directory/game/Cemetery%20Warrior%204"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3346,
+    "title": "My Darkest Witch",
+    "worth": "4.99",
+    "store": "IndieGala",
+    "expiry_date": "2025-12-18 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/my-darkest-witch-pc-giveaway",
+    "id": 226038,
+    "name": "My Darkest Witch",
+    "summary": "My Darkest Witch is a survival arena with huge waves of enemies caused by massive infestations of an unholy plague.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1668816000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coagjc.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxu.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxp.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxx.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxm.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxs.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxl.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/2207120",
+      "https://www.twitch.tv/directory/game/My%20Darkest%20Witch"
+    ],
+    "genres": [
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3340,
+    "title": "ANCIENT EVIL",
+    "worth": "4.99",
+    "store": "IndieGala",
+    "expiry_date": "2025-12-18 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/ancient-evil-pc-giveaway",
+    "id": 170504,
+    "name": "Ancient Evil",
+    "summary": "ANCIENT EVIL is a real-time tactical puzzle game where you need to pass severe tests and win the final battle with the enemy.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1631318400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co57up.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbu.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbv.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbx.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbz.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc0.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc2.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc4.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/1341620",
+      "https://www.twitch.tv/directory/game/Ancient%20Evil"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 2204,
+    "title": "Dual Chroma: Academy Carols",
+    "worth": "2.00",
+    "store": "Itch.io",
+    "expiry_date": "2025-12-18 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/dual-chroma-academy-carols-itch-io-giveaway",
+    "id": 238546,
+    "name": "Dual Chroma: Academy Carols",
+    "summary": "Spend winter break with the popular and unapproachable Prince of the Empire in this cozy and heartwarming magic academy dating sim.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1682640000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6zon.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldkz.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldl1.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldl3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldkw.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldky.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/2299730",
+      "https://www.galengames.com/",
+      "https://galengames.itch.io/academy-carols"
+    ],
+    "player_perspectives": [
+      "Text"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie",
+      "Visual Novel"
+    ]
+  }
+]
