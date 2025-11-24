@@ -1,56 +1,5 @@
 [
   {
-    "gamerpower_id": 2019,
-    "title": "Warhammer: Vermintide 2",
-    "worth": "29.99",
-    "store": "Steam",
-    "expiry_date": "2025-11-23 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/warhammer-vermintide-2",
-    "id": 55189,
-    "name": "Warhammer: Vermintide 2",
-    "summary": "Warhammer: Vermintide 2 is the sequel to the critically acclaimed Vermintide. It's time for players to return to the memorable first-person co-op experience with intense world class melee action.",
-    "storyline": null,
-    "total_rating": 78.5846899393536,
-    "first_release_date": 1520467200,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20u8.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/qszvq6drlkvrdhjg3ah9.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/eg5i9j1ecnhqxvigdcqy.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/lwk77txhwcukdybew8ri.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/g7vlaanlh2eu7ou9avtz.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sctsx7.jpg"
-    ],
-    "websites": [
-      "https://twitter.com/fatsharkgames",
-      "https://www.youtube.com/channel/UCfhGCMntOdvnorxaMNCbDOg",
-      "https://store.steampowered.com/app/552500",
-      "https://store.playstation.com/en-us/concept/232764",
-      "https://discord.gg/vermintide",
-      "https://instagram.com/fatsharkgames",
-      "http://www.vermintide.com",
-      "https://facebook.com/fatsharkgames",
-      "https://www.twitch.tv/directory/game/Warhammer:%20Vermintide%202"
-    ],
-    "player_perspectives": [
-      "First person"
-    ],
-    "game_engines": [
-      "Autodesk Stingray"
-    ],
-    "game_modes": [
-      "Single player",
-      "Multiplayer",
-      "Co-operative"
-    ],
-    "genres": [
-      "Shooter",
-      "Role-playing (RPG)",
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
     "gamerpower_id": 3377,
     "title": "Zoeti",
     "worth": "19.99",
@@ -161,7 +110,7 @@
     "title": "Wordle 2",
     "worth": "29.99",
     "store": "IndieGala",
-    "expiry_date": "2025-12-23 23:59:00",
+    "expiry_date": "2025-12-24 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/wordle-2-pc-giveaway",
     "id": 157751,
@@ -258,7 +207,7 @@
     "title": "Street karate 3",
     "worth": "0.99",
     "store": "IndieGala",
-    "expiry_date": "2025-12-23 23:59:00",
+    "expiry_date": "2025-12-24 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/street-karate-3-pc-giveaway",
     "id": 169468,
@@ -292,7 +241,7 @@
     "title": "Halt",
     "worth": "4.99",
     "store": "IndieGala",
-    "expiry_date": "2025-12-23 23:59:00",
+    "expiry_date": "2025-12-24 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/halt-pc-giveaway",
     "id": 219493,
@@ -336,7 +285,7 @@
     "title": "Cemetery Warrior 4",
     "worth": "29.99",
     "store": "IndieGala",
-    "expiry_date": "2025-12-23 23:59:00",
+    "expiry_date": "2025-12-24 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/cemetery-warrior-4-pc-giveaway",
     "id": 122576,
@@ -371,7 +320,7 @@
     "title": "My Darkest Witch",
     "worth": "4.99",
     "store": "IndieGala",
-    "expiry_date": "2025-12-23 23:59:00",
+    "expiry_date": "2025-12-24 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/my-darkest-witch-pc-giveaway",
     "id": 226038,
@@ -402,7 +351,7 @@
     "title": "ANCIENT EVIL",
     "worth": "4.99",
     "store": "IndieGala",
-    "expiry_date": "2025-12-23 23:59:00",
+    "expiry_date": "2025-12-24 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/ancient-evil-pc-giveaway",
     "id": 170504,
@@ -436,7 +385,7 @@
     "title": "Dual Chroma: Academy Carols",
     "worth": "2.00",
     "store": "Itch.io",
-    "expiry_date": "2025-12-23 23:59:00",
+    "expiry_date": "2025-12-24 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/dual-chroma-academy-carols-itch-io-giveaway",
     "id": 238546,
