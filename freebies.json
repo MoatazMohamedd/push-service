@@ -1,5 +1,59 @@
 [
   {
+    "gamerpower_id": 3384,
+    "title": "Universe For Sale",
+    "worth": "14.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-12-04 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/universe-for-sale-epic-games-giveaway",
+    "id": 151593,
+    "name": "Universe For Sale",
+    "summary": "Universe for Sale is a sci-fi narrative experience about human relationships and self-acceptance, follow the stories of the nameless Master, a mysterious cultist and Lila the universes vendor.",
+    "storyline": "A space station nestled in the clouds of Jupiter. A bizarre bazaar where a young, worried woman crafts entire universes in the palm of her hand. A mysterious cultist who's stripped the flesh from his bones in order to reach enlightenment. Here, there's a universe for sale. You buying?\n\nIn a bizarre bazaar, there's a worried woman crafting entire universes in the palm of her hand.",
+    "total_rating": 90.0,
+    "first_release_date": 1700092800,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3pso.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scaejh.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scaejl.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scaejn.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scaejo.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scaejk.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scaejm.jpg"
+    ],
+    "websites": [
+      "http://tmesistudio.com/UniverseforSale.html",
+      "https://store.playstation.com/en-us/concept/10008484",
+      "https://www.nintendo.com/us/store/products/universe-for-sale-switch/",
+      "https://www.xbox.com/en-us/games/store/universe-for-sale/9N25VS5SPZ2V",
+      "https://store.steampowered.com/app/1627840",
+      "https://www.twitch.tv/directory/game/Universe%20For%20Sale",
+      "https://twitter.com/tmesis_studio?lang=en",
+      "https://discord.gg/akuparagames",
+      "https://www.reddit.com/r/UniverseForSale/",
+      "https://store.epicgames.com/en-US/p/universe-for-sale-05c53e",
+      "https://youtube.com/channel/UCZmf7CjG0apiwBxNjIoYxDw",
+      "https://bsky.app/profile/akuparagames.bsky.social",
+      "https://www.gog.com/en/game/universe_for_sale"
+    ],
+    "player_perspectives": [
+      "Text"
+    ],
+    "game_engines": [
+      "Construct"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Point-and-click",
+      "Adventure",
+      "Indie",
+      "Visual Novel"
+    ]
+  },
+  {
     "gamerpower_id": 3215,
     "title": "Hotel Greenwood",
     "worth": "9.99",
@@ -39,112 +93,6 @@
       "Single player"
     ],
     "genres": [
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3377,
-    "title": "Zoeti",
-    "worth": "19.99",
-    "store": "Epic Games Store",
-    "expiry_date": "2025-11-27 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/zoeti-epic-games-giveaway",
-    "id": 151780,
-    "name": "Zoeti",
-    "summary": "Zoeti is a card Battler game that combines Roguelike and poker. The Zoeti is a fantasy medieval world full of tarot cards, stars, souls, and magic. The art will be presented in bright and delicate hand-painted style.",
-    "storyline": "A once peaceful land, now overrun by monsters. You, a Star-Soul hero, are among a select few blessed to raze the land of evil. In Zoeti, you are equipped with a deck of playing cards, with which you play card combinations (pair, full house, royal flush, etc.) to activate skills that will attack or defend against enemies. Further bolster your arsenal of skills and upgrades through battles and discovery.",
-    "total_rating": 70.0,
-    "first_release_date": 1681948800,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co38ya.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scag95.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scag96.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scag97.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scag98.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scag99.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scag92.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scag93.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scag94.jpg"
-    ],
-    "websites": [
-      "https://www.gog.com/en/game/zoeti",
-      "https://discord.gg/j6p9GhFhNa",
-      "https://store.epicgames.com/en-US/p/zoeti-3ccef9",
-      "https://bsky.app/profile/akuparagames.bsky.social",
-      "https://www.nintendo.com/store/products/zoeti-switch/",
-      "https://apps.apple.com/app/zoeti/id6479543285",
-      "https://play.google.com/store/apps/details?id=com.dusklight.zoeti",
-      "https://store.steampowered.com/app/1434540/Zoeti",
-      "https://www.youtube.com/channel/UCUG7Bd6WJt1fDVpo7Ft9fOg",
-      "https://www.facebook.com/Dusklight.Games",
-      "https://twitter.com/DusklightGames",
-      "https://www.twitch.tv/directory/game/Zoeti",
-      "https://en.dusklightgames.com/zoeti",
-      "https://akuparagames.itch.io/zoeti"
-    ],
-    "player_perspectives": [
-      "Third person"
-    ],
-    "game_engines": [
-      "Unity"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Puzzle",
-      "Role-playing (RPG)",
-      "Strategy",
-      "Turn-based strategy (TBS)",
-      "Adventure",
-      "Indie",
-      "Card & Board Game"
-    ]
-  },
-  {
-    "gamerpower_id": 3376,
-    "title": "Godzilla Voxel Wars",
-    "worth": "14.99",
-    "store": "Epic Games Store",
-    "expiry_date": "2025-11-27 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/godzilla-voxel-wars-epic-games-giveaway",
-    "id": 264341,
-    "name": "Godzilla Voxel Wars",
-    "summary": "Get ready to battle using your brain! A full-fledged turn-based strategy game with a difficulty level: GODZILLA! Godzilla, Mothra, King Ghidorah, and more are here to rampage across an 8x8 grid! Control Toho monsters and save the world from the Fungoid mushroom invasion!",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1698710400,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7d9q.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sco8yd.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sco8yc.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sco8ye.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sco8yf.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sco8yg.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sco8yh.jpg"
-    ],
-    "websites": [
-      "https://www.nintendo.com/us/store/products/godzilla-voxel-wars-switch/",
-      "https://store.steampowered.com/app/2439780/Godzilla_Voxel_Wars/",
-      "https://store.epicgames.com/en-US/p/godzillawars-2c30e4",
-      "https://twitter.com/godzilla_jp"
-    ],
-    "player_perspectives": [
-      "Bird view / Isometric"
-    ],
-    "game_engines": [
-      "Unity"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Puzzle",
-      "Simulator",
-      "Strategy",
-      "Turn-based strategy (TBS)",
       "Indie"
     ]
   },
