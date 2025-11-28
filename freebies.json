@@ -1,5 +1,40 @@
 [
   {
+    "gamerpower_id": 3386,
+    "title": "Maze Burrow",
+    "worth": "2.99",
+    "store": "Itch.io",
+    "expiry_date": "2025-12-04 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/maze-burrow-itch-io-giveaway",
+    "id": 132586,
+    "name": "Maze Burrow",
+    "summary": "An echidna wakes up one day to find its cozy burrow turned into a giant maze by an evil mole gang! Solve puzzles to progress through the burrow, defeat the mole gang, and escape to freedom in this Sokoban-inspired puzzler.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1585612800,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nqs.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sro.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9srp.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9srq.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9srr.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9srs.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9srt.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sru.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9srv.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/1244190",
+      "https://kimimaru.itch.io/maze-burrow",
+      "https://www.twitch.tv/directory/game/Maze%20Burrow"
+    ],
+    "genres": [
+      "Puzzle",
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 3385,
     "title": "Drawn Down",
     "worth": "2.99",
