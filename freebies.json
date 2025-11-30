@@ -1,5 +1,49 @@
 [
   {
+    "gamerpower_id": 3388,
+    "title": "Cease To Breathe",
+    "worth": "5.00",
+    "store": "Itch.io",
+    "expiry_date": "2025-11-29 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/cease-to-breathe-itch-io-giveaway",
+    "id": 244035,
+    "name": "Cease To Breathe",
+    "summary": "Cease to Breathe is retro-inspired adventure heavily influenced by the Commodore Amiga games of the late 1980's / early 90's.",
+    "storyline": "You wake up stranded on the side of the road, in the middle of nowhere. Your head is bleeding and the car's windshield is smashed. You try to remember what happened, but your brain shoots blanks. Reality itself feels loose, almost shifted. And as night falls, a storm approaches. Perhaps the house nearby can offer a lifeline.. or perhaps it's home to a festering evil. Either way, you're going to find out, first hand...",
+    "total_rating": null,
+    "first_release_date": 1688342400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6sid.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbwz.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbx0.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbwr.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbws.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbwt.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbwu.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbwv.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbww.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbwx.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbwy.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/1873170",
+      "https://www.samthul.com"
+    ],
+    "player_perspectives": [
+      "First person"
+    ],
+    "game_engines": [
+      "Construct 3"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Adventure"
+    ]
+  },
+  {
     "gamerpower_id": 3386,
     "title": "Maze Burrow",
     "worth": "2.99",
@@ -135,7 +179,7 @@
     "title": "Hotel Greenwood",
     "worth": "9.99",
     "store": "IndieGala",
-    "expiry_date": "2025-12-29 23:59:00",
+    "expiry_date": "2025-12-30 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/hotel-greenwood-pc-giveaway",
     "id": 211644,
@@ -178,7 +222,7 @@
     "title": "Wordle 2",
     "worth": "29.99",
     "store": "IndieGala",
-    "expiry_date": "2025-12-29 23:59:00",
+    "expiry_date": "2025-12-30 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/wordle-2-pc-giveaway",
     "id": 157751,
@@ -275,7 +319,7 @@
     "title": "Street karate 3",
     "worth": "0.99",
     "store": "IndieGala",
-    "expiry_date": "2025-12-29 23:59:00",
+    "expiry_date": "2025-12-30 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/street-karate-3-pc-giveaway",
     "id": 169468,
@@ -309,7 +353,7 @@
     "title": "Halt",
     "worth": "4.99",
     "store": "IndieGala",
-    "expiry_date": "2025-12-29 23:59:00",
+    "expiry_date": "2025-12-30 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/halt-pc-giveaway",
     "id": 219493,
@@ -353,7 +397,7 @@
     "title": "Cemetery Warrior 4",
     "worth": "29.99",
     "store": "IndieGala",
-    "expiry_date": "2025-12-29 23:59:00",
+    "expiry_date": "2025-12-30 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/cemetery-warrior-4-pc-giveaway",
     "id": 122576,
@@ -388,7 +432,7 @@
     "title": "My Darkest Witch",
     "worth": "4.99",
     "store": "IndieGala",
-    "expiry_date": "2025-12-29 23:59:00",
+    "expiry_date": "2025-12-30 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/my-darkest-witch-pc-giveaway",
     "id": 226038,
@@ -419,7 +463,7 @@
     "title": "ANCIENT EVIL",
     "worth": "4.99",
     "store": "IndieGala",
-    "expiry_date": "2025-12-29 23:59:00",
+    "expiry_date": "2025-12-30 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/ancient-evil-pc-giveaway",
     "id": 170504,
@@ -453,7 +497,7 @@
     "title": "Dual Chroma: Academy Carols",
     "worth": "2.00",
     "store": "Itch.io",
-    "expiry_date": "2025-12-29 23:59:00",
+    "expiry_date": "2025-12-30 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/dual-chroma-academy-carols-itch-io-giveaway",
     "id": 238546,
