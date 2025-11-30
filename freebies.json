@@ -1,49 +1,5 @@
 [
   {
-    "gamerpower_id": 3388,
-    "title": "Cease To Breathe",
-    "worth": "5.00",
-    "store": "Itch.io",
-    "expiry_date": "2025-11-29 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/cease-to-breathe-itch-io-giveaway",
-    "id": 244035,
-    "name": "Cease To Breathe",
-    "summary": "Cease to Breathe is retro-inspired adventure heavily influenced by the Commodore Amiga games of the late 1980's / early 90's.",
-    "storyline": "You wake up stranded on the side of the road, in the middle of nowhere. Your head is bleeding and the car's windshield is smashed. You try to remember what happened, but your brain shoots blanks. Reality itself feels loose, almost shifted. And as night falls, a storm approaches. Perhaps the house nearby can offer a lifeline.. or perhaps it's home to a festering evil. Either way, you're going to find out, first hand...",
-    "total_rating": null,
-    "first_release_date": 1688342400,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6sid.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbwz.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbx0.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbwr.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbws.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbwt.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbwu.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbwv.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbww.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbwx.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scnbwy.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/1873170",
-      "https://www.samthul.com"
-    ],
-    "player_perspectives": [
-      "First person"
-    ],
-    "game_engines": [
-      "Construct 3"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Adventure"
-    ]
-  },
-  {
     "gamerpower_id": 3386,
     "title": "Maze Burrow",
     "worth": "2.99",
