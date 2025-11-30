@@ -1,5 +1,45 @@
 [
   {
+    "gamerpower_id": 3389,
+    "title": "Era of Miracles",
+    "worth": "29.99",
+    "store": "IndieGala",
+    "expiry_date": "2025-12-30 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/era-of-miracles-pc-giveaway",
+    "id": 124167,
+    "name": "Era of Miracles",
+    "summary": "You are a traveler who went in search of adventure.What awaits you?",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1569974400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3py4.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7aka.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akb.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7ak8.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7ak9.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akc.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akd.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akf.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7ake.jpg"
+    ],
+    "websites": [
+      "https://www.twitch.tv/directory/game/Era%20of%20Miracles",
+      "https://store.steampowered.com/app/1037930",
+      "https://vk.com/seaborgiumentertainment"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 3386,
     "title": "Maze Burrow",
     "worth": "2.99",
