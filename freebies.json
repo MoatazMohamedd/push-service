@@ -455,40 +455,6 @@
     ]
   },
   {
-    "gamerpower_id": 3340,
-    "title": "ANCIENT EVIL",
-    "worth": "4.99",
-    "store": "IndieGala",
-    "expiry_date": "2025-12-31 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/ancient-evil-pc-giveaway",
-    "id": 170504,
-    "name": "Ancient Evil",
-    "summary": "ANCIENT EVIL is a real-time tactical puzzle game where you need to pass severe tests and win the final battle with the enemy.",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1631318400,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co57up.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbu.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbv.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbx.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbz.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc0.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc2.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc3.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc4.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/1341620",
-      "https://www.twitch.tv/directory/game/Ancient%20Evil"
-    ],
-    "genres": [
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
     "gamerpower_id": 2204,
     "title": "Dual Chroma: Academy Carols",
     "worth": "2.00",
