@@ -254,63 +254,6 @@
     ]
   },
   {
-    "gamerpower_id": 3366,
-    "title": "Immortals Fenyx Rising",
-    "worth": "39.99",
-    "store": "Unknown",
-    "expiry_date": "2025-12-02 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/immortals-fenyx-rising-ubisoft-connect-giveaway",
-    "id": 119357,
-    "name": "Immortals Fenyx Rising",
-    "summary": "From the creators of Assassin’s Creed Odyssey comes a storybook adventure about a forgotten hero on a quest to save the Greek gods.\n\nEmbark on a journey to the Isle of the Blessed, taken over by dangerous creatures of mythology. Prove your legendary heroism by taking on their leader, Typhon, the deadliest monster in all of mythology in a face-off for the ages.\nExplore a beautiful fantasy world where tricky puzzles, mysterious dungeons and heroic feats await. The journey will be as challenging and rewarding as the final destination.\nWill you be the Hero of the legends foretold?",
-    "storyline": null,
-    "total_rating": 73.38334255718945,
-    "first_release_date": 1606867200,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9kcb.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6qeq.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8jcw.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8jcv.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8jcu.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8jct.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6qer.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6qes.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6qeo.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6qep.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sctl9d.jpg"
-    ],
-    "websites": [
-      "https://en.wikipedia.org/wiki/Immortals_Fenyx_Rising",
-      "https://store.steampowered.com/app/2221920",
-      "https://www.nintendo.com/games/detail/immortals-fenyx-rising-switch/",
-      "https://www.xbox.com/en-us/games/store/immortals-fenyx-rising/C07KJZRH0L7S",
-      "https://store.playstation.com/en-us/concept/234423",
-      "https://www.ubisoft.com/en-us/game/gods-and-monsters/",
-      "https://www.youtube.com/user/ubisoft",
-      "https://twitter.com/Ubisoft",
-      "https://discord.com/invite/FenyxRising",
-      "https://www.epicgames.com/store/product/immortals-fenyx-rising",
-      "https://www.facebook.com/Ubisoft.Nordic",
-      "https://www.instagram.com/ubisoft",
-      "https://www.twitch.tv/directory/game/Gods%20%26%20Monsters"
-    ],
-    "player_perspectives": [
-      "Third person"
-    ],
-    "game_engines": [
-      "Ubisoft Anvil"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Puzzle",
-      "Role-playing (RPG)",
-      "Adventure"
-    ]
-  },
-  {
     "gamerpower_id": 3365,
     "title": "Street karate 3",
     "worth": "0.99",
