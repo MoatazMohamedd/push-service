@@ -1,5 +1,68 @@
 [
   {
+    "gamerpower_id": 3395,
+    "title": "The Darkside Detective",
+    "worth": "14.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-12-11 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/the-darkside-detective-epic-games-giveaway",
+    "id": 35283,
+    "name": "The Darkside Detective",
+    "summary": "Join The Darkside Detective, Francis McQueen, as he investigates the bizarre, the supernatural and those missing cat cases that keep getting dropped on his desk.",
+    "storyline": "Where cultists crawl, where demons dwell, where the occult… occults? you’ll find Detective Francis McQueen, the sole member of the criminally underfunded Darkside Division. When evil darkens the doorsteps of Twin Lakes City – hell, even when it just loiters around shop fronts or hangs out in shady alleyways – he’s there, ready to investigate the cases that nobody else will. He is The Darkside Detective.\n\nThe Darkside Detective is a classic point and click adventure game with a distinct sense of humour. It’s available now for PC, Mac and Linux. Join Detective McQueen and Officer Dooley as they investigate 6 bizarre cases. From the occult to the supernatural, anything is possible in this micro adventure game.",
+    "total_rating": 64.67674826034582,
+    "first_release_date": 1501113600,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23bz.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/csi4hyn1wdf8qzhy9zem.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/epaqffsnuczpmvkcckko.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/ig9fewgrm7paclrvlk9n.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/vwffcftnez0r6n8pre4d.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/zx6txfhv8klmln5bvnrm.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/x7bg2v5lij9lvd1mjm2g.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/kxovpdasmnynb94i6kfu.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xuqeq0etepzwtxd0b3b4.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/guoacjvkjha3rhi74mrn.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/y1xti2ngnyp9tz46u3og.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rhni7omtst22dgtefstg.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/vh9pxbfaspvdg6a7oito.jpg"
+    ],
+    "websites": [
+      "https://www.epicgames.com/store/en-US/p/the-darkside-detective-02fd5a",
+      "https://bsky.app/profile/akuparagames.bsky.social",
+      "https://www.youtube.com/channel/UCHPMHsokvVVn59eAQ-75Evw/",
+      "https://store.playstation.com/en-us/concept/10001276",
+      "https://www.nintendo.com/games/detail/the-darkside-detective-switch/",
+      "https://www.reddit.com/t/the_darkside_detective/",
+      "https://www.gog.com/game/the_darkside_detective",
+      "https://twitter.com/ds_detective",
+      "https://spookydoorway.itch.io/darksidedetective",
+      "http://darksidedetective.com/",
+      "https://en.wikipedia.org/wiki/The_Darkside_Detective",
+      "https://store.steampowered.com/app/368390",
+      "https://www.instagram.com/thedarksidedetective/?hl=en",
+      "https://www.facebook.com/darksidedetective",
+      "https://www.twitch.tv/directory/game/The%20Darkside%20Detective",
+      "https://discord.com/invite/spookydoorwaygames"
+    ],
+    "player_perspectives": [
+      "Third person"
+    ],
+    "game_engines": [
+      "Unity"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Point-and-click",
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 3394,
     "title": "Rose and Cross",
     "worth": "6.99",
@@ -75,137 +138,6 @@
       "Simulator",
       "Adventure",
       "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3386,
-    "title": "Maze Burrow",
-    "worth": "2.99",
-    "store": "Itch.io",
-    "expiry_date": "2025-12-04 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/maze-burrow-itch-io-giveaway",
-    "id": 132586,
-    "name": "Maze Burrow",
-    "summary": "An echidna wakes up one day to find its cozy burrow turned into a giant maze by an evil mole gang! Solve puzzles to progress through the burrow, defeat the mole gang, and escape to freedom in this Sokoban-inspired puzzler.",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1585612800,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nqs.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sro.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9srp.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9srq.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9srr.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9srs.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9srt.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sru.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9srv.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/1244190",
-      "https://kimimaru.itch.io/maze-burrow",
-      "https://www.twitch.tv/directory/game/Maze%20Burrow"
-    ],
-    "genres": [
-      "Puzzle",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3385,
-    "title": "Drawn Down",
-    "worth": "2.99",
-    "store": "Itch.io",
-    "expiry_date": "2025-12-04 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/drawn-down-itch-io-giveaway",
-    "id": 117448,
-    "name": "Drawn Down",
-    "summary": "A police artist is plunged into a life shattering conspiracy when his missing brother returns.",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1535587200,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mbm.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6jfo.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6jfk.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6jfl.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6jfm.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6jfn.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/1067400",
-      "http://www.studiohazy.com/drawn-down",
-      "http://itunes.apple.com/us/app/id1434188115#?platform=iphone",
-      "http://itunes.apple.com/us/app/id1434188115#?platform=ipad",
-      "https://www.twitch.tv/directory/game/Drawn%20Down"
-    ],
-    "player_perspectives": [
-      "Side view"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Point-and-click",
-      "Role-playing (RPG)",
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3384,
-    "title": "Universe For Sale",
-    "worth": "14.99",
-    "store": "Epic Games Store",
-    "expiry_date": "2025-12-04 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/universe-for-sale-epic-games-giveaway",
-    "id": 151593,
-    "name": "Universe For Sale",
-    "summary": "Universe for Sale is a sci-fi narrative experience about human relationships and self-acceptance, follow the stories of the nameless Master, a mysterious cultist and Lila the universes vendor.",
-    "storyline": "A space station nestled in the clouds of Jupiter. A bizarre bazaar where a young, worried woman crafts entire universes in the palm of her hand. A mysterious cultist who's stripped the flesh from his bones in order to reach enlightenment. Here, there's a universe for sale. You buying?\n\nIn a bizarre bazaar, there's a worried woman crafting entire universes in the palm of her hand.",
-    "total_rating": 90.0,
-    "first_release_date": 1700092800,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3pso.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scaejh.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scaejl.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scaejn.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scaejo.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scaejk.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scaejm.jpg"
-    ],
-    "websites": [
-      "http://tmesistudio.com/UniverseforSale.html",
-      "https://store.playstation.com/en-us/concept/10008484",
-      "https://www.nintendo.com/us/store/products/universe-for-sale-switch/",
-      "https://www.xbox.com/en-us/games/store/universe-for-sale/9N25VS5SPZ2V",
-      "https://store.steampowered.com/app/1627840",
-      "https://www.twitch.tv/directory/game/Universe%20For%20Sale",
-      "https://twitter.com/tmesis_studio?lang=en",
-      "https://discord.gg/akuparagames",
-      "https://www.reddit.com/r/UniverseForSale/",
-      "https://store.epicgames.com/en-US/p/universe-for-sale-05c53e",
-      "https://youtube.com/channel/UCZmf7CjG0apiwBxNjIoYxDw",
-      "https://bsky.app/profile/akuparagames.bsky.social",
-      "https://www.gog.com/en/game/universe_for_sale"
-    ],
-    "player_perspectives": [
-      "Text"
-    ],
-    "game_engines": [
-      "Construct"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Point-and-click",
-      "Adventure",
-      "Indie",
-      "Visual Novel"
     ]
   },
   {
