@@ -1,5 +1,48 @@
 [
   {
+    "gamerpower_id": 1294,
+    "title": "Die Young",
+    "worth": "19.99",
+    "store": "IndieGala",
+    "expiry_date": "2026-01-04 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/die-young",
+    "id": 33758,
+    "name": "Die Young",
+    "summary": "Kidnapped for no clear reason to a dazzling yet mysterious island on the Mediterranean Sea, a young girl has to find a way to escape. Armed with only her wits, agility, and the will to survive, she must make her getaway or Die Young.",
+    "storyline": null,
+    "total_rating": 74.19080339013549,
+    "first_release_date": 1568246400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8c2o.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/eomuecweuohqfdkfkff1.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sfvz9y2uh6z8daywvgpt.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/zncuma50tywyxy3cq4ii.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/czv4blramf9bn5bek2gx.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sz2gjjangabw0g5t66qn.jpg"
+    ],
+    "websites": [
+      "http://www.dieyoungnow.com",
+      "https://store.playstation.com/en-us/concept/10001590",
+      "https://store.steampowered.com/app/433170",
+      "https://www.twitch.tv/directory/game/Die%20Young"
+    ],
+    "player_perspectives": [
+      "First person"
+    ],
+    "game_engines": [
+      "Unreal Engine 4"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 3395,
     "title": "The Darkside Detective",
     "worth": "14.99",
