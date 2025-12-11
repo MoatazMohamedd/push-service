@@ -43,69 +43,6 @@
     ]
   },
   {
-    "gamerpower_id": 3395,
-    "title": "The Darkside Detective",
-    "worth": "14.99",
-    "store": "Epic Games Store",
-    "expiry_date": "2025-12-11 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/the-darkside-detective-epic-games-giveaway",
-    "id": 35283,
-    "name": "The Darkside Detective",
-    "summary": "Join The Darkside Detective, Francis McQueen, as he investigates the bizarre, the supernatural and those missing cat cases that keep getting dropped on his desk.",
-    "storyline": "Where cultists crawl, where demons dwell, where the occult… occults? you’ll find Detective Francis McQueen, the sole member of the criminally underfunded Darkside Division. When evil darkens the doorsteps of Twin Lakes City – hell, even when it just loiters around shop fronts or hangs out in shady alleyways – he’s there, ready to investigate the cases that nobody else will. He is The Darkside Detective.\n\nThe Darkside Detective is a classic point and click adventure game with a distinct sense of humour. It’s available now for PC, Mac and Linux. Join Detective McQueen and Officer Dooley as they investigate 6 bizarre cases. From the occult to the supernatural, anything is possible in this micro adventure game.",
-    "total_rating": 64.67674826034582,
-    "first_release_date": 1501113600,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23bz.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/csi4hyn1wdf8qzhy9zem.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/epaqffsnuczpmvkcckko.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/ig9fewgrm7paclrvlk9n.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/vwffcftnez0r6n8pre4d.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/zx6txfhv8klmln5bvnrm.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/x7bg2v5lij9lvd1mjm2g.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/kxovpdasmnynb94i6kfu.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xuqeq0etepzwtxd0b3b4.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/guoacjvkjha3rhi74mrn.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/y1xti2ngnyp9tz46u3og.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rhni7omtst22dgtefstg.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/vh9pxbfaspvdg6a7oito.jpg"
-    ],
-    "websites": [
-      "https://www.epicgames.com/store/en-US/p/the-darkside-detective-02fd5a",
-      "https://bsky.app/profile/akuparagames.bsky.social",
-      "https://www.youtube.com/channel/UCHPMHsokvVVn59eAQ-75Evw/",
-      "https://store.playstation.com/en-us/concept/10001276",
-      "https://www.nintendo.com/games/detail/the-darkside-detective-switch/",
-      "https://www.reddit.com/t/the_darkside_detective/",
-      "https://www.gog.com/game/the_darkside_detective",
-      "https://twitter.com/ds_detective",
-      "https://spookydoorway.itch.io/darksidedetective",
-      "http://darksidedetective.com/",
-      "https://en.wikipedia.org/wiki/The_Darkside_Detective",
-      "https://store.steampowered.com/app/368390",
-      "https://www.instagram.com/thedarksidedetective/?hl=en",
-      "https://www.facebook.com/darksidedetective",
-      "https://www.twitch.tv/directory/game/The%20Darkside%20Detective",
-      "https://discord.com/invite/spookydoorwaygames"
-    ],
-    "player_perspectives": [
-      "Third person"
-    ],
-    "game_engines": [
-      "Unity"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Point-and-click",
-      "Puzzle",
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
     "gamerpower_id": 3394,
     "title": "Rose and Cross",
     "worth": "6.99",
