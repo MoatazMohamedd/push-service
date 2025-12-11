@@ -1,5 +1,120 @@
 [
   {
+    "gamerpower_id": 722,
+    "title": "Black Desert",
+    "worth": "9.99",
+    "store": "Steam",
+    "expiry_date": "2025-12-18 23:59:59",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/free-black-desert-online-steam",
+    "id": 6292,
+    "name": "Black Desert",
+    "summary": "Black Desert is a game that tests the limitations of MMORPG\nby implementing remastered graphics and audio. Enjoy exciting combat and siege,\nexploration, trading, fishing, training, alchemy, cooking, gathering, hunting, and more in the vast open world.",
+    "storyline": "The Black Stones. A source of power so great they are said to have corrupted the minds of the Ancients and caused the fall of a great civilization. Commonly found in the harsh, hostile desert situated between the warring nations of the Republic of Calpheon and the Kingdom of Valencia. The Calpheonians call this area the Black Desert, while the Valencians know it as the Red Desert, a testament to the rivers of blood spilled there. The commercialist republic and absolute monarchy both lay claim to the desert’s resources. Both are ready to wage war for it. You will uncover the hidden secrets of ancient civilization through the histories of Calpheon and Valencia. Lost memories and the secret of the Black Spirit will be unveiled. A journey to seek the true face of the ancient civilization around the Black Desert awaits you.",
+    "total_rating": 71.20231282268445,
+    "first_release_date": 1418774400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coay9v.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vro.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vrp.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vrt.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vrn.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vrq.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vrr.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vrm.jpg"
+    ],
+    "websites": [
+      "https://www.instagram.com/BlackDesertGame",
+      "https://www.xbox.com/en-US/games/store/black-desert/BTPDCJXNFSZL",
+      "https://store.playstation.com/en-us/concept/233032",
+      "https://store.steampowered.com/app/582660",
+      "https://en.wikipedia.org/wiki/Black_Desert_Online",
+      "https://www.reddit.com/r/blackdesertonline",
+      "https://www.naeu.playblackdesert.com/",
+      "https://www.twitch.tv/directory/category/black-desert",
+      "https://www.youtube.com/channel/UCcZo9VRa3TFIJaf1aJOLDgw",
+      "https://www.facebook.com/newsblackdesert/",
+      "https://twitter.com/NewsBlackDesert",
+      "https://discord.gg/blackdesertonline",
+      "https://www.naeu.playblackdesert.com/en-US/Wiki"
+    ],
+    "player_perspectives": [
+      "Third person"
+    ],
+    "game_engines": [
+      "Black Desert Engine"
+    ],
+    "game_modes": [
+      "Multiplayer",
+      "Co-operative",
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ]
+  },
+  {
+    "gamerpower_id": 3400,
+    "title": "Dead Cells",
+    "worth": "9.99",
+    "store": "Unknown",
+    "expiry_date": "2025-12-18 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/dead-cells-mobile-giveaway",
+    "id": 26855,
+    "name": "Dead Cells",
+    "summary": "Dead Cells is a rogue-lite, metroidvania inspired, action-platformer. You'll explore a sprawling, ever-changing castle... assuming you’re able to fight your way past its keepers in 2D souls-lite combat. No checkpoints. Kill, die, learn, repeat.",
+    "storyline": null,
+    "total_rating": 86.46557960477878,
+    "first_release_date": 1533513600,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7jfv.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bt9qwbyek1dmffukq44d.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/ikkm7a4sokicgfw7fmz5.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/zwjynn3oiusld0ufobb6.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/oflx1thhhuqzovoev99l.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/qsrk33g5lw6axyzo1cx3.jpg"
+    ],
+    "websites": [
+      "https://www.xbox.com/en-us/games/store/dead-cells/BQSCNS1T8PHQ",
+      "https://store.playstation.com/en-us/concept/231053",
+      "https://www.nintendo.com/games/detail/dead-cells-switch/",
+      "https://www.youtube.com/channel/UCqeVdbCP-fVjSGEVnY-3lWQ",
+      "https://www.epicgames.com/product/dead-cells",
+      "https://www.facebook.com/dead.cells.game",
+      "https://store.steampowered.com/app/588650",
+      "https://www.reddit.com/r/deadcells",
+      "https://www.gog.com/game/dead_cells",
+      "https://apps.apple.com/app/id1389752090",
+      "https://www.instagram.com/motion.twin/",
+      "https://discord.gg/MYxw5S8",
+      "https://www.twitch.tv/directory/game/Dead%20Cells",
+      "https://en.wikipedia.org/wiki/Dead_Cells",
+      "https://twitter.com/motiontwin",
+      "https://play.google.com/store/apps/details?id=com.playdigious.deadcells.mobile",
+      "https://apps.apple.com/app/id1389752090",
+      "https://deadcells.wiki.gg/wiki/Dead_Cells",
+      "https://deadcells.com/"
+    ],
+    "player_perspectives": [
+      "Side view"
+    ],
+    "game_engines": [
+      "Heaps.io"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 1294,
     "title": "Die Young",
     "worth": "19.99",
