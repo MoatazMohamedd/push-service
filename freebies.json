@@ -1,5 +1,62 @@
 [
   {
+    "gamerpower_id": 3402,
+    "title": "Hogwarts Legacy",
+    "worth": "59.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-12-18 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/hogwarts-legacy-epic-games-giveaway",
+    "id": 136625,
+    "name": "Hogwarts Legacy",
+    "summary": "Hogwarts Legacy is an immersive, open-world action RPG set in the world first introduced in the Harry Potter books. Now you can take control of the action and be at the center of your own adventure in the wizarding world. Embark on a journey through familiar and new locations as you explore and discover fantastic beasts, customize your character and craft potions, master spell casting, upgrade talents, and become the wizard you want to be. Discover the feeling of living at Hogwarts as you make allies, battle Dark wizards, and ultimately decide the fate of the wizarding world. Your legacy is what you make of it.",
+    "storyline": "Experience Hogwarts in the 1800s. Your character is a student who holds the key to an ancient secret that threatens to tear the wizarding world apart. You have received a late acceptance to the Hogwarts School of Witchcraft and Wizardry and soon discover that you are no ordinary student: you possess an unusual ability to perceive and master Ancient Magic. Only you can decide if you will protect this secret for the good of all, or yield to the temptation of more sinister magic.",
+    "total_rating": 82.4611654723521,
+    "first_release_date": 1675987200,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaav6.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sclo16.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sclo17.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sclo10.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sclo11.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sclo15.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sclo13.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sclo14.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sclo0z.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sclo12.jpg"
+    ],
+    "websites": [
+      "https://www.nintendo.com/us/store/products/hogwarts-legacy-switch/",
+      "https://www.epicgames.com/store/p/hogwarts-legacy",
+      "https://store.playstation.com/en-us/concept/232447",
+      "https://www.xbox.com/en-us/games/store/hogwarts-legacy-xbox-series-x|s-version/9MT5NJ5W7B8Z",
+      "https://www.youtube.com/HogwartsLegacy",
+      "https://www.facebook.com/HogwartsLegacy",
+      "https://en.wikipedia.org/wiki/Hogwarts_Legacy",
+      "https://store.steampowered.com/app/990080",
+      "https://www.twitch.tv/directory/game/Hogwarts%20Legacy",
+      "https://twitter.com/HogwartsLegacy",
+      "https://hogwartslegacy.warnerbrosgames.com/",
+      "https://discord.gg/invite/HogwartsLegacy",
+      "https://www.instagram.com/HogwartsLegacy",
+      "https://www.reddit.com/r/HarryPotterGame/",
+      "https://harrypotter.fandom.com/wiki/Hogwarts_Legacy"
+    ],
+    "player_perspectives": [
+      "Third person"
+    ],
+    "game_engines": [
+      "Unreal Engine 4"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
     "gamerpower_id": 722,
     "title": "Black Desert",
     "worth": "9.99",
