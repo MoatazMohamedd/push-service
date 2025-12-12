@@ -1,5 +1,49 @@
 [
   {
+    "gamerpower_id": 3404,
+    "title": "Just Ignore Them",
+    "worth": "3.99",
+    "store": "Steam",
+    "expiry_date": "2025-12-15 23:59:11",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/just-ignore-them-steam-giveaway",
+    "id": 30359,
+    "name": "Just Ignore Them",
+    "summary": "One night can feel like a lifetime of pain, suffering and horror to a child...do you have what it takes to survive the night?\n\nPlay as an 8 year old child who is tormented by monsters in his house. Your choices make his future which lives can be saved or ended.",
+    "storyline": null,
+    "total_rating": 62.3571477526318,
+    "first_release_date": 1493337600,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5xge.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/tov8rampeqoxecgxkwjy.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/x19325oxhdjlt1luynqh.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/enhwlhz5gkcez3mxlx2m.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/zatwoufpygdec8zgn4ed.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/cc0gxoholgihrhevvpsc.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/561770",
+      "https://strangagames.com/",
+      "https://www.nintendo.com/games/detail/just-ignore-them-switch/",
+      "https://store.playstation.com/en-us/concept/234061",
+      "https://www.twitch.tv/directory/game/Just%20Ignore%20Them",
+      "http://www.facebook.com/strangagames/",
+      "https://stranga.itch.io/just-ignore-them"
+    ],
+    "player_perspectives": [
+      "Third person",
+      "Bird view / Isometric"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Point-and-click",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 3402,
     "title": "Hogwarts Legacy",
     "worth": "59.99",
