@@ -1,49 +1,42 @@
 [
   {
-    "gamerpower_id": 3404,
-    "title": "Just Ignore Them",
-    "worth": "3.99",
+    "gamerpower_id": 3406,
+    "title": "One Gun Guy",
+    "worth": "4.99",
     "store": "Steam",
-    "expiry_date": "2025-12-15 23:59:11",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/just-ignore-them-steam-giveaway",
-    "id": 30359,
-    "name": "Just Ignore Them",
-    "summary": "One night can feel like a lifetime of pain, suffering and horror to a child...do you have what it takes to survive the night?\n\nPlay as an 8 year old child who is tormented by monsters in his house. Your choices make his future which lives can be saved or ended.",
+    "expiry_date": "2025-12-18 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/one-gun-guy-steam-giveaway",
+    "id": 132917,
+    "name": "One Gun Guy",
+    "summary": "One Gun Guy is a straight forward no nonsense action platformer, one giant level littered with player upgrades, hazards to tackle, enemies to destroy, a boss to kill, and multiple difficulty settings.",
     "storyline": null,
-    "total_rating": 62.3571477526318,
-    "first_release_date": 1493337600,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5xge.jpg",
+    "total_rating": null,
+    "first_release_date": 1645747200,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3qlj.jpg",
     "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/tov8rampeqoxecgxkwjy.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/x19325oxhdjlt1luynqh.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/enhwlhz5gkcez3mxlx2m.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/zatwoufpygdec8zgn4ed.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/cc0gxoholgihrhevvpsc.jpg"
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sip.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9siq.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sik.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sil.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sim.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sin.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sio.jpg"
     ],
     "websites": [
-      "https://store.steampowered.com/app/561770",
-      "https://strangagames.com/",
-      "https://www.nintendo.com/games/detail/just-ignore-them-switch/",
-      "https://store.playstation.com/en-us/concept/234061",
-      "https://www.twitch.tv/directory/game/Just%20Ignore%20Them",
-      "http://www.facebook.com/strangagames/",
-      "https://stranga.itch.io/just-ignore-them"
-    ],
-    "player_perspectives": [
-      "Third person",
-      "Bird view / Isometric"
-    ],
-    "game_engines": [
-      "Adventure Game Studio"
+      "https://store.playstation.com/en-us/concept/10002396",
+      "https://www.nintendo.com/games/detail/one-gun-guy-switch/",
+      "https://store.steampowered.com/app/1200580",
+      "https://www.twitch.tv/directory/game/One%20Gun%20Guy"
     ],
     "game_modes": [
       "Single player"
     ],
     "genres": [
-      "Point-and-click",
-      "Adventure",
-      "Indie"
+      "Shooter",
+      "Platform",
+      "Indie",
+      "Arcade"
     ]
   },
   {
