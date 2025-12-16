@@ -1,5 +1,47 @@
 [
   {
+    "gamerpower_id": 3409,
+    "title": "Art of Fighting 2",
+    "worth": "6.99",
+    "store": "STOVE",
+    "expiry_date": "2025-12-23 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/art-of-fighting-2-pc-giveaway",
+    "id": 6556,
+    "name": "Art of Fighting 2",
+    "summary": "The second installment in the AoF series added the \"rage gauge\"; similar to the \"spirit system\" of its predecessor, it limited the use and effectiveness of special attacks.\nThe game's story is set a year after the original. Geese Howard, a rising star in South Town's criminal underworld, calls fighters to the city for a new tournament, \"The King of Fighters.\" Howard was the final boss and series villain of SNK's other fighting game franchise Fatal Fury (though he is a secret boss in this game), whose story took place over a decade after the events of Art of Fighting.\nArt of Fighting 2 was the only time Yuri Sakazaki was a playable character in the series. It also marked the only time that she donned her trademark outfit, which was made famous in The King of Fighters series. This game also marks the debut of Takuma Sakazaki without his Mr. Karate persona, as well as Eiji Kisaragi, who both appear in the King of Fighters series. Ryuhaku Todo, the first boss in the original AOF, is the only character dropped; all characters are playable from the beginning. The final boss is always Mr. Big, though as mentioned earlier, an extra match will be played against Geese Howard if the player unlocks him through good performance.\nThis game is also notorious for its difficulty, with it being referred in many fighting circles as having some of the toughest opponent AI in a fighting game.",
+    "storyline": null,
+    "total_rating": 59.45651970231449,
+    "first_release_date": 762566400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22y5.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/fpp9lfolvcqg9qbnc7on.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bovimbnfofb5el7bngan.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/ueitgm0nmys7scgbtajt.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/tnbrhhpd8kdz1guzytzf.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pz9lzcp8gcds8zauhubn.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/h2bh8sv6vev96407renk.jpg"
+    ],
+    "websites": [
+      "http://snk.wikia.com/wiki/Art_of_Fighting_2",
+      "https://www.gog.com/game/art_of_fighting_2",
+      "https://www.twitch.tv/directory/game/Art%20of%20Fighting%202"
+    ],
+    "player_perspectives": [
+      "Third person",
+      "Side view"
+    ],
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "genres": [
+      "Fighting",
+      "Arcade"
+    ]
+  },
+  {
     "gamerpower_id": 3406,
     "title": "One Gun Guy",
     "worth": "4.99",
