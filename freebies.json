@@ -212,49 +212,6 @@
     ]
   },
   {
-    "gamerpower_id": 1294,
-    "title": "Die Young",
-    "worth": "19.99",
-    "store": "IndieGala",
-    "expiry_date": "2026-01-14 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/die-young",
-    "id": 33758,
-    "name": "Die Young",
-    "summary": "Kidnapped for no clear reason to a dazzling yet mysterious island on the Mediterranean Sea, a young girl has to find a way to escape. Armed with only her wits, agility, and the will to survive, she must make her getaway or Die Young.",
-    "storyline": null,
-    "total_rating": 74.19080339013549,
-    "first_release_date": 1568246400,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8c2o.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/eomuecweuohqfdkfkff1.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sfvz9y2uh6z8daywvgpt.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/zncuma50tywyxy3cq4ii.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/czv4blramf9bn5bek2gx.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sz2gjjangabw0g5t66qn.jpg"
-    ],
-    "websites": [
-      "http://www.dieyoungnow.com",
-      "https://store.playstation.com/en-us/concept/10001590",
-      "https://store.steampowered.com/app/433170",
-      "https://www.twitch.tv/directory/game/Die%20Young"
-    ],
-    "player_perspectives": [
-      "First person"
-    ],
-    "game_engines": [
-      "Unreal Engine 4"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Simulator",
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
     "gamerpower_id": 3394,
     "title": "Rose and Cross",
     "worth": "6.99",
@@ -297,7 +254,7 @@
     "title": "Era of Miracles",
     "worth": "29.99",
     "store": "IndieGala",
-    "expiry_date": "2026-01-14 23:59:00",
+    "expiry_date": "2026-01-15 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/era-of-miracles-pc-giveaway",
     "id": 124167,
@@ -337,7 +294,7 @@
     "title": "Hotel Greenwood",
     "worth": "9.99",
     "store": "IndieGala",
-    "expiry_date": "2026-01-14 23:59:00",
+    "expiry_date": "2026-01-15 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/hotel-greenwood-pc-giveaway",
     "id": 211644,
@@ -376,85 +333,11 @@
     ]
   },
   {
-    "gamerpower_id": 3370,
-    "title": "Wordle 2",
-    "worth": "29.99",
-    "store": "IndieGala",
-    "expiry_date": "2026-01-14 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/wordle-2-pc-giveaway",
-    "id": 157751,
-    "name": "Wordle 2",
-    "summary": "Wordle 2 is a challenging and addictive word game that will put your vocabulary and spelling skills to the test with exciting new levels and hidden bonus words.",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1598832000,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co84sq.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbklr.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbklu.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbklw.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbklx.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbkly.jpg"
-    ],
-    "websites": [
-      "https://www.twitch.tv/directory/game/Wordle%202",
-      "https://store.steampowered.com/app/1386730"
-    ],
-    "player_perspectives": [
-      "Text"
-    ],
-    "game_engines": [
-      "Unity"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Puzzle",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3365,
-    "title": "Street karate 3",
-    "worth": "0.99",
-    "store": "IndieGala",
-    "expiry_date": "2026-01-14 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/street-karate-3-pc-giveaway",
-    "id": 169468,
-    "name": "Street Karate 3",
-    "summary": "Street karate 3 is a game in the genre of Beat'em up, in which you have to fight in an unequal duel with many opponents.",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1611964800,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5odk.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbp7.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbpe.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbou.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbox.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbp0.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbp5.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdbpc.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/1524340",
-      "https://www.twitch.tv/directory/game/Street%20Karate%203"
-    ],
-    "genres": [
-      "Sport",
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
     "gamerpower_id": 2204,
     "title": "Dual Chroma: Academy Carols",
     "worth": "2.00",
     "store": "Itch.io",
-    "expiry_date": "2026-01-14 23:59:00",
+    "expiry_date": "2026-01-15 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/dual-chroma-academy-carols-itch-io-giveaway",
     "id": 238546,
