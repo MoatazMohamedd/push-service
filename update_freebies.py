@@ -16,7 +16,7 @@ from firebase_admin import messaging
 FCM_TOPIC = "/topics/free_games"
 GAMERPOWER_API = "https://www.gamerpower.com/api/filter?type=game"
 LOCAL_JSON_FILE = "freebies.json"
-SKIPPED_JSON_FILE = "skipped_games.json"  # quarantine log
+SKIPPED_JSON_FILE = "skipped_games.json"
 
 IGDB_CLIENT_ID = os.getenv("IGDB_CLIENT_ID")
 IGDB_ACCESS_TOKEN = os.getenv("IGDB_ACCESS_TOKEN")
@@ -27,13 +27,15 @@ FIRESTORE_PROJECT_ID = os.getenv("FIRESTORE_PROJECT_ID")
 # -----------------
 # FIREBASE SETUP
 # -----------------
-firebase_cred_dict = json.loads(FIREBASE_CREDENTIALS_JSON)
-firebase_admin.initialize_app(firebase_admin.credentials.Certificate(firebase_cred_dict))
+# Initialize only if not already initialized (prevents errors on re-runs)
+if not firebase_admin._apps:
+    firebase_cred_dict = json.loads(FIREBASE_CREDENTIALS_JSON)
+    firebase_admin.initialize_app(firebase_admin.credentials.Certificate(firebase_cred_dict))
 
 # -----------------
 # FIRESTORE CLIENT
 # -----------------
-credentials = service_account.Credentials.from_service_account_info(firebase_cred_dict)
+credentials = service_account.Credentials.from_service_account_info(json.loads(FIREBASE_CREDENTIALS_JSON))
 firestore_client = firestore.Client(project=FIRESTORE_PROJECT_ID, credentials=credentials)
 
 # -----------------
@@ -51,34 +53,29 @@ _EDITION_KEYWORDS = {
 }
 
 def normalize_title(title: str) -> str:
-    """Normalize game titles for strict equality checks but preserve special characters like ö, ü, é."""
+    """Normalize game titles for strict equality checks."""
     if not title:
         return ""
-    
-    # Lowercase, normalize spaces
-    t = title.lower()
-    
-    # Replace & with 'and'
+    t = unicodedata.normalize("NFKD", title)
+    t = "".join(ch for ch in t if not unicodedata.combining(ch))
+    t = t.lower()
     t = t.replace("&", " and ")
-    
-    # Remove trademark symbols
     t = re.sub(r"[™®©]", "", t)
-    
-    # Replace punctuation with space (but keep letters like ö, ü)
-    t = re.sub(r"[!\"#$%&'()*+,\-./:;<=>?@\[\]^_`{|}~]", " ", t)
-    
-    # Replace multiple spaces with single space
-    t = re.sub(r"\s+", " ", t).strip()
-    
-    # Convert roman numerals to digits
+    # Replace punctuation with space
+    t = re.sub(rf"[{re.escape(string.punctuation)}]", " ", t)
     tokens = t.split()
     tokens = [_ROMAN_MAP.get(tok, tok) for tok in tokens]
-    
-    return " ".join(tokens)
+    t = " ".join(tokens)
+    t = re.sub(r"\s+", " ", t).strip()
+    return t
 
+def clean_search_query(title: str) -> str:
+    """Prepare a cleaner title for IGDB search (removes colons/subtitles for better hit rate)."""
+    # Remove things after colons or dashes if the title is long, or just strip special chars
+    # "Jotunnslayer: Hordes of Hel" -> "Jotunnslayer Hordes of Hel"
+    return re.sub(rf"[{re.escape(string.punctuation)}]", " ", title).strip()
 
 def is_confusing_match(gp_title: str, igdb_name: str) -> bool:
-    """Reject sequels/editions that GamerPower title didn’t specify."""
     gp_norm = normalize_title(gp_title)
     igdb_norm = normalize_title(igdb_name)
 
@@ -94,31 +91,21 @@ def is_confusing_match(gp_title: str, igdb_name: str) -> bool:
     return False
 
 def detect_store(offer):
-    """Detect store from platforms/description/title."""
     title = offer.get("title", "").lower()
     desc = (offer.get("description", "") or "").lower()
     platforms = (offer.get("platforms", "") or "").lower()
 
-    if "steam" in title or "steam" in platforms:
-        return "Steam"
-    if "epic" in title or "epic" in platforms:
-        return "Epic Games Store"
-    if "gog" in title or "gog" in platforms:
-        return "GoG"
-    if "origin" in title or "origin" in platforms:
-        return "Origin"
-    if "indiegala" in desc or "indiegala" in platforms:
-        return "IndieGala"
-    if "stove" in desc or "stove" in platforms:
-        return "STOVE"
-    if "itch" in desc or "itch" in platforms:
-        return "Itch.io"
-    if "drm-free" in platforms:
-        return "DRM-Free"
+    if "steam" in title or "steam" in platforms: return "Steam"
+    if "epic" in title or "epic" in platforms: return "Epic Games Store"
+    if "gog" in title or "gog" in platforms: return "GoG"
+    if "origin" in title or "origin" in platforms: return "Origin"
+    if "indiegala" in desc or "indiegala" in platforms: return "IndieGala"
+    if "stove" in desc or "stove" in platforms: return "STOVE"
+    if "itch" in desc or "itch" in platforms: return "Itch.io"
+    if "drm-free" in platforms: return "DRM-Free"
     return "Unknown"
 
 def is_expiring_today(expiry_date: str) -> bool:
-    """Check if expiry_date matches today's date (UTC)."""
     try:
         exp_date = datetime.fromisoformat(expiry_date.replace("Z", "+00:00"))
     except ValueError:
@@ -127,7 +114,6 @@ def is_expiring_today(expiry_date: str) -> bool:
     return exp_date.date() == today
 
 def merge_game_data(gp_game, igdb_data):
-    """Merge IGDB + GamerPower data into final object."""
     merged = {**gp_game, **igdb_data}
     merged["open_giveaway_url"] = gp_game.get("open_giveaway_url")
     return merged
@@ -141,20 +127,20 @@ def send_expiry_reminders(games, old_list):
             already_sent = old_entry.get("reminder_sent", False)
 
             if not already_sent:
-                message = messaging.Message(
-                    topic="free_games",
-                    notification=messaging.Notification(
-                        title=f"Last Chance for {game['name']}!",
-                        body=f"Free offer ends soon on {game['store']}. Tap before it's gone forever!"
-                    ),
-                    data={
-                        "game_name": game["name"],
-                        "store": game["store"],
-                        "expiry_date": game["expiry_date"],
-                        "click_action": "OPEN_GAME_PAGE"
-                    }
-                )
                 try:
+                    message = messaging.Message(
+                        topic="free_games",
+                        notification=messaging.Notification(
+                            title=f"Last Chance for {game['name']}!",
+                            body=f"Free offer ends soon on {game['store']}. Tap before it's gone forever!"
+                        ),
+                        data={
+                            "game_name": game["name"],
+                            "store": game["store"],
+                            "expiry_date": game["expiry_date"],
+                            "click_action": "OPEN_GAME_PAGE"
+                        }
+                    )
                     messaging.send(message)
                     print(f"Reminder sent for {game['name']}")
                     game["reminder_sent"] = True
@@ -174,7 +160,6 @@ def fetch_gamerpower_games():
             if "Key Giveaway" in offer["title"]:
                 continue
 
-            # ✅ If no end date, assign 30 days from now (as string "YYYY-MM-DD 23:59:00")
             end_date = offer.get("end_date")
             if not end_date or end_date == "N/A":
                 expiry_date = (datetime.utcnow() + timedelta(days=30)).strftime("%Y-%m-%d 23:59:00")
@@ -193,9 +178,10 @@ def fetch_gamerpower_games():
             games.append({
                 "gamerpower_id": offer["id"],
                 "title": clean_title,
+                "name": clean_title, # Default name is title
                 "worth": worth,
                 "store": store,
-                "expiry_date": expiry_date,  # ✅ Always consistent format
+                "expiry_date": expiry_date,
                 "reminder_sent": reminder_sent,
                 "open_giveaway_url": offer.get("open_giveaway_url") or offer.get("open_giveaway")
             })
@@ -204,15 +190,13 @@ def fetch_gamerpower_games():
         print(f"Error fetching GamerPower data: {e}")
         return []
 
-
 def read_local_json(file_path=LOCAL_JSON_FILE):
     if not os.path.exists(file_path):
         return []
     with open(file_path, "r", encoding="utf-8") as f:
         try:
             data = f.read().strip()
-            if not data:
-                return []
+            if not data: return []
             return json.loads(data)
         except json.JSONDecodeError:
             return []
@@ -226,10 +210,8 @@ def append_skipped(game, reason):
     skipped = []
     if os.path.exists(SKIPPED_JSON_FILE):
         with open(SKIPPED_JSON_FILE, "r", encoding="utf-8") as f:
-            try:
-                skipped = json.load(f)
-            except:
-                skipped = []
+            try: skipped = json.load(f)
+            except: skipped = []
     skipped.append(entry)
     with open(SKIPPED_JSON_FILE, "w", encoding="utf-8") as f:
         json.dump(skipped, f, indent=2, ensure_ascii=False)
@@ -240,8 +222,12 @@ def fetch_igdb_data(title: str, normalized_target: str, gp_game: dict):
         "Client-ID": IGDB_CLIENT_ID,
         "Authorization": f"Bearer {IGDB_ACCESS_TOKEN}",
     }
+    
+    # FIX: Use a cleaned search string to avoid issues with colons
+    clean_search = clean_search_query(title)
+    
     body = f'''
-    search "{title}";
+    search "{clean_search}";
     fields id, name, cover.url, total_rating, storyline, first_release_date,
            summary, genres.name, player_perspectives.name, game_engines.name,
            game_modes.name, screenshots.url, websites.url, platforms;
@@ -253,18 +239,22 @@ def fetch_igdb_data(title: str, normalized_target: str, gp_game: dict):
         results = resp.json() or []
         for r in results:
             candidate_name = r.get("name", "") or ""
+            # Strict normalization check
             if normalize_title(candidate_name) == normalized_target:
                 if is_confusing_match(title, candidate_name):
                     append_skipped(gp_game, f"Confusing match with '{candidate_name}'")
                     continue
                 platforms = [str(p) for p in r.get("platforms", [])]
-                if not any(pid in platforms for pid in ("6", "14", "92")):
+                # Allow PC (6), Mac (14), Linux (3), SteamOS (92)
+                if not any(pid in platforms for pid in ("6", "14", "3", "92")):
                     append_skipped(gp_game, f"Non-PC platform match: {candidate_name}")
                     continue
                 return transform_igdb(r)
+        
         append_skipped(gp_game, "No strict safe IGDB match")
         return {}
     except Exception as e:
+        print(f"IGDB fetch error for {title}: {e}")
         append_skipped(gp_game, f"IGDB fetch error: {e}")
         return {}
 
@@ -324,64 +314,81 @@ def main():
     removed_ids = old_ids - new_ids
 
     # -------------------------------------------------
-    # Only continue if something changed (less reads!)
+    # CHECK FOR CHANGES
     # -------------------------------------------------
     if added_ids or removed_ids:
         print("Detected changes in free games IDs:")
-        if added_ids:
-            print(f" Added: {added_ids}")
-        if removed_ids:
-            print(f" Removed: {removed_ids}")
+        if added_ids: print(f" Added: {added_ids}")
+        if removed_ids: print(f" Removed: {removed_ids}")
 
         print("Fetching IGDB details for updated list...")
         enriched_games = []
         for gp_game in gp_games:
+            # We fetch IGDB for ALL current games to ensure data is fresh
+            # (or you can optimize to only fetch for 'added_ids' if you prefer)
             gp_norm = normalize_title(gp_game["title"])
             igdb_data = fetch_igdb_data(gp_game["title"], gp_norm, gp_game)
             if igdb_data:
                 merged_game = merge_game_data(gp_game, igdb_data)
                 enriched_games.append(merged_game)
+            else:
+                enriched_games.append(gp_game)
 
         # -------------------------------------------------
-        # ✅ READ FIRESTORE ONLY WHEN CHANGES DETECTED
+        # FIRESTORE SYNC
         # -------------------------------------------------
         firestore_doc = firestore_client.collection("all_freebies").document("games").get()
         firestore_data = firestore_doc.to_dict() or {}
         firestore_games = {g["gamerpower_id"]: g for g in firestore_data.get("games", [])}
 
         final_games = []
+        
+        # FIELDS WE MUST ALWAYS UPDATE FROM API (Source of Truth)
+        # We include 'name' and 'title' here so we don't get stuck with old names (Shotgun King vs Jotunnslayer)
+        ALWAYS_REFRESH = [
+            "expiry_date", "worth", "store", "open_giveaway_url", 
+            "reminder_sent", "title", "name", "cover_url", 
+            "screenshots", "summary", "genres"
+        ]
+
         for game in enriched_games:
             gp_id = game["gamerpower_id"]
             if gp_id in firestore_games:
                 existing = firestore_games[gp_id]
                 merged = {}
+                
+                # 1. Start with the NEW data (API is authority)
                 for key, value in game.items():
-                    # Always refresh fields that come from API
-                    if key in ["expiry_date", "worth", "store", "open_giveaway_url", "reminder_sent"]:
-                        merged[key] = value
-                    # Preserve manual edits for others
-                    elif key in existing and existing[key] not in [None, "", [], {}]:
-                        merged[key] = existing[key]
-                    else:
-                        merged[key] = value
+                    merged[key] = value
+                
+                # 2. Preserve ONLY specific manual fields from existing if needed
+                # (e.g., if you have custom notes or flags)
+                # This reverses your previous logic: we default to NEW data, 
+                # and only keep OLD data if it's not provided by the API.
+                for key, value in existing.items():
+                    if key not in merged and key not in ALWAYS_REFRESH:
+                         merged[key] = value
+                
                 final_games.append(merged)
             else:
                 final_games.append(game)
 
-        # Send notifications for new games
-     #   for game in final_games:
-        #    if game["gamerpower_id"] in added_ids:
-               # send_fcm_notification(game)
+        # Send notifications for TRULY new games
+      #  for game in final_games:
+         #   if game["gamerpower_id"] in added_ids:
+          #      send_fcm_notification(game)
 
         # Send expiry reminders
         send_expiry_reminders(final_games, old_list)
 
         # Update Firestore and local JSON
+        # Filter to ensure we only save currently valid games (discard removed ones)
         final_games = [g for g in final_games if g["gamerpower_id"] in new_ids]
+        
         firestore_client.collection("all_freebies").document("games").set({"games": final_games})
         write_local_json(final_games)
 
-        print(f"Saved {len(final_games)} strict-match games to Firestore (manual edits preserved).")
+        print(f"Saved {len(final_games)} games to Firestore.")
 
     else:
         print("No new or removed games. Skipping Firestore read and enrichment.")
