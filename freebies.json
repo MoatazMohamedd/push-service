@@ -1,14 +1,77 @@
 [
   {
+    "gamerpower_id": 3415,
+    "title": "Shotgun King: The Final Checkmate",
+    "name": "Shotgun King: the Final Checkmate",
+    "worth": "6.99",
+    "store": "Unknown",
+    "expiry_date": "2025-12-25 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/shotgun-king-the-final-checkmate-mobile-giveaway",
+    "id": 196030,
+    "summary": "It's chess, but you replace your entire army with a royal shotgun, with some roguelike elements.",
+    "storyline": "The Black King has been depossessed of everything...\nEverything except their royal shotgun.\nHis wrath shall be his undoing, yet he cares not.\nIn his dark folly, bits of white pieces will fly.",
+    "total_rating": 79.75493484400114,
+    "first_release_date": 1650585600,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8w6y.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgfq1.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgfq2.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgfq3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgfq4.jpg"
+    ],
+    "websites": [
+      "https://www.nintendo.com/store/products/shotgun-king-the-final-checkmate-switch/",
+      "https://store.playstation.com/en-us/concept/10005806",
+      "https://punkcake.itch.io/shotgun-king",
+      "https://store.steampowered.com/app/1972440",
+      "https://www.twitch.tv/directory/game/Shotgun%20King:%20the%20Final%20Checkmate",
+      "https://www.gog.com/en/game/shotgun_king_the_final_checkmate",
+      "https://www.youtube.com/c/PUNKCAKEdelicieux",
+      "https://punkcake.club/",
+      "https://twitter.com/PUNKCAKE_Delice",
+      "https://discord.gg/dpQx647USm"
+    ],
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "game_engines": [
+      "SUGAR"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Shooter",
+      "Puzzle",
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Tactical",
+      "Indie",
+      "Arcade",
+      "Card & Board Game"
+    ]
+  },
+  {
+    "gamerpower_id": 3414,
+    "title": "Jotunnslayer: Hordes of Hel",
+    "name": "Jotunnslayer: Hordes of Hel",
+    "worth": "14.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-12-19 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/jotunnslayer-hordes-of-hel-epic-games-giveaway"
+  },
+  {
     "gamerpower_id": 3410,
     "title": "Wild Terra 2: New Lands",
+    "name": "Wild Terra 2: New Lands",
     "worth": "39.99",
     "store": "Steam",
     "expiry_date": "2025-12-18 23:59:00",
     "reminder_sent": true,
     "open_giveaway_url": "https://www.gamerpower.com/open/wild-terra-2-new-lands-steam-giveaway",
     "id": 126619,
-    "name": "Wild Terra 2: New Lands",
     "summary": "Play your role in the life-filled medieval world controlled by players. Live on an inhabited territory or conquer New Continents in new seasons! MMORPG full of logically interconnected worked out little things that create a unique immersion and the spirit of adventure!",
     "storyline": null,
     "total_rating": null,
@@ -42,13 +105,13 @@
   {
     "gamerpower_id": 3409,
     "title": "Art of Fighting 2",
+    "name": "Art of Fighting 2",
     "worth": "6.99",
     "store": "STOVE",
     "expiry_date": "2025-12-23 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/art-of-fighting-2-pc-giveaway",
     "id": 6556,
-    "name": "Art of Fighting 2",
     "summary": "The second installment in the AoF series added the \"rage gauge\"; similar to the \"spirit system\" of its predecessor, it limited the use and effectiveness of special attacks.\nThe game's story is set a year after the original. Geese Howard, a rising star in South Town's criminal underworld, calls fighters to the city for a new tournament, \"The King of Fighters.\" Howard was the final boss and series villain of SNK's other fighting game franchise Fatal Fury (though he is a secret boss in this game), whose story took place over a decade after the events of Art of Fighting.\nArt of Fighting 2 was the only time Yuri Sakazaki was a playable character in the series. It also marked the only time that she donned her trademark outfit, which was made famous in The King of Fighters series. This game also marks the debut of Takuma Sakazaki without his Mr. Karate persona, as well as Eiji Kisaragi, who both appear in the King of Fighters series. Ryuhaku Todo, the first boss in the original AOF, is the only character dropped; all characters are playable from the beginning. The final boss is always Mr. Big, though as mentioned earlier, an extra match will be played against Geese Howard if the player unlocks him through good performance.\nThis game is also notorious for its difficulty, with it being referred in many fighting circles as having some of the toughest opponent AI in a fighting game.",
     "storyline": null,
     "total_rating": 59.45651970231449,
@@ -84,13 +147,13 @@
   {
     "gamerpower_id": 3406,
     "title": "One Gun Guy",
+    "name": "One Gun Guy",
     "worth": "4.99",
     "store": "Steam",
     "expiry_date": "2025-12-18 23:59:00",
     "reminder_sent": true,
     "open_giveaway_url": "https://www.gamerpower.com/open/one-gun-guy-steam-giveaway",
     "id": 132917,
-    "name": "One Gun Guy",
     "summary": "One Gun Guy is a straight forward no nonsense action platformer, one giant level littered with player upgrades, hazards to tackle, enemies to destroy, a boss to kill, and multiple difficulty settings.",
     "storyline": null,
     "total_rating": null,
@@ -124,13 +187,13 @@
   {
     "gamerpower_id": 722,
     "title": "Black Desert",
+    "name": "Black Desert",
     "worth": "9.99",
     "store": "Steam",
     "expiry_date": "2025-12-18 23:59:59",
     "reminder_sent": true,
     "open_giveaway_url": "https://www.gamerpower.com/open/free-black-desert-online-steam",
     "id": 6292,
-    "name": "Black Desert",
     "summary": "Black Desert is a game that tests the limitations of MMORPG\nby implementing remastered graphics and audio. Enjoy exciting combat and siege,\nexploration, trading, fishing, training, alchemy, cooking, gathering, hunting, and more in the vast open world.",
     "storyline": "The Black Stones. A source of power so great they are said to have corrupted the minds of the Ancients and caused the fall of a great civilization. Commonly found in the harsh, hostile desert situated between the warring nations of the Republic of Calpheon and the Kingdom of Valencia. The Calpheonians call this area the Black Desert, while the Valencians know it as the Red Desert, a testament to the rivers of blood spilled there. The commercialist republic and absolute monarchy both lay claim to the desert’s resources. Both are ready to wage war for it. You will uncover the hidden secrets of ancient civilization through the histories of Calpheon and Valencia. Lost memories and the secret of the Black Spirit will be unveiled. A journey to seek the true face of the ancient civilization around the Black Desert awaits you.",
     "total_rating": 71.20294978260571,
@@ -181,13 +244,13 @@
   {
     "gamerpower_id": 3394,
     "title": "Rose and Cross",
+    "name": "Rose and Cross",
     "worth": "6.99",
     "store": "Itch.io",
     "expiry_date": "2026-01-01 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/rose-and-cross-itch-io-giveaway",
     "id": 304468,
-    "name": "Rose and Cross",
     "summary": "Our main character, absorbed in the study of sects and the occult, made a big mistake by going to an abandoned farm.",
     "storyline": null,
     "total_rating": null,
@@ -204,6 +267,8 @@
     ],
     "websites": [
       "https://www.twitch.tv/directory/category/rose-and-cross",
+      "https://youtube.com/@zvgame2?si=fBQqKGRrugg2LNMW",
+      "https://x.com/_zvgames?s=21",
       "https://store.steampowered.com/app/2975160",
       "https://zvgames.taplink.ws/"
     ],
@@ -219,13 +284,13 @@
   {
     "gamerpower_id": 3389,
     "title": "Era of Miracles",
+    "name": "Era of Miracles",
     "worth": "29.99",
     "store": "IndieGala",
     "expiry_date": "2026-01-17 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/era-of-miracles-pc-giveaway",
     "id": 124167,
-    "name": "Era of Miracles",
     "summary": "You are a traveler who went in search of adventure.What awaits you?",
     "storyline": null,
     "total_rating": null,
@@ -259,13 +324,13 @@
   {
     "gamerpower_id": 3215,
     "title": "Hotel Greenwood",
+    "name": "Hotel Greenwood",
     "worth": "9.99",
     "store": "IndieGala",
     "expiry_date": "2026-01-17 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/hotel-greenwood-pc-giveaway",
     "id": 211644,
-    "name": "Hotel Greenwood",
     "summary": "Hotel Greenwood is a psychological horror and thriller game played with a first-person camera. explore this hidden hotel with its intense and dark atmosphere, solve the events, and witness the story behind the disaster that happened in the past.",
     "storyline": null,
     "total_rating": null,
@@ -300,15 +365,25 @@
     ]
   },
   {
+    "gamerpower_id": 3251,
+    "title": "Sharknado VR",
+    "name": "Sharknado VR",
+    "worth": "1.99",
+    "store": "Unknown",
+    "expiry_date": "2026-01-17 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/sharknado-vr-rift-giveaway"
+  },
+  {
     "gamerpower_id": 2204,
     "title": "Dual Chroma: Academy Carols",
+    "name": "Dual Chroma: Academy Carols",
     "worth": "2.00",
     "store": "Itch.io",
     "expiry_date": "2026-01-17 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/dual-chroma-academy-carols-itch-io-giveaway",
     "id": 238546,
-    "name": "Dual Chroma: Academy Carols",
     "summary": "Spend winter break with the popular and unapproachable Prince of the Empire in this cozy and heartwarming magic academy dating sim.",
     "storyline": null,
     "total_rating": null,
@@ -337,5 +412,15 @@
       "Indie",
       "Visual Novel"
     ]
+  },
+  {
+    "gamerpower_id": 1604,
+    "title": "Dora Diginoid: Metroidvania sci-fi adventure game",
+    "name": "Dora Diginoid: Metroidvania sci-fi adventure game",
+    "worth": "6.00",
+    "store": "Itch.io",
+    "expiry_date": "2026-01-17 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/dora-diginoid-metroidvania-sci-fi-adventure-game"
   }
 ]
