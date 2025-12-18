@@ -1,5 +1,51 @@
 [
   {
+    "gamerpower_id": 3415,
+    "title": "Jotunnslayer: Hordes of Hel",
+    "worth": "6.99",
+    "store": "Unknown",
+    "expiry_date": "2025-12-25 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/shotgun-king-the-final-checkmate-mobile-giveaway",
+    "id": 196030,
+    "name": "Jotunnslayer: Hordes of Hel",
+    "summary": "Jotunnslayer: Hordes of Hel is a gripping roguelike horde-survivor game set in the dark realms of Norse Mythology. Fight waves of enemies to earn divine blessings of ancient Norse Gods, explore hostile worlds and face powerful bosses. Become a god-like warrior in this ultimate showdown.",
+    "storyline": "The Black King has been depossessed of everything...\nEverything except their royal shotgun.\nHis wrath shall be his undoing, yet he cares not.\nIn his dark folly, bits of white pieces will fly.",
+    "total_rating": 70.75268817204301,
+    "first_release_date": 1650585600,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co99py.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scv185.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scv186.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scv187.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scv188.jpg"
+    ],
+    "websites": [
+      "https://www.nintendo.com/store/products/shotgun-king-the-final-checkmate-switch/",
+      "https://store.playstation.com/en-us/concept/10005806",
+      "https://punkcake.itch.io/shotgun-king",
+      "https://store.steampowered.com/app/1972440",
+      "https://www.twitch.tv/directory/game/Shotgun%20King:%20the%20Final%20Checkmate",
+      "https://www.gog.com/en/game/shotgun_king_the_final_checkmate",
+      "https://www.youtube.com/c/PUNKCAKEdelicieux",
+      "https://punkcake.club/",
+      "https://twitter.com/PUNKCAKE_Delice",
+      "https://discord.gg/dpQx647USm"
+    ],
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "game_engines": [
+      "Unity"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 3410,
     "title": "Wild Terra 2: New Lands",
     "worth": "39.99",
