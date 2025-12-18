@@ -1,540 +1,302 @@
 [
   {
-    "gamerpower_id": 3347,
-    "title": "Death Fungeon",
-    "worth": "2.99",
+    "gamerpower_id": 3410,
+    "title": "Wild Terra 2: New Lands",
+    "worth": "39.99",
     "store": "Steam",
-    "expiry_date": "2025-11-05 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/death-fungeon-steam-giveaway",
-    "id": 107938,
-    "name": "Death Fungeon",
-    "summary": "A puzzle platform game, with both stealth and parkour elements. Use your wits, cunning and agility to escape this deadly prison. Take the stealthy approach, progressing slowly, hiding and staying out of sight. Or utilise your athleticism to wall jump, ledge grab and speed run your way to freedom.",
-    "storyline": null,
-    "total_rating": 50,
-    "first_release_date": 1534464000,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3o9o.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/vmnlex1x5hlcqlwcvwdl.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/uzuhe3pm3ocaxesuerkh.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/l7aisrr53ep38z2oe80c.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/hpcbvlcsxdti6dmosqhz.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/gen46tabjz4b17l3y8zv.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/tkhrauc5kj3c2jwfkkvo.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sptn0hykenkbedx9msbu.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/h2byiavfldqobx8x3r59.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/aqfwbqfn8o37uvnhscjo.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/im23ol2f7q1wjhupqfun.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/qgbisekw5tkew0myku7a.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/897630",
-      "https://www.twitch.tv/directory/game/Death%20Fungeon"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3346,
-    "title": "My Darkest Witch",
-    "worth": "4.99",
-    "store": "IndieGala",
-    "expiry_date": "2025-12-03 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/my-darkest-witch-pc-giveaway",
-    "id": 226038,
-    "name": "My Darkest Witch",
-    "summary": "My Darkest Witch is a survival arena with huge waves of enemies caused by massive infestations of an unholy plague.",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1668816000,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coagjc.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxu.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxp.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxx.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxm.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxs.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scjvxl.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/2207120",
-      "https://www.twitch.tv/directory/game/My%20Darkest%20Witch"
-    ],
-    "genres": [
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3205,
-    "title": "RETURN",
-    "worth": "2.99",
-    "store": "STOVE",
-    "expiry_date": "2025-11-09 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/return-pc-giveaway",
-    "id": 290597,
-    "name": "Return",
-    "summary": "Return is a puzzle adventure game. In order to save his younger sister Kaira from a sudden disaster, the main character Noah explores the island and solves puzzles. He follows the fragmented clues to uncover the secret of the disaster and gradually advances to the top floor of the island.\n\n",
-    "storyline": null,
-    "total_rating": 93,
-    "first_release_date": 1533254400,
-    "cover_url": "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/Return.webp",
-    "screenshots": [
-      "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/SkyIsland_1744282691519.webp",
-      "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/%EB%A7%88%EC%9D%84_%EC%9E%AC%EC%95%99%EC%A0%84_1744282705833.webp",
-      "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/%EC%9D%B4%EC%9E%A51_1744282717800.webp",
-      "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/%ED%83%9C%EC%96%91%EC%A0%9C%EB%8B%A81_1744282726059.webp",
-      "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/%EC%9C%84%EB%8B%89%EC%95%84%EC%A0%80%EC%94%A8%EC%A7%911_%EC%9E%AC%EC%95%99%EC%A0%84_1744282734404.webp",
-      "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/%EC%A0%9C%EB%8B%A8%20%EC%9C%84%EB%8B%89%EC%95%84%EC%A0%80%EC%94%A81_1744282743076.webp"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/2719340"
-    ],
-    "player_perspectives": [
-      "Side view"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Adventure",
-      "Puzzle"
-    ]
-  },
-  {
-    "gamerpower_id": 1833,
-    "title": "STASIS",
-    "worth": "9.99",
-    "store": "GoG",
-    "expiry_date": "2025-11-02 23:59:00",
+    "expiry_date": "2025-12-18 23:59:00",
     "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/stasis",
-    "id": 223055,
-    "name": "Stasis",
-    "summary": "Stasis is a point-and-click, sci-fi, horror adventure game played from a unique isometric perspective. Stasis intertwines a gruesome narrative with retro adventure gameplay. Combine items, interact with computers and solve puzzles while experiencing the gritty atmosphere.\\n\\nIn the distant future, aboard a seemingly abandoned spacecraft, John Maracheck awakes from stasis. He must push himself to new physical and emotional limits and unravel the mysteries around him.\\n\\nJohn is in tremendous pain, his wife and daughter are missing, and time is running out as the Groomlake plunges further into the swirling blue methane clouds of Neptune.",
+    "open_giveaway_url": "https://www.gamerpower.com/open/wild-terra-2-new-lands-steam-giveaway",
+    "id": 126619,
+    "name": "Wild Terra 2: New Lands",
+    "summary": "Play your role in the life-filled medieval world controlled by players. Live on an inhabited territory or conquer New Continents in new seasons! MMORPG full of logically interconnected worked out little things that create a unique immersion and the spirit of adventure!",
     "storyline": null,
-    "total_rating": 68.63021279954606,
-    "first_release_date": 1440979200,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2221.jpg",
+    "total_rating": null,
+    "first_release_date": 1668038400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hn6.jpg",
     "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sjynpjbszzhbevocj0ri.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/liuqouzsd3hsixpwkmkr.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/zcwjjpkcni00m4dv6jfj.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/mfcmgyni88c08wmku1vw.jpg"
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7sb8.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7sba.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7sb6.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7sb9.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7sb7.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7sbb.jpg"
     ],
     "websites": [
-      "https://html-earth.itch.io/stasis",
-      "https://www.twitch.tv/directory/game/Stasis"
+      "http://www.wildterra2.com/",
+      "https://discord.gg/NZhbfMR",
+      "https://www.youtube.com/channel/UCQ9zUVGdlKxLBW0h-mbi75g/",
+      "https://store.steampowered.com/app/1134700",
+      "https://www.twitch.tv/directory/game/Wild%20Terra%202%3A%20New%20Lands"
+    ],
+    "game_modes": [
+      "Multiplayer",
+      "Co-operative",
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3409,
+    "title": "Art of Fighting 2",
+    "worth": "6.99",
+    "store": "STOVE",
+    "expiry_date": "2025-12-23 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/art-of-fighting-2-pc-giveaway",
+    "id": 6556,
+    "name": "Art of Fighting 2",
+    "summary": "The second installment in the AoF series added the \"rage gauge\"; similar to the \"spirit system\" of its predecessor, it limited the use and effectiveness of special attacks.\nThe game's story is set a year after the original. Geese Howard, a rising star in South Town's criminal underworld, calls fighters to the city for a new tournament, \"The King of Fighters.\" Howard was the final boss and series villain of SNK's other fighting game franchise Fatal Fury (though he is a secret boss in this game), whose story took place over a decade after the events of Art of Fighting.\nArt of Fighting 2 was the only time Yuri Sakazaki was a playable character in the series. It also marked the only time that she donned her trademark outfit, which was made famous in The King of Fighters series. This game also marks the debut of Takuma Sakazaki without his Mr. Karate persona, as well as Eiji Kisaragi, who both appear in the King of Fighters series. Ryuhaku Todo, the first boss in the original AOF, is the only character dropped; all characters are playable from the beginning. The final boss is always Mr. Big, though as mentioned earlier, an extra match will be played against Geese Howard if the player unlocks him through good performance.\nThis game is also notorious for its difficulty, with it being referred in many fighting circles as having some of the toughest opponent AI in a fighting game.",
+    "storyline": null,
+    "total_rating": 59.45651970231449,
+    "first_release_date": 762566400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22y5.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/fpp9lfolvcqg9qbnc7on.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bovimbnfofb5el7bngan.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/ueitgm0nmys7scgbtajt.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/tnbrhhpd8kdz1guzytzf.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pz9lzcp8gcds8zauhubn.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/h2bh8sv6vev96407renk.jpg"
+    ],
+    "websites": [
+      "http://snk.wikia.com/wiki/Art_of_Fighting_2",
+      "https://www.gog.com/game/art_of_fighting_2",
+      "https://www.twitch.tv/directory/game/Art%20of%20Fighting%202"
     ],
     "player_perspectives": [
-      "Bird view / Isometric"
+      "Third person",
+      "Side view"
+    ],
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "genres": [
+      "Fighting",
+      "Arcade"
+    ]
+  },
+  {
+    "gamerpower_id": 3406,
+    "title": "One Gun Guy",
+    "worth": "4.99",
+    "store": "Steam",
+    "expiry_date": "2025-12-18 23:59:00",
+    "reminder_sent": true,
+    "open_giveaway_url": "https://www.gamerpower.com/open/one-gun-guy-steam-giveaway",
+    "id": 132917,
+    "name": "One Gun Guy",
+    "summary": "One Gun Guy is a straight forward no nonsense action platformer, one giant level littered with player upgrades, hazards to tackle, enemies to destroy, a boss to kill, and multiple difficulty settings.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1645747200,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3qlj.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sip.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9siq.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sik.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sil.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sim.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sin.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sio.jpg"
+    ],
+    "websites": [
+      "https://store.playstation.com/en-us/concept/10002396",
+      "https://www.nintendo.com/games/detail/one-gun-guy-switch/",
+      "https://store.steampowered.com/app/1200580",
+      "https://www.twitch.tv/directory/game/One%20Gun%20Guy"
     ],
     "game_modes": [
       "Single player"
     ],
     "genres": [
-      "Point-and-click",
-      "Puzzle",
+      "Shooter",
+      "Platform",
       "Indie",
-      "Adventure"
+      "Arcade"
     ]
   },
   {
-    "gamerpower_id": 3342,
-    "title": "Five Nights at Freddy's: Into the Pit",
-    "worth": "19.99",
-    "store": "Epic Games Store",
-    "expiry_date": "2025-11-06 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/five-nights-at-freddy-s-into-the-pit-epic-games-giveaway",
-    "id": 283679,
-    "name": "Five Nights at Freddy's: Into the Pit",
-    "summary": "Jump into the pit and immerse yourself in a new chapter in the Five Nights at Freddy’s universe. Oswald wishes his town, and his life, weren’t so boring. That all changes when he explores the ball pit in a rundown pizzeria and finds himself in the past. However, Oswald’s deepest desire will have an unexpected cost…\n\nSurvive five nights of terror in this chilling adventure game. Travel between time periods, gather clues, and outrun the threat relentlessly pursuing you. Move swiftly and stay hidden, and you may just survive. But be careful—it’s not just your own life that’s on the line. Oswald’s father and children from the past could all meet their end if you don’t save them.",
+    "gamerpower_id": 3400,
+    "title": "Dead Cells",
+    "worth": "9.99",
+    "store": "Unknown",
+    "expiry_date": "2025-12-18 23:59:00",
+    "reminder_sent": true,
+    "open_giveaway_url": "https://www.gamerpower.com/open/dead-cells-mobile-giveaway",
+    "id": 26855,
+    "name": "Dead Cells",
+    "summary": "Dead Cells is a rogue-lite, metroidvania inspired, action-platformer. You'll explore a sprawling, ever-changing castle... assuming you’re able to fight your way past its keepers in 2D souls-lite combat. No checkpoints. Kill, die, learn, repeat.",
     "storyline": null,
-    "total_rating": 81.65752325323348,
-    "first_release_date": 1722988800,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8rf0.jpg",
+    "total_rating": 86.46557960477878,
+    "first_release_date": 1533513600,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7jfv.jpg",
     "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsms9.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsms8.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsmsb.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsms7.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsms6.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsmsa.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7ky.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7kz.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l0.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l1.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l2.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l3.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l4.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l5.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l6.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l7.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l8.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq7l9.jpg"
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bt9qwbyek1dmffukq44d.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/ikkm7a4sokicgfw7fmz5.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/zwjynn3oiusld0ufobb6.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/oflx1thhhuqzovoev99l.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/qsrk33g5lw6axyzo1cx3.jpg"
     ],
     "websites": [
-      "https://www.nintendo.com/us/store/products/five-nights-at-freddys-into-the-pit-switch/",
-      "https://store.playstation.com/en-us/concept/10009158",
-      "https://www.xbox.com/en-us/games/store/five-nights-at-freddy's-into-the-pit/9PMP3DDWDRNW",
-      "https://www.twitch.tv/directory/category/five-nights-at-freddys-into-the-pit",
-      "https://www.reddit.com/r/fivenightsatfreddys/",
-      "https://store.steampowered.com/app/2638370/Five_Nights_at_Freddys_Into_the_Pit/",
-      "https://www.twitter.com/megacatstudios",
-      "https://www.instagram.com/megacatstudios",
-      "https://www.youtube.com/@megacatstudios",
-      "https://discord.gg/fnafreddys",
-      "https://megacatstudios.com/pages/five-nights-at-freddys-into-the-pit",
-      "https://www.facebook.com/megacatstudios/",
-      "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy%27s:_Into_the_Pit"
+      "https://www.xbox.com/en-us/games/store/dead-cells/BQSCNS1T8PHQ",
+      "https://store.playstation.com/en-us/concept/231053",
+      "https://www.nintendo.com/games/detail/dead-cells-switch/",
+      "https://www.youtube.com/channel/UCqeVdbCP-fVjSGEVnY-3lWQ",
+      "https://www.epicgames.com/product/dead-cells",
+      "https://www.facebook.com/dead.cells.game",
+      "https://store.steampowered.com/app/588650",
+      "https://www.reddit.com/r/deadcells",
+      "https://www.gog.com/game/dead_cells",
+      "https://apps.apple.com/app/id1389752090",
+      "https://www.instagram.com/motion.twin/",
+      "https://discord.gg/MYxw5S8",
+      "https://www.twitch.tv/directory/game/Dead%20Cells",
+      "https://en.wikipedia.org/wiki/Dead_Cells",
+      "https://twitter.com/motiontwin",
+      "https://play.google.com/store/apps/details?id=com.playdigious.deadcells.mobile",
+      "https://apps.apple.com/app/id1389752090",
+      "https://deadcells.wiki.gg/wiki/Dead_Cells",
+      "https://deadcells.com/"
     ],
     "player_perspectives": [
       "Side view"
     ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Puzzle",
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3341,
-    "title": "Bendy and the Ink Machine",
-    "worth": "19.99",
-    "store": "Epic Games Store",
-    "expiry_date": "2025-11-06 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/bendy-and-the-ink-machine-epic-games-giveaway",
-    "id": 28311,
-    "name": "Bendy and the Ink Machine",
-    "summary": "Bendy and the Ink Machine is an indie first person puzzle-action-horror game with a unique cartoon atmosphere and an intense, frightening story line that keeps you guessing throughout.",
-    "storyline": "Play as Henry as he revisits the demons of his past by exploring the abandoned animator's workshop of Joey Drew Studios. With twists and turns around every corner, \"Bendy and the Ink Machine\" is sure to thrill you... and decimate your childhood.\n\nYou'll never look at cartoons the same way again.",
-    "total_rating": 78.39112058983176,
-    "first_release_date": 1486684800,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67zs.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xp76ak3ysl1p7qom4c1q.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/wsqfchm36fcedoieziq7.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pogfmoa6aailrn8oknik.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/p8kfzkc9wj032zdapais.jpg"
-    ],
-    "websites": [
-      "https://store.playstation.com/en-us/concept/232792",
-      "https://en.wikipedia.org/wiki/Bendy_and_the_Ink_Machine",
-      "https://joeydrewstudios.itch.io/batim",
-      "https://epicgames.com/p/bendy-and-the-ink-machine-60cf5a",
-      "https://www.gog.com/en/game/bendy_and_the_ink_machine",
-      "https://www.xbox.com/en-us/games/store/bendy-and-the-ink-machine/BTQ96QTQ58F3",
-      "https://play.google.com/store/apps/details?id=com.jds.batim",
-      "https://www.nintendo.com/games/detail/bendy-and-the-ink-machine-switch/",
-      "https://www.facebook.com/BendyandtheInkMachine",
-      "https://store.steampowered.com/app/622650",
-      "https://twitter.com/batimgame",
-      "http://itunes.apple.com/us/app/id1437669537#?platform=ipad",
-      "https://www.reddit.com/r/BendyAndTheInkMachine",
-      "https://www.twitch.tv/directory/game/Bendy%20and%20the%20Ink%20Machine",
-      "https://www.joeydrewstudios.com/batim",
-      "https://www.youtube.com/JoeyDrewStudios",
-      "https://www.instagram.com/batimgame/",
-      "https://apps.apple.com/app/bendy-and-the-ink-machine/id1437669537",
-      "https://bendy.fandom.com/wiki/Bendy_and_the_Ink_Machine"
-    ],
-    "player_perspectives": [
-      "First person"
-    ],
     "game_engines": [
-      "Unity"
+      "Heaps.io"
     ],
     "game_modes": [
       "Single player"
     ],
     "genres": [
-      "Puzzle",
+      "Platform",
       "Adventure",
       "Indie"
     ]
   },
   {
-    "gamerpower_id": 3340,
-    "title": "ANCIENT EVIL",
-    "worth": "4.99",
-    "store": "IndieGala",
-    "expiry_date": "2025-12-03 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/ancient-evil-pc-giveaway",
-    "id": 170504,
-    "name": "Ancient Evil",
-    "summary": "ANCIENT EVIL is a real-time tactical puzzle game where you need to pass severe tests and win the final battle with the enemy.",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1631318400,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co57up.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbu.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbv.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbx.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhbz.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc0.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc2.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc3.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdhc4.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/1341620",
-      "https://www.twitch.tv/directory/game/Ancient%20Evil"
-    ],
-    "genres": [
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3338,
-    "title": "Drive Me to Hell",
-    "worth": "1.99",
+    "gamerpower_id": 3394,
+    "title": "Rose and Cross",
+    "worth": "6.99",
     "store": "Itch.io",
-    "expiry_date": "2025-11-04 23:59:00",
+    "expiry_date": "2026-01-01 23:59:00",
     "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/drive-me-to-hell-itch-io-giveaway",
-    "id": 253969,
-    "name": "Drive Me to Hell",
-    "summary": "As the night darkens and you set out for home, an unsettling occurrence takes place on the road. Will this lead you to hell? Unveil the truth in a bone-chilling driving horror game that will keep you on the edge of your seat!",
+    "open_giveaway_url": "https://www.gamerpower.com/open/rose-and-cross-itch-io-giveaway",
+    "id": 304468,
+    "name": "Rose and Cross",
+    "summary": "Our main character, absorbed in the study of sects and the occult, made a big mistake by going to an abandoned farm.",
     "storyline": null,
     "total_rating": null,
-    "first_release_date": 1704326400,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7dgl.jpg",
+    "first_release_date": 1717459200,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fao.jpg",
     "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1rx.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1s0.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1s3.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1s6.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1s9.jpg"
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslcv.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslcr.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslcs.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslcu.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslct.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslcw.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslcx.jpg"
     ],
     "websites": [
-      "https://twitter.com/Maxrohrberg",
-      "https://www.twitch.tv/directory/category/drive-me-to-hell",
-      "https://www.youtube.com/@maxrohrberg",
-      "https://www.instagram.com/max_rohrberg/",
-      "https://store.steampowered.com/app/2446680",
-      "https://max-rohrberg.itch.io/drive-me-to-hell"
+      "https://www.twitch.tv/directory/category/rose-and-cross",
+      "https://store.steampowered.com/app/2975160",
+      "https://zvgames.taplink.ws/"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3389,
+    "title": "Era of Miracles",
+    "worth": "29.99",
+    "store": "IndieGala",
+    "expiry_date": "2026-01-17 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/era-of-miracles-pc-giveaway",
+    "id": 124167,
+    "name": "Era of Miracles",
+    "summary": "You are a traveler who went in search of adventure.What awaits you?",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1569974400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3py4.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7aka.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akb.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7ak8.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7ak9.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akc.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akd.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akf.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7ake.jpg"
+    ],
+    "websites": [
+      "https://www.twitch.tv/directory/game/Era%20of%20Miracles",
+      "https://store.steampowered.com/app/1037930",
+      "https://vk.com/seaborgiumentertainment"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3215,
+    "title": "Hotel Greenwood",
+    "worth": "9.99",
+    "store": "IndieGala",
+    "expiry_date": "2026-01-17 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/hotel-greenwood-pc-giveaway",
+    "id": 211644,
+    "name": "Hotel Greenwood",
+    "summary": "Hotel Greenwood is a psychological horror and thriller game played with a first-person camera. explore this hidden hotel with its intense and dark atmosphere, solve the events, and witness the story behind the disaster that happened in the past.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1660089600,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5een.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tf.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tg.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3th.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3ti.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tj.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tk.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tl.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tm.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tn.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3to.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tp.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/2089110",
+      "https://www.skyfoster.com/",
+      "https://www.twitch.tv/directory/game/Hotel%20Greenwood"
     ],
     "player_perspectives": [
       "First person"
     ],
-    "game_engines": [
-      "Unity"
-    ],
     "game_modes": [
       "Single player"
     ],
     "genres": [
-      "Racing"
-    ]
-  },
-  {
-    "gamerpower_id": 3334,
-    "title": "Mysterious House",
-    "worth": "0.99",
-    "store": "IndieGala",
-    "expiry_date": "2025-12-03 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/mysterious-house-pc-giveaway",
-    "id": 190916,
-    "name": "Mysterious House",
-    "summary": "Logic platformer with logic tasks with all sorts of obstacles and teleports. Closed doors, assistants can open. The main thing is to remember, they are very stupid, so it is worth protecting them.",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1640563200,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5nug.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9m.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9l.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9n.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9k.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfr9o.jpg"
-    ],
-    "websites": [
-      "https://www.twitch.tv/directory/game/Mysterious%20House",
-      "https://store.steampowered.com/app/1848150"
-    ],
-    "genres": [
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3331,
-    "title": "Last Room",
-    "worth": "29.99",
-    "store": "DRM-Free",
-    "expiry_date": "2025-12-03 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/last-room-pc-giveaway",
-    "id": 150804,
-    "name": "Last Room",
-    "summary": "Last Room is a logical puzzle game in the genre of fantasy horror.",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1623628800,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co456l.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sca93j.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sca93k.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sca93l.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sca93m.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sca93n.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/1334010",
-      "https://www.twitch.tv/directory/game/Last%20Room"
-    ],
-    "genres": [
-      "Strategy",
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3328,
-    "title": "Best Plumber",
-    "worth": "29.99",
-    "store": "IndieGala",
-    "expiry_date": "2025-12-03 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/best-plumber-pc-giveaway",
-    "id": 125397,
-    "name": "Best Plumber",
-    "summary": "Help the young plumber hold the water in the right direction as fast as you can.",
-    "storyline": null,
-    "total_rating": 70,
-    "first_release_date": 1571270400,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3m3d.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7e7c.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7e7d.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7e7f.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7e7e.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7e7b.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/1166580",
-      "https://www.twitch.tv/directory/game/Best%20Plumber"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Simulator",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3324,
-    "title": "Battle Ram",
-    "worth": "29.99",
-    "store": "IndieGala",
-    "expiry_date": "2025-12-03 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/battle-ram-pc-giveaway",
-    "id": 132780,
-    "name": "Battle Ram",
-    "summary": "\"Battle Ram\" is a fun arcade game about a Battle Ram who fights against robots.",
-    "storyline": null,
-    "total_rating": 70,
-    "first_release_date": 1672963200,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3m0i.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8u1p.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8u1q.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8u1r.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8u1s.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8u1t.jpg"
-    ],
-    "websites": [
-      "https://www.twitch.tv/directory/game/Battle%20Ram",
-      "https://store.epicgames.com/en-US/p/battle-ram-d001fd",
-      "https://store.steampowered.com/app/1262060",
-      "http://battleram.pro/"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Simulator",
-      "Sport",
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3322,
-    "title": "Sausage Hunter",
-    "worth": "29.99",
-    "store": "IndieGala",
-    "expiry_date": "2025-12-03 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/sausage-hunter-pc-giveaway",
-    "id": 143901,
-    "name": "Sausage Hunter",
-    "summary": "Sausage hunter is an exciting platformer in the best traditions of hand-drawn games.",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1592352000,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co40t9.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9pi3.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9pi4.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9pi5.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9pi6.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9pi7.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/1296880",
-      "https://www.twitch.tv/directory/game/Sausage%20Hunter"
-    ],
-    "genres": [
-      "Adventure",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3316,
-    "title": "Leaper",
-    "worth": "4.99",
-    "store": "IndieGala",
-    "expiry_date": "2025-12-03 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/leaper-pc-giveaway",
-    "id": 155760,
-    "name": "Leaper",
-    "summary": "Leaper is a pixel arcade side-scrolling platformer.",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1608681600,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co457c.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb77n.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb77o.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb77m.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb77r.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb77s.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/1495670",
-      "https://www.twitch.tv/directory/game/Leaper"
-    ],
-    "genres": [
-      "Sport",
-      "Adventure",
       "Indie"
     ]
   },
@@ -543,7 +305,7 @@
     "title": "Dual Chroma: Academy Carols",
     "worth": "2.00",
     "store": "Itch.io",
-    "expiry_date": "2025-12-03 23:59:00",
+    "expiry_date": "2026-01-17 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/dual-chroma-academy-carols-itch-io-giveaway",
     "id": 238546,
