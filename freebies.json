@@ -1,5 +1,57 @@
 [
-
+  {
+    "gamerpower_id": 3415,
+    "title": "Shotgun King: The Final Checkmate",
+    "worth": "6.99",
+    "store": "Unknown",
+    "expiry_date": "2025-12-25 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/shotgun-king-the-final-checkmate-mobile-giveaway",
+    "id": 196030,
+    "name": "Shotgun King: the Final Checkmate",
+    "summary": "It's chess, but you replace your entire army with a royal shotgun, with some roguelike elements.",
+    "storyline": "The Black King has been depossessed of everything...\nEverything except their royal shotgun.\nHis wrath shall be his undoing, yet he cares not.\nIn his dark folly, bits of white pieces will fly.",
+    "total_rating": 79.75493484400114,
+    "first_release_date": 1650585600,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8w6y.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgfq1.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgfq2.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgfq3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgfq4.jpg"
+    ],
+    "websites": [
+      "https://www.nintendo.com/store/products/shotgun-king-the-final-checkmate-switch/",
+      "https://store.playstation.com/en-us/concept/10005806",
+      "https://punkcake.itch.io/shotgun-king",
+      "https://store.steampowered.com/app/1972440",
+      "https://www.twitch.tv/directory/game/Shotgun%20King:%20the%20Final%20Checkmate",
+      "https://www.gog.com/en/game/shotgun_king_the_final_checkmate",
+      "https://www.youtube.com/c/PUNKCAKEdelicieux",
+      "https://punkcake.club/",
+      "https://twitter.com/PUNKCAKE_Delice",
+      "https://discord.gg/dpQx647USm"
+    ],
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "game_engines": [
+      "SUGAR"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Shooter",
+      "Puzzle",
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Tactical",
+      "Indie",
+      "Arcade",
+      "Card & Board Game"
+    ]
+  },
   {
     "gamerpower_id": 3410,
     "title": "Wild Terra 2: New Lands",
