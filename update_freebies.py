@@ -36,6 +36,16 @@ firebase_admin.initialize_app(firebase_admin.credentials.Certificate(firebase_cr
 credentials = service_account.Credentials.from_service_account_info(firebase_cred_dict)
 firestore_client = firestore.Client(project=FIRESTORE_PROJECT_ID, credentials=credentials)
 
+MANUAL_GAMES = [
+    {
+        "title": "Jötunnslayer: Hordes of Hel",
+        "store": "Epic Games Store",
+        "worth": "7.99",
+        "expiry_date":"2025-12-19 23:59:00",
+        "open_giveaway_url": "https://www.gamerpower.com/open/jotunnslayer-hordes-of-hel-epic-games-giveaway"
+    },
+]
+
 # -----------------
 # HELPERS
 # -----------------
@@ -323,6 +333,16 @@ def main():
             print(f" Removed: {removed_ids}")
 
         print("Fetching IGDB details for updated list...")
+
+        for manual in MANUAL_GAMES:
+         # Ensure mandatory keys exist
+            if "title" not in manual or "store" not in manual:
+             continue
+    # Add a fake GamerPower ID to avoid conflicts
+            manual["gamerpower_id"] = f"manual_{normalize_title(manual['title']).replace(' ', '_')}"
+            manual["reminder_sent"] = False
+            gp_games.append(manual)
+        
         enriched_games = []
         for gp_game in gp_games:
             gp_norm = normalize_title(gp_game["title"])
