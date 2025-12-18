@@ -36,16 +36,6 @@ firebase_admin.initialize_app(firebase_admin.credentials.Certificate(firebase_cr
 credentials = service_account.Credentials.from_service_account_info(firebase_cred_dict)
 firestore_client = firestore.Client(project=FIRESTORE_PROJECT_ID, credentials=credentials)
 
-MANUAL_GAMES = [
-    {
-        "title": "Jötunnslayer: Hordes of Hel",
-        "store": "Epic Games Store",
-        "worth": "7.99",
-        "expiry_date":"2025-12-19 23:59:00",
-        "open_giveaway_url": "https://www.gamerpower.com/open/jotunnslayer-hordes-of-hel-epic-games-giveaway"
-    },
-]
-
 # -----------------
 # HELPERS
 # -----------------
@@ -61,20 +51,31 @@ _EDITION_KEYWORDS = {
 }
 
 def normalize_title(title: str) -> str:
-    """Normalize game titles for strict equality checks."""
+    """Normalize game titles for strict equality checks but preserve special characters like ö, ü, é."""
     if not title:
         return ""
-    t = unicodedata.normalize("NFKD", title)
-    t = "".join(ch for ch in t if not unicodedata.combining(ch))
-    t = t.lower()
+    
+    # Lowercase, normalize spaces
+    t = title.lower()
+    
+    # Replace & with 'and'
     t = t.replace("&", " and ")
+    
+    # Remove trademark symbols
     t = re.sub(r"[™®©]", "", t)
-    t = re.sub(rf"[{re.escape(string.punctuation)}]", " ", t)
+    
+    # Replace punctuation with space (but keep letters like ö, ü)
+    t = re.sub(r"[!\"#$%&'()*+,\-./:;<=>?@\[\]^_`{|}~]", " ", t)
+    
+    # Replace multiple spaces with single space
+    t = re.sub(r"\s+", " ", t).strip()
+    
+    # Convert roman numerals to digits
     tokens = t.split()
     tokens = [_ROMAN_MAP.get(tok, tok) for tok in tokens]
-    t = " ".join(tokens)
-    t = re.sub(r"\s+", " ", t).strip()
-    return t
+    
+    return " ".join(tokens)
+
 
 def is_confusing_match(gp_title: str, igdb_name: str) -> bool:
     """Reject sequels/editions that GamerPower title didn’t specify."""
@@ -333,16 +334,6 @@ def main():
             print(f" Removed: {removed_ids}")
 
         print("Fetching IGDB details for updated list...")
-
-        for manual in MANUAL_GAMES:
-         # Ensure mandatory keys exist
-            if "title" not in manual or "store" not in manual:
-             continue
-    # Add a fake GamerPower ID to avoid conflicts
-            manual["gamerpower_id"] = f"manual_{normalize_title(manual['title']).replace(' ', '_')}"
-            manual["reminder_sent"] = False
-            gp_games.append(manual)
-        
         enriched_games = []
         for gp_game in gp_games:
             gp_norm = normalize_title(gp_game["title"])
@@ -378,9 +369,9 @@ def main():
                 final_games.append(game)
 
         # Send notifications for new games
-        for game in final_games:
-            if game["gamerpower_id"] in added_ids:
-                send_fcm_notification(game)
+     #   for game in final_games:
+        #    if game["gamerpower_id"] in added_ids:
+               # send_fcm_notification(game)
 
         # Send expiry reminders
         send_expiry_reminders(final_games, old_list)
