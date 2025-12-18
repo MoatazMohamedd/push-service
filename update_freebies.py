@@ -55,10 +55,7 @@ def normalize_title(title: str) -> str:
     if not title:
         return ""
     t = unicodedata.normalize("NFKD", title)
-    t = "".join(
-    ch for ch in t 
-    if ch == "ö" or not unicodedata.combining(ch)
-    )
+    t = "".join(ch for ch in t if not unicodedata.combining(ch))
     t = t.lower()
     t = t.replace("&", " and ")
     t = re.sub(r"[™®©]", "", t)
