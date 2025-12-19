@@ -224,63 +224,6 @@
     ]
   },
   {
-    "gamerpower_id": 722,
-    "title": "Black Desert",
-    "worth": "9.99",
-    "store": "Steam",
-    "expiry_date": "2025-12-18 23:59:59",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/free-black-desert-online-steam",
-    "id": 6292,
-    "name": "Black Desert",
-    "summary": "Black Desert is a game that tests the limitations of MMORPG\nby implementing remastered graphics and audio. Enjoy exciting combat and siege,\nexploration, trading, fishing, training, alchemy, cooking, gathering, hunting, and more in the vast open world.",
-    "storyline": "The Black Stones. A source of power so great they are said to have corrupted the minds of the Ancients and caused the fall of a great civilization. Commonly found in the harsh, hostile desert situated between the warring nations of the Republic of Calpheon and the Kingdom of Valencia. The Calpheonians call this area the Black Desert, while the Valencians know it as the Red Desert, a testament to the rivers of blood spilled there. The commercialist republic and absolute monarchy both lay claim to the desert’s resources. Both are ready to wage war for it. You will uncover the hidden secrets of ancient civilization through the histories of Calpheon and Valencia. Lost memories and the secret of the Black Spirit will be unveiled. A journey to seek the true face of the ancient civilization around the Black Desert awaits you.",
-    "total_rating": 71.20294978260571,
-    "first_release_date": 1418774400,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coay9v.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vro.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vrp.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vrt.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vrn.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vrq.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vrr.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vrm.jpg"
-    ],
-    "websites": [
-      "https://www.instagram.com/BlackDesertGame",
-      "https://www.xbox.com/en-US/games/store/black-desert/BTPDCJXNFSZL",
-      "https://store.playstation.com/en-us/concept/233032",
-      "https://store.steampowered.com/app/582660",
-      "https://en.wikipedia.org/wiki/Black_Desert_Online",
-      "https://www.reddit.com/r/blackdesertonline",
-      "https://www.naeu.playblackdesert.com/",
-      "https://www.twitch.tv/directory/category/black-desert",
-      "https://www.youtube.com/channel/UCcZo9VRa3TFIJaf1aJOLDgw",
-      "https://www.facebook.com/newsblackdesert/",
-      "https://twitter.com/NewsBlackDesert",
-      "https://discord.gg/blackdesertonline",
-      "https://www.naeu.playblackdesert.com/en-US/Wiki"
-    ],
-    "player_perspectives": [
-      "Third person"
-    ],
-    "game_engines": [
-      "Black Desert Engine"
-    ],
-    "game_modes": [
-      "Multiplayer",
-      "Co-operative",
-      "Massively Multiplayer Online (MMO)"
-    ],
-    "genres": [
-      "Role-playing (RPG)",
-      "Strategy",
-      "Hack and slash/Beat 'em up",
-      "Adventure"
-    ]
-  },
-  {
     "gamerpower_id": 3394,
     "title": "Rose and Cross",
     "worth": "6.99",
