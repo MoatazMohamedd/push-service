@@ -1,5 +1,64 @@
 [
   {
+    "gamerpower_id": 3418,
+    "title": "Eternights",
+    "worth": "29.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-12-20 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/eternights-epic-games-giveaway",
+    "id": 203367,
+    "name": "Eternights",
+    "summary": "Eternights is a dating action game where you try to make the most out of life during the apocalypse. Monday: Go on a date. Tuesday: Clear dungeon. Friday: Freak out! The clock is ticking!!",
+    "storyline": null,
+    "total_rating": 67.52270465234719,
+    "first_release_date": 1694476800,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tg0.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kq.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kr.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7ks.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kt.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7ku.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kv.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kw.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kx.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7ky.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kz.jpg"
+    ],
+    "websites": [
+      "https://www.reddit.com/r/studiosaigames/",
+      "https://www.studiosai.dev/eternights",
+      "https://store.playstation.com/en-us/concept/10004814",
+      "https://www.nintendo.com/us/store/products/eternights-switch/",
+      "https://apps.apple.com/app/crunchyroll-eternights/id6529523263",
+      "https://play.google.com/store/apps/details?id=com.crunchyroll.gv.eternights.game",
+      "https://www.epicgames.com/p/eternights-c2fbca",
+      "https://store.steampowered.com/app/1402110/Eternights",
+      "https://www.instagram.com/StudioSaiGames",
+      "https://www.youtube.com/c/studiosaigames",
+      "https://www.facebook.com/StudioSaiGames",
+      "https://twitter.com/StudioSaiGames",
+      "https://discord.gg/invite/x44xJ4y",
+      "https://www.twitch.tv/directory/game/Eternights"
+    ],
+    "player_perspectives": [
+      "Third person"
+    ],
+    "game_engines": [
+      "Unity"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 2851,
     "title": "100% Orange Juice",
     "worth": "6.99",
