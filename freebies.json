@@ -25,6 +25,9 @@
       "https://store.steampowered.com/app/2068520",
       "https://www.twitch.tv/directory/category/banana-hell-mountain-of-madness"
     ],
+    "player_perspectives": [
+      "Side view"
+    ],
     "game_modes": [
       "Single player"
     ],
