@@ -739,5 +739,127 @@
       "Adventure",
       "Indie"
     ]
+  },
+  {
+    "gamerpower_id": 3389,
+    "title": "Era of Miracles",
+    "worth": "29.99",
+    "store": "IndieGala",
+    "expiry_date": "2026-01-19 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/era-of-miracles-pc-giveaway",
+    "id": 124167,
+    "name": "Era of Miracles",
+    "summary": "You are a traveler who went in search of adventure.What awaits you?",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1569974400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3py4.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7aka.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akb.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7ak8.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7ak9.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akc.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akd.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akf.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7ake.jpg"
+    ],
+    "websites": [
+      "https://www.twitch.tv/directory/game/Era%20of%20Miracles",
+      "https://store.steampowered.com/app/1037930",
+      "https://vk.com/seaborgiumentertainment"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3215,
+    "title": "Hotel Greenwood",
+    "worth": "9.99",
+    "store": "IndieGala",
+    "expiry_date": "2026-01-19 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/hotel-greenwood-pc-giveaway",
+    "id": 211644,
+    "name": "Hotel Greenwood",
+    "summary": "Hotel Greenwood is a psychological horror and thriller game played with a first-person camera. explore this hidden hotel with its intense and dark atmosphere, solve the events, and witness the story behind the disaster that happened in the past.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1660089600,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5een.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tf.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tg.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3th.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3ti.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tj.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tk.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tl.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tm.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tn.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3to.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tp.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/2089110",
+      "https://www.skyfoster.com/",
+      "https://www.twitch.tv/directory/game/Hotel%20Greenwood"
+    ],
+    "player_perspectives": [
+      "First person"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 2204,
+    "title": "Dual Chroma: Academy Carols",
+    "worth": "2.00",
+    "store": "Itch.io",
+    "expiry_date": "2026-01-19 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/dual-chroma-academy-carols-itch-io-giveaway",
+    "id": 238546,
+    "name": "Dual Chroma: Academy Carols",
+    "summary": "Spend winter break with the popular and unapproachable Prince of the Empire in this cozy and heartwarming magic academy dating sim.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1682640000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6zon.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldkz.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldl1.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldl3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldkw.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldky.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/2299730",
+      "https://www.galengames.com/",
+      "https://galengames.itch.io/academy-carols"
+    ],
+    "player_perspectives": [
+      "Text"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie",
+      "Visual Novel"
+    ]
   }
 ]
