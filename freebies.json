@@ -1,5 +1,53 @@
 [
   {
+    "gamerpower_id": 3424,
+    "title": "Blood West",
+    "worth": "24.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-12-21 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/blood-west-epic-games-giveaway",
+    "id": 188555,
+    "name": "Blood West",
+    "summary": "Blood West is an immersive stealth shooter taking place in a nightmare version of a classic wild west setting. The player takes on the role of an outlawed gunslinger brought back to live by strange native spirits to find the root of a curse that has befallen the land. They will explore the dangerous frontier, gather supplies, expand their arsenal, and gain experience to unlock special traits, to best the many monsters and face off with challenging bosses.",
+    "storyline": "After you die your soul moves on to where it suppose to. Heaven or hell. But if the body is denied its rest six feet under, the soul is doomed to stick around a little longer. The world's gone mad, broken, and cursed, and the last thing worthy of faith and reverence is the double-barreled shotgun at your side. They say that dead men tell no tales? Well, I do have one hell of a story to tell you...\n\nIn Blood West one quest after another, the spirits of the land lead you towards even greater challenges. And whatever your path may be - things will get rough. For hell is empty and all the devils are here!",
+    "total_rating": 83.29215878910954,
+    "first_release_date": 1701734400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7plb.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfegr.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfegs.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfegt.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfegu.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scfegv.jpg"
+    ],
+    "websites": [
+      "https://store.playstation.com/en-us/concept/10012169",
+      "https://www.instagram.com/newbloodinteractive/",
+      "https://store.steampowered.com/app/1587130/Blood_West",
+      "https://www.youtube.com/c/Hyperstrange",
+      "https://www.twitch.tv/directory/game/Blood%20West",
+      "https://store.epicgames.com/en-US/p/blood-west-8f6ffd",
+      "https://www.gog.com/en/game/blood_west",
+      "https://www.facebook.com/hyperstrange",
+      "https://twitter.com/HYPERSTRANGE",
+      "https://discord.gg/5fCZK562jT"
+    ],
+    "player_perspectives": [
+      "First person"
+    ],
+    "game_engines": [
+      "Unity"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)"
+    ]
+  },
+  {
     "gamerpower_id": 3422,
     "title": "Do You Have a Moment to Talk About Our Lord and Savior?",
     "worth": "2.99",
@@ -142,65 +190,6 @@
     ],
     "genres": [
       "Strategy",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3418,
-    "title": "Eternights",
-    "worth": "29.99",
-    "store": "Epic Games Store",
-    "expiry_date": "2025-12-20 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/eternights-epic-games-giveaway",
-    "id": 203367,
-    "name": "Eternights",
-    "summary": "Eternights is a dating action game where you try to make the most out of life during the apocalypse. Monday: Go on a date. Tuesday: Clear dungeon. Friday: Freak out! The clock is ticking!!",
-    "storyline": null,
-    "total_rating": 67.52270465234719,
-    "first_release_date": 1694476800,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tg0.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kq.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kr.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7ks.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kt.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7ku.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kv.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kw.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kx.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7ky.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kz.jpg"
-    ],
-    "websites": [
-      "https://www.reddit.com/r/studiosaigames/",
-      "https://www.studiosai.dev/eternights",
-      "https://store.playstation.com/en-us/concept/10004814",
-      "https://www.nintendo.com/us/store/products/eternights-switch/",
-      "https://apps.apple.com/app/crunchyroll-eternights/id6529523263",
-      "https://play.google.com/store/apps/details?id=com.crunchyroll.gv.eternights.game",
-      "https://www.epicgames.com/p/eternights-c2fbca",
-      "https://store.steampowered.com/app/1402110/Eternights",
-      "https://www.instagram.com/StudioSaiGames",
-      "https://www.youtube.com/c/studiosaigames",
-      "https://www.facebook.com/StudioSaiGames",
-      "https://twitter.com/StudioSaiGames",
-      "https://discord.gg/invite/x44xJ4y",
-      "https://www.twitch.tv/directory/game/Eternights"
-    ],
-    "player_perspectives": [
-      "Third person"
-    ],
-    "game_engines": [
-      "Unity"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Role-playing (RPG)",
-      "Hack and slash/Beat 'em up",
-      "Adventure",
       "Indie"
     ]
   },
@@ -434,42 +423,6 @@
     ]
   },
   {
-    "gamerpower_id": 2089,
-    "title": "Project Malice",
-    "worth": "9.99",
-    "store": "Itch.io",
-    "expiry_date": "2026-01-05 23:59:59",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/project-malice-itch-io-giveaway",
-    "id": 220660,
-    "name": "Project Malice",
-    "summary": "An isometric roguelike third-person shooter about a ruined Earth and the unending chaos engulfing it. Fight hordes of the infected, gather loot, make allies, traverse spacetime, and venture into the depths of what we could've prevented.",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1674172800,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7i8i.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj975.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj977.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj979.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj97b.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj97d.jpg"
-    ],
-    "websites": [
-      "https://www.twitch.tv/directory/game/Project%20Malice",
-      "https://store.steampowered.com/app/2157060",
-      "https://x.com/AploveStudio"
-    ],
-    "game_modes": [
-      "Single player",
-      "Multiplayer",
-      "Co-operative"
-    ],
-    "genres": [
-      "Indie"
-    ]
-  },
-  {
     "gamerpower_id": 2091,
     "title": "Buckler 2",
     "worth": "3.99",
@@ -511,6 +464,45 @@
     ]
   },
   {
+    "gamerpower_id": 1329,
+    "title": "Roseblight",
+    "worth": "7.99",
+    "store": "Itch.io",
+    "expiry_date": "2026-01-05 23:59:59",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/roseblight",
+    "id": 138554,
+    "name": "Roseblight",
+    "summary": "Roseblight is an RPG about a gardener with a dark secret and a visitor from the cosmos. Explore the wild, challenge foes, recruit allies, and embrace your chains in an unforgiving world plagued with malice and destruction.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1632528000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5o2d.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdtp1.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdtp3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdtp5.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdtp7.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdtp8.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdtp9.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scdtpa.jpg"
+    ],
+    "websites": [
+      "https://www.youtube.com/channel/UCuW8zH1Edf09rKC8MrP5nKg/",
+      "https://aplovestudio.itch.io/roseblight",
+      "https://www.twitter.com/AploveStudio",
+      "https://store.steampowered.com/app/1728080",
+      "https://www.twitch.tv/directory/game/Roseblight/"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
     "gamerpower_id": 3180,
     "title": "Solace Inc.",
     "worth": "3.99",
@@ -547,42 +539,208 @@
     ]
   },
   {
-    "gamerpower_id": 2204,
-    "title": "Dual Chroma: Academy Carols",
-    "worth": "2.00",
+    "gamerpower_id": 3181,
+    "title": "Aestheta",
+    "worth": "2.99",
     "store": "Itch.io",
-    "expiry_date": "2026-01-19 23:59:00",
+    "expiry_date": "2026-01-05 23:59:00",
     "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/dual-chroma-academy-carols-itch-io-giveaway",
-    "id": 238546,
-    "name": "Dual Chroma: Academy Carols",
-    "summary": "Spend winter break with the popular and unapproachable Prince of the Empire in this cozy and heartwarming magic academy dating sim.",
+    "open_giveaway_url": "https://www.gamerpower.com/open/aestheta-itchio-giveaway",
+    "id": 349742,
+    "name": "Aestheta",
+    "summary": "A roguelike royalelike about warriors from across space and time, fighting to claim a wish from the Star of Aestheta. Strategize your tactics, enhance your troops, and outwit your opponents to rise to the top!",
     "storyline": null,
     "total_rating": null,
-    "first_release_date": 1682640000,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6zon.jpg",
+    "first_release_date": 1748995200,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9zle.jpg",
     "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldkz.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldl1.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldl3.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldkw.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scldky.jpg"
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scxjp5.jpg"
     ],
     "websites": [
-      "https://store.steampowered.com/app/2299730",
-      "https://www.galengames.com/",
-      "https://galengames.itch.io/academy-carols"
+      "https://store.steampowered.com/app/3730600/Aestheta/",
+      "https://aplovestudio.itch.io/aestheta",
+      "https://play.google.com/store/apps/details?id=aplove.aplovvare.aestheta",
+      "https://aplove.neocities.org/",
+      "https://bsky.app/profile/aplovestudio.bsky.social",
+      "https://www.youtube.com/@aplovestudio"
     ],
     "player_perspectives": [
+      "Bird view / Isometric",
       "Text"
     ],
     "game_modes": [
       "Single player"
     ],
     "genres": [
-      "Simulator",
+      "Strategy",
       "Indie",
-      "Visual Novel"
+      "Arcade",
+      "Card & Board Game"
+    ]
+  },
+  {
+    "gamerpower_id": 3409,
+    "title": "Art of Fighting 2",
+    "worth": "6.99",
+    "store": "STOVE",
+    "expiry_date": "2025-12-23 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/art-of-fighting-2-pc-giveaway",
+    "id": 6556,
+    "name": "Art of Fighting 2",
+    "summary": "The second installment in the AoF series added the \"rage gauge\"; similar to the \"spirit system\" of its predecessor, it limited the use and effectiveness of special attacks.\nThe game's story is set a year after the original. Geese Howard, a rising star in South Town's criminal underworld, calls fighters to the city for a new tournament, \"The King of Fighters.\" Howard was the final boss and series villain of SNK's other fighting game franchise Fatal Fury (though he is a secret boss in this game), whose story took place over a decade after the events of Art of Fighting.\nArt of Fighting 2 was the only time Yuri Sakazaki was a playable character in the series. It also marked the only time that she donned her trademark outfit, which was made famous in The King of Fighters series. This game also marks the debut of Takuma Sakazaki without his Mr. Karate persona, as well as Eiji Kisaragi, who both appear in the King of Fighters series. Ryuhaku Todo, the first boss in the original AOF, is the only character dropped; all characters are playable from the beginning. The final boss is always Mr. Big, though as mentioned earlier, an extra match will be played against Geese Howard if the player unlocks him through good performance.\nThis game is also notorious for its difficulty, with it being referred in many fighting circles as having some of the toughest opponent AI in a fighting game.",
+    "storyline": null,
+    "total_rating": 59.45651970231449,
+    "first_release_date": 762566400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22y5.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/fpp9lfolvcqg9qbnc7on.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bovimbnfofb5el7bngan.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/ueitgm0nmys7scgbtajt.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/tnbrhhpd8kdz1guzytzf.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pz9lzcp8gcds8zauhubn.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/h2bh8sv6vev96407renk.jpg"
+    ],
+    "websites": [
+      "http://snk.wikia.com/wiki/Art_of_Fighting_2",
+      "https://www.gog.com/game/art_of_fighting_2",
+      "https://www.twitch.tv/directory/game/Art%20of%20Fighting%202"
+    ],
+    "player_perspectives": [
+      "Third person",
+      "Side view"
+    ],
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "genres": [
+      "Fighting",
+      "Arcade"
+    ]
+  },
+  {
+    "gamerpower_id": 3394,
+    "title": "Rose and Cross",
+    "worth": "6.99",
+    "store": "Itch.io",
+    "expiry_date": "2026-01-01 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/rose-and-cross-itch-io-giveaway",
+    "id": 304468,
+    "name": "Rose and Cross",
+    "summary": "Our main character, absorbed in the study of sects and the occult, made a big mistake by going to an abandoned farm.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1717459200,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fao.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslcv.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslcr.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslcs.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslcu.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslct.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslcw.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslcx.jpg"
+    ],
+    "websites": [
+      "https://www.twitch.tv/directory/category/rose-and-cross",
+      "https://youtube.com/@zvgame2?si=fBQqKGRrugg2LNMW",
+      "https://x.com/_zvgames?s=21",
+      "https://store.steampowered.com/app/2975160",
+      "https://zvgames.taplink.ws/"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3389,
+    "title": "Era of Miracles",
+    "worth": "29.99",
+    "store": "IndieGala",
+    "expiry_date": "2026-01-19 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/era-of-miracles-pc-giveaway",
+    "id": 124167,
+    "name": "Era of Miracles",
+    "summary": "You are a traveler who went in search of adventure.What awaits you?",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1569974400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3py4.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7aka.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akb.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7ak8.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7ak9.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akc.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akd.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akf.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7ake.jpg"
+    ],
+    "websites": [
+      "https://www.twitch.tv/directory/game/Era%20of%20Miracles",
+      "https://store.steampowered.com/app/1037930",
+      "https://vk.com/seaborgiumentertainment"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3215,
+    "title": "Hotel Greenwood",
+    "worth": "9.99",
+    "store": "IndieGala",
+    "expiry_date": "2026-01-19 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/hotel-greenwood-pc-giveaway",
+    "id": 211644,
+    "name": "Hotel Greenwood",
+    "summary": "Hotel Greenwood is a psychological horror and thriller game played with a first-person camera. explore this hidden hotel with its intense and dark atmosphere, solve the events, and witness the story behind the disaster that happened in the past.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1660089600,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5een.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tf.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tg.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3th.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3ti.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tj.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tk.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tl.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tm.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tn.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3to.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tp.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/2089110",
+      "https://www.skyfoster.com/",
+      "https://www.twitch.tv/directory/game/Hotel%20Greenwood"
+    ],
+    "player_perspectives": [
+      "First person"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Indie"
     ]
   }
 ]
