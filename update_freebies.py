@@ -363,7 +363,7 @@ def main():
                 send_fcm_notification(game)
 
         # Send expiry reminders
-        send_expiry_reminders(final_games, old_list)
+       # send_expiry_reminders(final_games, old_list)
 
         # Update Firestore and local JSON
         final_games = [g for g in final_games if g["gamerpower_id"] in new_ids]
