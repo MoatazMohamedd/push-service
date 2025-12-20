@@ -360,7 +360,7 @@ def main():
         # Send notifications for new games
         for game in final_games:
             if game["gamerpower_id"] in added_ids:
-                print(f"Sending notifications for {game["title"]}")
+                print(f'Sending notifications for {game["title"]}')
            #     send_fcm_notification(game)
 
         # Send expiry reminders
