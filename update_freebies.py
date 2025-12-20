@@ -317,7 +317,7 @@ def get_firestore_games():
 def update_firestore_games(games):
     """Update games in Firestore."""
     try:
-        firestore_client.collection("test").document("games").set({"games": games})
+        firestore_client.collection("all_freebies").document("games").set({"games": games})
         print(f"✅ Saved {len(games)} games to Firestore")
     except Exception as e:
         print(f"❌ Firestore write failed: {e}")
