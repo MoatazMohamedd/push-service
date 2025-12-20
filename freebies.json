@@ -1,5 +1,47 @@
 [
   {
+    "gamerpower_id": 3422,
+    "title": "Do You Have a Moment to Talk About Our Lord and Savior?",
+    "worth": "2.99",
+    "store": "Itch.io",
+    "expiry_date": "2026-01-05 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/do-you-have-a-moment-to-talk-about-our-lord-and-savior-itch-io-giveaway",
+    "id": 336668,
+    "name": "Do You Have a Moment to Talk About Our Lord and Savior?",
+    "summary": "A Short Rogue-like Deckbuilder! As a missionary, you’re forced into a cardgame by a wicked man. He promises if you beat level 13, he'll set you free. Draw as many cards as you like, but if you pull the same color twice, all your cards burn! Obtain SPECIAL CARDS. Build Your Deck. Reach Level 13!",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1731456000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coagy0.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz5k9.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz5ka.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz5kc.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz5kb.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz5k6.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz5k7.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz5k8.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz5kd.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz5ke.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/3063960/Do_You_Have_a_Moment_to_Talk_About_Our_Lord_and_Savior/"
+    ],
+    "player_perspectives": [
+      "First person"
+    ],
+    "game_engines": [
+      "Godot Engine"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Card & Board Game"
+    ]
+  },
+  {
     "gamerpower_id": 3420,
     "title": "Winter Hubris",
     "worth": "9.99",
@@ -29,6 +71,37 @@
     ],
     "game_modes": [
       "Single player"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 1669,
+    "title": "Assassin at Crimson Keep",
+    "worth": "4.99",
+    "store": "Itch.io",
+    "expiry_date": "2026-01-05 23:11:20",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/assassin-at-crimson-keep",
+    "id": 186473,
+    "name": "Assassin at Crimson Keep",
+    "summary": "Assassin at Crimson Keep is a short visual novel set in a dark, quasi-fantasy world. After a botched assassination attempt, you pursue the King into his lair known as the Crimson Keep. Your small choices can have great consequences, either for good or for evil.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1641513600,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co585l.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scf4xs.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scf4xu.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scf4xv.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scf4xw.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scf4xy.jpg"
+    ],
+    "websites": [
+      "https://www.twitch.tv/directory/game/Assassin%20at%20Crimson%20Keep",
+      "https://store.steampowered.com/app/1773460"
     ],
     "genres": [
       "Adventure",
@@ -129,6 +202,46 @@
       "Hack and slash/Beat 'em up",
       "Adventure",
       "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3338,
+    "title": "Drive Me to Hell",
+    "worth": "1.99",
+    "store": "Itch.io",
+    "expiry_date": "2025-12-31 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/drive-me-to-hell-itch-io-giveaway",
+    "id": 253969,
+    "name": "Drive Me to Hell",
+    "summary": "As the night darkens and you set out for home, an unsettling occurrence takes place on the road. Will this lead you to hell? Unveil the truth in a bone-chilling driving horror game that will keep you on the edge of your seat!",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1704326400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7dgl.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1rx.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1s0.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1s3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1s6.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scn1s9.jpg"
+    ],
+    "websites": [
+      "https://www.twitch.tv/directory/category/drive-me-to-hell",
+      "https://store.steampowered.com/app/2446680/Drive_Me_to_Hell/",
+      "https://madbug.itch.io/drive-me-to-hell"
+    ],
+    "player_perspectives": [
+      "First person"
+    ],
+    "game_engines": [
+      "Unity"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Racing"
     ]
   },
   {
@@ -321,36 +434,31 @@
     ]
   },
   {
-    "gamerpower_id": 3409,
-    "title": "Art of Fighting 2",
-    "worth": "6.99",
-    "store": "STOVE",
-    "expiry_date": "2025-12-23 23:59:00",
+    "gamerpower_id": 2089,
+    "title": "Project Malice",
+    "worth": "9.99",
+    "store": "Itch.io",
+    "expiry_date": "2026-01-05 23:59:59",
     "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/art-of-fighting-2-pc-giveaway",
-    "id": 6556,
-    "name": "Art of Fighting 2",
-    "summary": "The second installment in the AoF series added the \"rage gauge\"; similar to the \"spirit system\" of its predecessor, it limited the use and effectiveness of special attacks.\nThe game's story is set a year after the original. Geese Howard, a rising star in South Town's criminal underworld, calls fighters to the city for a new tournament, \"The King of Fighters.\" Howard was the final boss and series villain of SNK's other fighting game franchise Fatal Fury (though he is a secret boss in this game), whose story took place over a decade after the events of Art of Fighting.\nArt of Fighting 2 was the only time Yuri Sakazaki was a playable character in the series. It also marked the only time that she donned her trademark outfit, which was made famous in The King of Fighters series. This game also marks the debut of Takuma Sakazaki without his Mr. Karate persona, as well as Eiji Kisaragi, who both appear in the King of Fighters series. Ryuhaku Todo, the first boss in the original AOF, is the only character dropped; all characters are playable from the beginning. The final boss is always Mr. Big, though as mentioned earlier, an extra match will be played against Geese Howard if the player unlocks him through good performance.\nThis game is also notorious for its difficulty, with it being referred in many fighting circles as having some of the toughest opponent AI in a fighting game.",
+    "open_giveaway_url": "https://www.gamerpower.com/open/project-malice-itch-io-giveaway",
+    "id": 220660,
+    "name": "Project Malice",
+    "summary": "An isometric roguelike third-person shooter about a ruined Earth and the unending chaos engulfing it. Fight hordes of the infected, gather loot, make allies, traverse spacetime, and venture into the depths of what we could've prevented.",
     "storyline": null,
-    "total_rating": 59.45651970231449,
-    "first_release_date": 762566400,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22y5.jpg",
+    "total_rating": null,
+    "first_release_date": 1674172800,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7i8i.jpg",
     "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/fpp9lfolvcqg9qbnc7on.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bovimbnfofb5el7bngan.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/ueitgm0nmys7scgbtajt.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/tnbrhhpd8kdz1guzytzf.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pz9lzcp8gcds8zauhubn.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/h2bh8sv6vev96407renk.jpg"
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj975.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj977.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj979.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj97b.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scj97d.jpg"
     ],
     "websites": [
-      "http://snk.wikia.com/wiki/Art_of_Fighting_2",
-      "https://www.gog.com/game/art_of_fighting_2",
-      "https://www.twitch.tv/directory/game/Art%20of%20Fighting%202"
-    ],
-    "player_perspectives": [
-      "Third person",
-      "Side view"
+      "https://www.twitch.tv/directory/game/Project%20Malice",
+      "https://store.steampowered.com/app/2157060",
+      "https://x.com/AploveStudio"
     ],
     "game_modes": [
       "Single player",
@@ -358,131 +466,84 @@
       "Co-operative"
     ],
     "genres": [
-      "Fighting",
-      "Arcade"
+      "Indie"
     ]
   },
   {
-    "gamerpower_id": 3394,
-    "title": "Rose and Cross",
-    "worth": "6.99",
+    "gamerpower_id": 2091,
+    "title": "Buckler 2",
+    "worth": "3.99",
     "store": "Itch.io",
-    "expiry_date": "2026-01-01 23:59:00",
+    "expiry_date": "2026-01-05 23:59:59",
     "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/rose-and-cross-itch-io-giveaway",
-    "id": 304468,
-    "name": "Rose and Cross",
-    "summary": "Our main character, absorbed in the study of sects and the occult, made a big mistake by going to an abandoned farm.",
+    "open_giveaway_url": "https://www.gamerpower.com/open/buckler-2-itch-io-giveaway",
+    "id": 116720,
+    "name": "Buckler 2",
+    "summary": "Buckler 2 is a retro-styled roguelite platformer that tells a story about love, hate, and everything in between. Join Venice and his friends as they embark on an epic adventure across Sector Omega, an unfamiliar world filled with enemies, allies, hazards, and more!",
     "storyline": null,
     "total_rating": null,
-    "first_release_date": 1717459200,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fao.jpg",
+    "first_release_date": 1555200000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3mmc.jpg",
     "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslcv.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslcr.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslcs.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslcu.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslct.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslcw.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scslcx.jpg"
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6fvu.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6fvs.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6fvt.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6fvw.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6fvv.jpg"
     ],
     "websites": [
-      "https://www.twitch.tv/directory/category/rose-and-cross",
-      "https://youtube.com/@zvgame2?si=fBQqKGRrugg2LNMW",
-      "https://x.com/_zvgames?s=21",
-      "https://store.steampowered.com/app/2975160",
-      "https://zvgames.taplink.ws/"
+      "https://aplovestudio.itch.io/buckler2",
+      "https://aplovestudio.itch.io/buckler2",
+      "https://www.twitch.tv/directory/game/Buckler%202",
+      "https://twitter.com/aplovestudio",
+      "https://www.youtube.com/channel/UCuW8zH1Edf09rKC8MrP5nKg/",
+      "https://store.steampowered.com/app/1039910"
     ],
     "game_modes": [
-      "Single player"
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
     ],
     "genres": [
-      "Simulator",
+      "Platform",
       "Adventure",
       "Indie"
     ]
   },
   {
-    "gamerpower_id": 3389,
-    "title": "Era of Miracles",
-    "worth": "29.99",
-    "store": "IndieGala",
-    "expiry_date": "2026-01-19 23:59:00",
+    "gamerpower_id": 3180,
+    "title": "Solace Inc.",
+    "worth": "3.99",
+    "store": "Itch.io",
+    "expiry_date": "2026-01-05 23:59:00",
     "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/era-of-miracles-pc-giveaway",
-    "id": 124167,
-    "name": "Era of Miracles",
-    "summary": "You are a traveler who went in search of adventure.What awaits you?",
+    "open_giveaway_url": "https://www.gamerpower.com/open/solace-inc-itchio-giveaway",
+    "id": 285272,
+    "name": "Solace Inc.",
+    "summary": "A time-traveling autobattler where you assemble the best mercenaries (with the biggest bosoms) to fight off hordes of enemies.",
     "storyline": null,
     "total_rating": null,
-    "first_release_date": 1569974400,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3py4.jpg",
+    "first_release_date": 1706832000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7q06.jpg",
     "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7aka.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akb.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7ak8.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7ak9.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akc.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akd.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7akf.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7ake.jpg"
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqtkq.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqtkr.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqtkv.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqtkz.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqtl2.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqtl5.jpg"
     ],
     "websites": [
-      "https://www.twitch.tv/directory/game/Era%20of%20Miracles",
-      "https://store.steampowered.com/app/1037930",
-      "https://vk.com/seaborgiumentertainment"
+      "https://store.steampowered.com/app/2778250/Solace_Inc/"
     ],
     "game_modes": [
       "Single player"
     ],
     "genres": [
-      "Role-playing (RPG)",
-      "Simulator",
+      "Shooter",
       "Adventure",
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3215,
-    "title": "Hotel Greenwood",
-    "worth": "9.99",
-    "store": "IndieGala",
-    "expiry_date": "2026-01-19 23:59:00",
-    "reminder_sent": false,
-    "open_giveaway_url": "https://www.gamerpower.com/open/hotel-greenwood-pc-giveaway",
-    "id": 211644,
-    "name": "Hotel Greenwood",
-    "summary": "Hotel Greenwood is a psychological horror and thriller game played with a first-person camera. explore this hidden hotel with its intense and dark atmosphere, solve the events, and witness the story behind the disaster that happened in the past.",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1660089600,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5een.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tf.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tg.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3th.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3ti.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tj.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tk.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tl.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tm.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tn.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3to.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sci3tp.jpg"
-    ],
-    "websites": [
-      "https://store.steampowered.com/app/2089110",
-      "https://www.skyfoster.com/",
-      "https://www.twitch.tv/directory/game/Hotel%20Greenwood"
-    ],
-    "player_perspectives": [
-      "First person"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Indie"
+      "Indie",
+      "Arcade"
     ]
   },
   {
