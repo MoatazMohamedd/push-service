@@ -386,7 +386,7 @@ def main():
                 enriched_games.append(merged_game)
                 
                 # Send notification for new game
-                send_fcm_notification(merged_game)
+              #  send_fcm_notification(merged_game)
             else:
                 print(f"⚠️  Skipped {gp_game['title']} (no IGDB match)")
     
