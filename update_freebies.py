@@ -358,9 +358,9 @@ def main():
                 final_games.append(game)
 
         # Send notifications for new games
-        for game in final_games:
-            if game["gamerpower_id"] in added_ids:
-                send_fcm_notification(game)
+       # for game in final_games:
+          #  if game["gamerpower_id"] in added_ids:
+           #     send_fcm_notification(game)
 
         # Send expiry reminders
        # send_expiry_reminders(final_games, old_list)
