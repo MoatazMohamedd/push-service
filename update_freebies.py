@@ -140,14 +140,9 @@ def fetch_gamerpower_games():
             # Set expiry date - 30 days from now if not provided
             end_date = offer.get("end_date")
             if not end_date or end_date == "N/A":
-                expiry_date = (datetime.now(timezone.utc) + timedelta(days=30)).isoformat()
+                expiry_date = (datetime.utcnow() + timedelta(days=30)).strftime("%Y-%m-%d %H:%M:%S")
             else:
-                # Ensure consistent ISO format
-                try:
-                    parsed = datetime.fromisoformat(end_date.replace("Z", "+00:00"))
-                    expiry_date = parsed.isoformat()
-                except:
-                    expiry_date = end_date
+                expiry_date = end_date
 
             # Clean title
             clean_title = re.sub(r"\s*\(.*?\)", "", offer["title"])
@@ -400,7 +395,6 @@ def main():
                 
                 # Send notification only for new games
                 if is_new_game:
-                    print(f'Sending notification for {merged_game["title"]}')
                     send_fcm_notification(merged_game)
             else:
                 print(f"⚠️  Skipped {gp_game['title']} (no IGDB match)")
