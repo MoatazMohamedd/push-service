@@ -240,28 +240,19 @@ def fetch_igdb_data(title: str, normalized_target: str, gp_game: dict):
         resp = requests.post(url, headers=headers, data=body.strip(), timeout=10)
         resp.raise_for_status()
         results = resp.json() or []
-
-        # 1️⃣ Try strict match first
         for r in results:
             candidate_name = r.get("name", "") or ""
             if normalize_title(candidate_name) == normalized_target:
                 if is_confusing_match(title, candidate_name):
                     append_skipped(gp_game, f"Confusing match with '{candidate_name}'")
                     continue
-                return transform_igdb(r)
-
-        # 2️⃣ Fallback: normalized target is contained in candidate_name
-        for r in results:
-            candidate_name = r.get("name", "") or ""
-            if normalized_target in normalize_title(candidate_name):
-                if is_confusing_match(title, candidate_name):
-                    append_skipped(gp_game, f"Confusing match (fallback) with '{candidate_name}'")
+                platforms = [str(p) for p in r.get("platforms", [])]
+                if not any(pid in platforms for pid in ("6", "14", "92")):
+                    append_skipped(gp_game, f"Non-PC platform match: {candidate_name}")
                     continue
                 return transform_igdb(r)
-
-        append_skipped(gp_game, "No safe IGDB match")
+        append_skipped(gp_game, "No strict safe IGDB match")
         return {}
-
     except Exception as e:
         append_skipped(gp_game, f"IGDB fetch error: {e}")
         return {}
@@ -367,12 +358,12 @@ def main():
                 final_games.append(game)
 
         # Send notifications for new games
-       # for game in final_games:
-         #   if game["gamerpower_id"] in added_ids:
-                #send_fcm_notification(game)
+        for game in final_games:
+            if game["gamerpower_id"] in added_ids:
+                send_fcm_notification(game)
 
         # Send expiry reminders
-       # send_expiry_reminders(final_games, old_list)
+        send_expiry_reminders(final_games, old_list)
 
         # Update Firestore and local JSON
         final_games = [g for g in final_games if g["gamerpower_id"] in new_ids]
