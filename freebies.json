@@ -1,24 +1,256 @@
 [
   {
+    "gamerpower_id": 3419,
+    "title": "Banana Hell: Mountain of Madness",
+    "worth": "0.99",
+    "store": "Steam",
+    "expiry_date": "2025-12-22 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/banana-hell-mountain-of-madness-steam-giveaway",
+    "id": 208535,
+    "name": "Banana Hell: Mountain of Madness",
+    "summary": "Jump your way to get the blue diamond as you try to survive a very annoying banana monologue! A REALLY HARD game!",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1714608000,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co59j6.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schu7o.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schu7s.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schu7x.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schu82.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schu89.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/2068520",
+      "https://www.twitch.tv/directory/category/banana-hell-mountain-of-madness"
+    ],
+    "player_perspectives": [
+      "Side view"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Strategy",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3418,
+    "title": "Eternights",
+    "worth": "29.99",
+    "store": "Epic Games Store",
+    "expiry_date": "2025-12-20 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/eternights-epic-games-giveaway",
+    "id": 203367,
+    "name": "Eternights",
+    "summary": "Eternights is a dating action game where you try to make the most out of life during the apocalypse. Monday: Go on a date. Tuesday: Clear dungeon. Friday: Freak out! The clock is ticking!!",
+    "storyline": null,
+    "total_rating": 67.52270465234719,
+    "first_release_date": 1694476800,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tg0.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kq.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kr.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7ks.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kt.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7ku.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kv.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kw.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kx.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7ky.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sch7kz.jpg"
+    ],
+    "websites": [
+      "https://www.reddit.com/r/studiosaigames/",
+      "https://www.studiosai.dev/eternights",
+      "https://store.playstation.com/en-us/concept/10004814",
+      "https://www.nintendo.com/us/store/products/eternights-switch/",
+      "https://apps.apple.com/app/crunchyroll-eternights/id6529523263",
+      "https://play.google.com/store/apps/details?id=com.crunchyroll.gv.eternights.game",
+      "https://www.epicgames.com/p/eternights-c2fbca",
+      "https://store.steampowered.com/app/1402110/Eternights",
+      "https://www.instagram.com/StudioSaiGames",
+      "https://www.youtube.com/c/studiosaigames",
+      "https://www.facebook.com/StudioSaiGames",
+      "https://twitter.com/StudioSaiGames",
+      "https://discord.gg/invite/x44xJ4y",
+      "https://www.twitch.tv/directory/game/Eternights"
+    ],
+    "player_perspectives": [
+      "Third person"
+    ],
+    "game_engines": [
+      "Unity"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 2851,
+    "title": "100% Orange Juice",
+    "worth": "6.99",
+    "store": "Steam",
+    "expiry_date": "2025-12-22 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/100-orange-juice-steam-giveaway",
+    "id": 11426,
+    "name": "100% Orange Juice",
+    "summary": "100% Orange Juice is a goal-oriented boardgame played by OrangeJuice's all-star cast including characters from Acceleration of Suguri, Flying Red Barrel: A Diary of Little Aviator, Sora, and QP Shooting.\n\nThis is a world where dogs, people and machines fly through the air. In that world, a small patch of darkness was born. Infinitesimal at first, it gradually began to envelope everything...\n\nA youth named Kai, led by the mysterious life form known as Marie Poppo, begins a journey that will span worlds. The black, bottomless darkness of desire slowly eats away at both Kai and the world itself...\n\nLet Marie Poppo lead you into a mysterious world to play. Grab your deck of cards and let the games begin!",
+    "storyline": "\"This is a world where dogs, people and machines fly through the air.\nIn that world, a small patch of darkness was born.\nInfinitesimal at first, it gradually began to envelop everything...\n\nA youth named Kai, led by the mysterious life form known as Marie Poppo, begins a journey that will span worlds. The black, bottomless darkness of desire slowly eats away at both Kai and the world itself...\"",
+    "total_rating": 75.55346828006948,
+    "first_release_date": 1250294400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9oqh.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sdmzocw7pkjmf7uadrta.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/ujftm8vosds2aiwfnpw5.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/hcekhilyoa4hzkodmty5.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/f0pjxqbvceoso3zxe7si.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/l2hy6kwckda5msc5bjoh.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc69i1.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc69i2.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc69i0.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc69hz.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scicgj.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scicgk.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scicgl.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs800.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs801.jpg"
+    ],
+    "websites": [
+      "https://bsky.app/profile/fruitbatfactory.bsky.social",
+      "http://fruitbatfactory.com/100orange/",
+      "https://store.steampowered.com/app/282800",
+      "https://discord.gg/fruitbatfactory",
+      "https://twitter.com/FruitbatFactory",
+      "https://www.twitch.tv/directory/category/100-orange-juice",
+      "https://orangejuice.wiki/wiki/100%25_Orange_Juice_Wiki",
+      "https://www.youtube.com/user/FruitbatFactory",
+      "https://www.facebook.com/fruitbatfactory"
+    ],
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "genres": [
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Indie",
+      "Card & Board Game"
+    ]
+  },
+  {
+    "gamerpower_id": 3417,
+    "title": "Toy Tinker Simulator",
+    "worth": "12.99",
+    "store": "Steam",
+    "expiry_date": "2025-12-21 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/toy-tinker-simulator-steam-giveaway",
+    "id": 150000,
+    "name": "Toy Tinker Simulator",
+    "summary": "Have you ever wanted to be a toy tinker? This is a unique chance to become one! Repair toys and start your toy-museums to make everyone happy!",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1637366400,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co319m.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scau7l.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scau7f.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scau7g.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scau7i.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scau7j.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scau7k.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scau7m.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scau7o.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scau7p.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scau7q.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scau7r.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scau7s.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scau7t.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scau7v.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scau7w.jpg"
+    ],
+    "websites": [
+      "https://turquoiserevivalgames.com/",
+      "https://store.steampowered.com/app/1510580/Toy_Tinker_Simulator",
+      "https://www.twitch.tv/directory/game/Toy%20Tinker%20Simulator"
+    ],
+    "player_perspectives": [
+      "First person"
+    ],
+    "game_modes": [
+      "Single player"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie"
+    ]
+  },
+  {
+    "gamerpower_id": 3416,
+    "title": "Rat Quest",
+    "worth": "4.99",
+    "store": "Steam",
+    "expiry_date": "2025-12-25 23:59:00",
+    "reminder_sent": false,
+    "open_giveaway_url": "https://www.gamerpower.com/open/rat-quest-steam-giveaway",
+    "id": 302814,
+    "name": "Rat Quest",
+    "summary": "In this platformer, jumping will be your main mechanic as you climb the level, each jump matters, if you miss a jump, you have to restart. You may be small but so are the platforms.",
+    "storyline": null,
+    "total_rating": null,
+    "first_release_date": 1716595200,
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fk6.jpg",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scse2e.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scse2h.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scse2i.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scse2j.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scse2k.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scse2l.jpg"
+    ],
+    "websites": [
+      "https://store.steampowered.com/app/2952470",
+      "https://www.twitch.tv/directory/category/rat-quest"
+    ],
+    "game_modes": [
+      "Single player"
+    ]
+  },
+  {
     "gamerpower_id": 3415,
-    "title": "Jotunnslayer: Hordes of Hel",
+    "title": "Shotgun King: The Final Checkmate",
     "worth": "6.99",
     "store": "Unknown",
     "expiry_date": "2025-12-25 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/shotgun-king-the-final-checkmate-mobile-giveaway",
     "id": 196030,
-    "name": "Jotunnslayer: Hordes of Hel",
-    "summary": "Jotunnslayer: Hordes of Hel is a gripping roguelike horde-survivor game set in the dark realms of Norse Mythology. Fight waves of enemies to earn divine blessings of ancient Norse Gods, explore hostile worlds and face powerful bosses. Become a god-like warrior in this ultimate showdown.",
+    "name": "Shotgun King: the Final Checkmate",
+    "summary": "It's chess, but you replace your entire army with a royal shotgun, with some roguelike elements.",
     "storyline": "The Black King has been depossessed of everything...\nEverything except their royal shotgun.\nHis wrath shall be his undoing, yet he cares not.\nIn his dark folly, bits of white pieces will fly.",
-    "total_rating": 70.75268817204301,
+    "total_rating": 79.75493484400114,
     "first_release_date": 1650585600,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co99py.jpg",
+    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8w6y.jpg",
     "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scv185.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scv186.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scv187.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scv188.jpg"
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgfq1.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgfq2.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgfq3.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scgfq4.jpg"
     ],
     "websites": [
       "https://www.nintendo.com/store/products/shotgun-king-the-final-checkmate-switch/",
@@ -36,53 +268,20 @@
       "Bird view / Isometric"
     ],
     "game_engines": [
-      "Unity"
+      "SUGAR"
     ],
     "game_modes": [
       "Single player"
     ],
     "genres": [
-      "Indie"
-    ]
-  },
-  {
-    "gamerpower_id": 3410,
-    "title": "Wild Terra 2: New Lands",
-    "worth": "39.99",
-    "store": "Steam",
-    "expiry_date": "2025-12-18 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/wild-terra-2-new-lands-steam-giveaway",
-    "id": 126619,
-    "name": "Wild Terra 2: New Lands",
-    "summary": "Play your role in the life-filled medieval world controlled by players. Live on an inhabited territory or conquer New Continents in new seasons! MMORPG full of logically interconnected worked out little things that create a unique immersion and the spirit of adventure!",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1668038400,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hn6.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7sb8.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7sba.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7sb6.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7sb9.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7sb7.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7sbb.jpg"
-    ],
-    "websites": [
-      "http://www.wildterra2.com/",
-      "https://discord.gg/NZhbfMR",
-      "https://www.youtube.com/channel/UCQ9zUVGdlKxLBW0h-mbi75g/",
-      "https://store.steampowered.com/app/1134700",
-      "https://www.twitch.tv/directory/game/Wild%20Terra%202%3A%20New%20Lands"
-    ],
-    "game_modes": [
-      "Multiplayer",
-      "Co-operative",
-      "Massively Multiplayer Online (MMO)"
-    ],
-    "genres": [
-      "Role-playing (RPG)",
-      "Indie"
+      "Shooter",
+      "Puzzle",
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Tactical",
+      "Indie",
+      "Arcade",
+      "Card & Board Game"
     ]
   },
   {
@@ -125,103 +324,6 @@
     "genres": [
       "Fighting",
       "Arcade"
-    ]
-  },
-  {
-    "gamerpower_id": 3406,
-    "title": "One Gun Guy",
-    "worth": "4.99",
-    "store": "Steam",
-    "expiry_date": "2025-12-18 23:59:00",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/one-gun-guy-steam-giveaway",
-    "id": 132917,
-    "name": "One Gun Guy",
-    "summary": "One Gun Guy is a straight forward no nonsense action platformer, one giant level littered with player upgrades, hazards to tackle, enemies to destroy, a boss to kill, and multiple difficulty settings.",
-    "storyline": null,
-    "total_rating": null,
-    "first_release_date": 1645747200,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3qlj.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sip.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9siq.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sik.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sil.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sim.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sin.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9sio.jpg"
-    ],
-    "websites": [
-      "https://store.playstation.com/en-us/concept/10002396",
-      "https://www.nintendo.com/games/detail/one-gun-guy-switch/",
-      "https://store.steampowered.com/app/1200580",
-      "https://www.twitch.tv/directory/game/One%20Gun%20Guy"
-    ],
-    "game_modes": [
-      "Single player"
-    ],
-    "genres": [
-      "Shooter",
-      "Platform",
-      "Indie",
-      "Arcade"
-    ]
-  },
-  {
-    "gamerpower_id": 722,
-    "title": "Black Desert",
-    "worth": "9.99",
-    "store": "Steam",
-    "expiry_date": "2025-12-18 23:59:59",
-    "reminder_sent": true,
-    "open_giveaway_url": "https://www.gamerpower.com/open/free-black-desert-online-steam",
-    "id": 6292,
-    "name": "Black Desert",
-    "summary": "Black Desert is a game that tests the limitations of MMORPG\nby implementing remastered graphics and audio. Enjoy exciting combat and siege,\nexploration, trading, fishing, training, alchemy, cooking, gathering, hunting, and more in the vast open world.",
-    "storyline": "The Black Stones. A source of power so great they are said to have corrupted the minds of the Ancients and caused the fall of a great civilization. Commonly found in the harsh, hostile desert situated between the warring nations of the Republic of Calpheon and the Kingdom of Valencia. The Calpheonians call this area the Black Desert, while the Valencians know it as the Red Desert, a testament to the rivers of blood spilled there. The commercialist republic and absolute monarchy both lay claim to the desert’s resources. Both are ready to wage war for it. You will uncover the hidden secrets of ancient civilization through the histories of Calpheon and Valencia. Lost memories and the secret of the Black Spirit will be unveiled. A journey to seek the true face of the ancient civilization around the Black Desert awaits you.",
-    "total_rating": 71.20294978260571,
-    "first_release_date": 1418774400,
-    "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coay9v.jpg",
-    "screenshots": [
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vro.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vrp.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vrt.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vrn.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vrq.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vrr.jpg",
-      "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vrm.jpg"
-    ],
-    "websites": [
-      "https://www.instagram.com/BlackDesertGame",
-      "https://www.xbox.com/en-US/games/store/black-desert/BTPDCJXNFSZL",
-      "https://store.playstation.com/en-us/concept/233032",
-      "https://store.steampowered.com/app/582660",
-      "https://en.wikipedia.org/wiki/Black_Desert_Online",
-      "https://www.reddit.com/r/blackdesertonline",
-      "https://www.naeu.playblackdesert.com/",
-      "https://www.twitch.tv/directory/category/black-desert",
-      "https://www.youtube.com/channel/UCcZo9VRa3TFIJaf1aJOLDgw",
-      "https://www.facebook.com/newsblackdesert/",
-      "https://twitter.com/NewsBlackDesert",
-      "https://discord.gg/blackdesertonline",
-      "https://www.naeu.playblackdesert.com/en-US/Wiki"
-    ],
-    "player_perspectives": [
-      "Third person"
-    ],
-    "game_engines": [
-      "Black Desert Engine"
-    ],
-    "game_modes": [
-      "Multiplayer",
-      "Co-operative",
-      "Massively Multiplayer Online (MMO)"
-    ],
-    "genres": [
-      "Role-playing (RPG)",
-      "Strategy",
-      "Hack and slash/Beat 'em up",
-      "Adventure"
     ]
   },
   {
@@ -269,7 +371,7 @@
     "title": "Era of Miracles",
     "worth": "29.99",
     "store": "IndieGala",
-    "expiry_date": "2026-01-17 23:59:00",
+    "expiry_date": "2026-01-19 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/era-of-miracles-pc-giveaway",
     "id": 124167,
@@ -309,7 +411,7 @@
     "title": "Hotel Greenwood",
     "worth": "9.99",
     "store": "IndieGala",
-    "expiry_date": "2026-01-17 23:59:00",
+    "expiry_date": "2026-01-19 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/hotel-greenwood-pc-giveaway",
     "id": 211644,
@@ -352,7 +454,7 @@
     "title": "Sharknado VR",
     "worth": "1.99",
     "store": "Unknown",
-    "expiry_date": "2026-01-17 23:59:00",
+    "expiry_date": "2026-01-19 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/sharknado-vr-rift-giveaway",
     "id": 197404,
@@ -390,7 +492,7 @@
     "title": "Dual Chroma: Academy Carols",
     "worth": "2.00",
     "store": "Itch.io",
-    "expiry_date": "2026-01-17 23:59:00",
+    "expiry_date": "2026-01-19 23:59:00",
     "reminder_sent": false,
     "open_giveaway_url": "https://www.gamerpower.com/open/dual-chroma-academy-carols-itch-io-giveaway",
     "id": 238546,
