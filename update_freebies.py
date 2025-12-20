@@ -307,20 +307,24 @@ def main():
     gp_games = fetch_gamerpower_games()
     old_list = read_local_json()
 
-    old_ids = {g["gamerpower_id"] for g in old_list}
-    new_ids = {g["gamerpower_id"] for g in gp_games}
-    added_ids = new_ids - old_ids
-    removed_ids = old_ids - new_ids
+    # -----------------------------
+    # Compare by normalized title
+    # -----------------------------
+    old_map = {normalize_title(g["title"]): g for g in old_list}
+    new_map = {normalize_title(g["title"]): g for g in gp_games}
+
+    added_titles = set(new_map) - set(old_map)
+    removed_titles = set(old_map) - set(new_map)
 
     # -------------------------------------------------
     # Only continue if something changed (less reads!)
     # -------------------------------------------------
-    if added_ids or removed_ids:
-        print("Detected changes in free games IDs:")
-        if added_ids:
-            print(f" Added: {added_ids}")
-        if removed_ids:
-            print(f" Removed: {removed_ids}")
+    if added_titles or removed_titles:
+        print("Detected changes in free games titles:")
+        if added_titles:
+            print(f" Added: {added_titles}")
+        if removed_titles:
+            print(f" Removed: {removed_titles}")
 
         print("Fetching IGDB details for updated list...")
         enriched_games = []
@@ -336,13 +340,13 @@ def main():
         # -------------------------------------------------
         firestore_doc = firestore_client.collection("all_freebies").document("games").get()
         firestore_data = firestore_doc.to_dict() or {}
-        firestore_games = {g["gamerpower_id"]: g for g in firestore_data.get("games", [])}
+        firestore_games = {normalize_title(g["title"]): g for g in firestore_data.get("games", [])}
 
         final_games = []
         for game in enriched_games:
-            gp_id = game["gamerpower_id"]
-            if gp_id in firestore_games:
-                existing = firestore_games[gp_id]
+            gp_norm = normalize_title(game["title"])
+            if gp_norm in firestore_games:
+                existing = firestore_games[gp_norm]
                 merged = {}
                 for key, value in game.items():
                     # Always refresh fields that come from API
@@ -359,15 +363,16 @@ def main():
 
         # Send notifications for new games
         for game in final_games:
-            if game["gamerpower_id"] in added_ids:
+            gp_norm = normalize_title(game["title"])
+            if gp_norm in added_titles:
                 print(f'Sending notifications for {game["title"]}')
-           #     send_fcm_notification(game)
+                # send_fcm_notification(game)
 
         # Send expiry reminders
-       # send_expiry_reminders(final_games, old_list)
+        # send_expiry_reminders(final_games, old_list)
 
         # Update Firestore and local JSON
-        final_games = [g for g in final_games if g["gamerpower_id"] in new_ids]
+        final_games = [g for g in final_games if normalize_title(g["title"]) in new_map]
         firestore_client.collection("all_freebies").document("games").set({"games": final_games})
         write_local_json(final_games)
 
