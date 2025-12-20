@@ -400,7 +400,8 @@ def main():
                 
                 # Send notification only for new games
                 if is_new_game:
-                   # send_fcm_notification(merged_game)
+                    print()
+                    #send_fcm_notification(merged_game)
             else:
                 print(f"⚠️  Skipped {gp_game['title']} (no IGDB match)")
         else:
