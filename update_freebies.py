@@ -487,7 +487,7 @@ def main():
     
     # Send expiry reminders before updating Firestore
     print("\n⏰ Checking for expiring games...")
-    send_expiry_reminders(enriched_games, firestore_games)
+    #send_expiry_reminders(enriched_games, firestore_games)
     
     # Update Firestore with new list
     update_firestore_games(enriched_games)
