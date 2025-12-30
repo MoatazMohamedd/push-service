@@ -36,7 +36,7 @@ MANUAL_GAMES = [
 
   "summary": "Trine: Ultimate Collection includes the first four titles in the Trine series:\n\n- Trine Enchanted Edition\n- Trine 2: Complete Story\n- Trine 3: Artifacts of Power\n- Trine 4: The Nightmare Prince",
 
-  "storyline": null,
+  "storyline": None,
 
   "worth": "49.99",
   "type": "Game",
