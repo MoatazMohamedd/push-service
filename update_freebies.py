@@ -24,6 +24,82 @@ FIREBASE_CREDENTIALS_JSON = os.getenv("FIREBASE_CREDENTIALS_JSON")
 FIRESTORE_PROJECT_ID = os.getenv("FIRESTORE_PROJECT_ID")
 
 # -----------------
+# MANUAL GAMES (Added to top of Firestore array)
+# -----------------
+MANUAL_GAMES = [
+{
+  "gamerpower_id": 3444,
+  "title": "Trine Classic Collection (Epic Games) Giveaway",
+  "name": "Trine: Ultimate Collection",
+
+  "description": "Grab the Trine series for free with the Trine Classic Collection on the Epic Games Store! It includes all four games: Trine Enchanted Edition, Trine 2: Complete Story, Trine 3: Artifacts of Power, and Trine 4: Definitive Edition. Only 24 hours left, don’t miss it!",
+
+  "summary": "Trine: Ultimate Collection includes the first four titles in the Trine series:\n\n- Trine Enchanted Edition\n- Trine 2: Complete Story\n- Trine 3: Artifacts of Power\n- Trine 4: The Nightmare Prince",
+
+  "storyline": null,
+
+  "worth": "49.99",
+  "type": "Game",
+  "store": "Epic Games Store",
+
+  "open_giveaway_url": "https://www.gamerpower.com/open/trine-classic-collection-epic-games-giveaway",
+  "gamerpower_url": "https://www.gamerpower.com/trine-classic-collection-epic-games-giveaway",
+
+  "image": "https://www.gamerpower.com/offers/1b/6953f897c0bd8.jpg",
+  "thumbnail": "https://www.gamerpower.com/offers/1/6953f897c0bd8.jpg",
+
+  "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1krs.jpg",
+
+  "screenshots": [
+    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6edj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6edk.jpg"
+  ],
+
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Strategy",
+    "Adventure",
+    "Indie"
+  ],
+
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+
+  "player_perspectives": [
+    "Side view"
+  ],
+
+  "websites": [
+    "https://www.nintendo.com/games/detail/trine-ultimate-collection-switch/",
+    "https://www.gog.com/game/trine_ultimate_collection"
+  ],
+
+  "platforms": [
+    48, 6, 49, 130
+  ],
+
+  "id": 115766,
+
+  "first_release_date": 1570406400,
+
+  "expiry_date": "2025-12-31 23:59:00",
+
+  "published_date": "2025-12-30 11:06:47",
+
+  "users": 280,
+  "status": "Active",
+
+  "total_rating": null
+}
+
+]
+
+
+# -----------------
 # FIREBASE SETUP
 # -----------------
 firebase_cred_dict = json.loads(FIREBASE_CREDENTIALS_JSON)
@@ -395,7 +471,6 @@ def main():
                 
                 # Send notification only for new games
                 if is_new_game:
-                    print(f"Sending notification for {merged_game['title']}")
                     send_fcm_notification(merged_game)
             else:
                 print(f"⚠️  Skipped {gp_game['title']} (no IGDB match)")
@@ -413,7 +488,7 @@ def main():
     
     # Send expiry reminders before updating Firestore
     print("\n⏰ Checking for expiring games...")
-    #send_expiry_reminders(enriched_games, firestore_games)
+    send_expiry_reminders(enriched_games, firestore_games)
     
     # Update Firestore with new list
     update_firestore_games(enriched_games)
