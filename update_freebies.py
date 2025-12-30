@@ -93,7 +93,7 @@ MANUAL_GAMES = [
   "users": 280,
   "status": "Active",
 
-  "total_rating": null
+  "total_rating": None
 }
 
 ]
