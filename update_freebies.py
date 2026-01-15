@@ -27,71 +27,41 @@ FIRESTORE_PROJECT_ID = os.getenv("FIRESTORE_PROJECT_ID")
 # MANUAL GAMES (Added to top of Firestore array)
 # -----------------
 MANUAL_GAMES = [
-{
-  "id": 13554,
-  "name": "Styx: Shards of Darkness",
-  "title": "Styx: Shards of Darkness",
-
-  "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24zt.jpg",
-
-  "first_release_date": 1489449600,
-
-  "total_rating": 73.03066499572907,
-
-  "summary": "Embark upon a stealthy adventure with new enemies, new environments, and a plethora of new mechanics aimed at refining the abilities and movement of Styx; grappling around corners, climbing ropes, and using his trusty knife as a zip-wire.",
-
-  "storyline": "Following the fall of Akenash tower, an extraordinary matter has forced Styx out of hiding to infiltrate Körangar, the city of the Dark Elves. Supposedly impregnable, a diplomatic summit offers Styx a chance at slipping in unnoticed...",
-
-  "genres": [
-    "Role-playing (RPG)",
-    "Adventure"
-  ],
-
-  "game_modes": [
-    "Single player",
-    "Multiplayer",
-    "Co-operative"
-  ],
-
-  "game_engines": [
-    "Unreal Engine 4"
-  ],
-
-  "player_perspectives": [
-    "Third person"
-  ],
-
-  "screenshots": [
-    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/l6mheqaybogeaftu5ohn.jpg",
-    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/gg1twdvinovyln8hz4et.jpg",
-    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/a3oeztgxghzfwezn4sji.jpg",
-    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/f10lrksbd2eddyvhrvu7.jpg",
-    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/fkmhugjs2kkle9qfawcr.jpg"
-  ],
-
-  "websites": [
-    "https://www.facebook.com/StyxGame",
-    "https://twitter.com/StyxVideoGames",
-    "http://www.styx-thegame.com/",
-    "https://en.wikipedia.org/wiki/Styx:_Shards_of_Darkness",
-    "https://www.gog.com/game/styx_shards_of_darkness",
-    "https://store.steampowered.com/app/355790",
-    "https://store.epicgames.com/p/styx-shards-of-darkness-77c030",
-    "https://www.reddit.com/r/StyxGame/"
-  ],
-
-  "store": "Epic Games Store",
-
-  "gamerpower_id": 3457,
-
-  "open_giveaway_url": "https://www.gamerpower.com/open/styx-shards-of-darkness-deluxe-edition-epic-games-giveaway",
-
-  "expiry_date": "2026-01-22 23:59:00",
-
-  "worth": "19.99"
-}
-
-
+    {
+        "gamerpower_id": 3444,
+        "title": "Trine Classic Collection (Epic Games) Giveaway",
+        "name": "Trine: Ultimate Collection",
+        "description": "Grab the Trine series for free with the Trine Classic Collection on the Epic Games Store! It includes all four games: Trine Enchanted Edition, Trine 2: Complete Story, Trine 3: Artifacts of Power, and Trine 4: Definitive Edition. Only 24 hours left, don't miss it!",
+        "summary": "Trine: Ultimate Collection includes the first four titles in the Trine series:\n\n- Trine Enchanted Edition\n- Trine 2: Complete Story\n- Trine 3: Artifacts of Power\n- Trine 4: The Nightmare Prince",
+        "storyline": None,  # ✅ Changed null to None
+        "worth": "49.99",
+        "type": "Game",
+        "store": "Epic Games Store",
+        "open_giveaway_url": "https://www.gamerpower.com/open/trine-classic-collection-epic-games-giveaway",
+        "gamerpower_url": "https://www.gamerpower.com/trine-classic-collection-epic-games-giveaway",
+        "image": "https://www.gamerpower.com/offers/1b/6953f897c0bd8.jpg",
+        "thumbnail": "https://www.gamerpower.com/offers/1/6953f897c0bd8.jpg",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1krs.jpg",
+        "screenshots": [
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6edj.jpg",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6edk.jpg"
+        ],
+        "genres": ["Platform", "Puzzle", "Strategy", "Adventure", "Indie"],
+        "game_modes": ["Single player", "Multiplayer", "Co-operative"],
+        "player_perspectives": ["Side view"],
+        "websites": [
+            "https://www.nintendo.com/games/detail/trine-ultimate-collection-switch/",
+            "https://www.gog.com/game/trine_ultimate_collection"
+        ],
+        "platforms": [48, 6, 49, 130],
+        "id": 115766,
+        "first_release_date": 1570406400,
+        "expiry_date": "2025-12-31 23:59:00",
+        "published_date": "2025-12-30 11:06:47",
+        "users": 280,
+        "status": "Active",
+        "total_rating": None  # ✅ Changed null to None
+    }
 ]
 
 # -----------------
@@ -483,15 +453,22 @@ def main():
     
     # Send expiry reminders before updating Firestore
     print("\n⏰ Checking for expiring games...")
-    #send_expiry_reminders(enriched_games, firestore_games)
+    send_expiry_reminders(enriched_games, firestore_games)
+    
+    # Prepend manual games to the top of the array
+    if MANUAL_GAMES:
+        print(f"\n📌 Adding {len(MANUAL_GAMES)} manual games to the top of the list")
+        final_games = MANUAL_GAMES + enriched_games
+    else:
+        final_games = enriched_games
     
     # Update Firestore with new list
-    update_firestore_games(enriched_games)
+    update_firestore_games(final_games)
     
     if removed_ids:
         print(f"🗑️  Removed {len(removed_ids)} expired games")
     
-    print(f"\n✅ Done! {len(enriched_games)} games now in Firestore")
+    print(f"\n✅ Done! {len(final_games)} games now in Firestore ({len(MANUAL_GAMES)} manual + {len(enriched_games)} from API)")
 
 if __name__ == "__main__":
     main()
