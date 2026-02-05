@@ -27,65 +27,9 @@ FIRESTORE_PROJECT_ID = os.getenv("FIRESTORE_PROJECT_ID")
 # MANUAL GAMES (Added to top of Firestore array)
 # -----------------
 MANUAL_GAMES = [
-    {
-  "id": 148420,
-  "name": "Alone in the Dark: The Trilogy 1+2+3",
-  "title": "Alone in the Dark: The Trilogy",
-
-  "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5te1.jpg",
-
-  "first_release_date": 820368000,
-
-  "total_rating": None,
-
-  "summary": "A suspicious suicide. A chilling curse. A malevolent power. Finally, a wicked dark secret. This is Derceto, a legendary Louisiana mansion where, against your better judgment, you're drawn into a world of shadows to explore the darker side of Jeremy Hartwood's imagination.",
-
-  "storyline": None,
-
-  "genres": [
-    "Adventure"
-  ],
-
-  "game_modes": [
-    "Single player"
-  ],
-
-  "game_engines": [],
-
-  "player_perspectives": [],
-
-  "screenshots": [
-    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scawj2.jpg",
-    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scawj3.jpg",
-    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scawj4.jpg",
-    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scawj5.jpg",
-    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scawj6.jpg",
-    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scawj7.jpg",
-    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scawj8.jpg",
-    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scawix.jpg",
-    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scawiy.jpg",
-    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scawiz.jpg",
-    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scawj0.jpg",
-    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scawj1.jpg"
-  ],
-
-  "websites": [
-    "https://www.gog.com/en/game/alone_in_the_dark_the_trilogy_123",
-    "https://en.wikipedia.org/wiki/Alone_in_the_Dark"
-  ],
-
-  "store": "GoG",
-
-  "gamerpower_id": 3480,
-
-  "open_giveaway_url": "https://www.gamerpower.com/open/alone-in-the-dark-the-trilogy-gog-giveaway",
-
-  "expiry_date": "2026-02-05 23:59:00",
-
-  "worth": "11.37"
-}
-
+   
 ]
+
 
 # -----------------
 # FIREBASE SETUP
