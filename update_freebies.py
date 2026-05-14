@@ -27,7 +27,61 @@ FIRESTORE_PROJECT_ID = os.getenv("FIRESTORE_PROJECT_ID")
 # MANUAL GAMES (Added to top of Firestore array)
 # -----------------
 MANUAL_GAMES = [
-   
+   {
+  "id": 127560,
+  "name": "Telltale Batman Shadows Edition",
+  "title": "Telltale Batman Shadows Edition",
+
+  "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v6c.jpg",
+
+  "first_release_date": 1576540800,
+
+  "total_rating": 76.92530990061377,
+
+  "summary": "Step into the shadows and experience the twisted world of Telltale's Batman in a way that brings the fractured persona of the Dark Knight and the City of Gotham to life in a sinister, new way.",
+
+  "storyline": null,
+
+  "genres": [
+    "Point-and-click",
+    "Adventure"
+  ],
+
+  "game_modes": [
+    "Single player"
+  ],
+
+  "game_engines": [],
+
+  "player_perspectives": [
+    "Third person"
+  ],
+
+  "screenshots": [
+    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7hxo.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7hxp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7hxq.jpg"
+  ],
+
+  "websites": [
+    "https://www.nintendo.com/store/products/batman-the-telltale-series-shadows-edition-switch/",
+    "https://store.steampowered.com/bundle/12433",
+    "https://www.gog.com/game/telltale_batman_shadows_edition",
+    "https://twitter.com/TelltaleBatman",
+    "https://telltale.com/batman-shadows-edition/",
+    "https://www.epicgames.com/store/product/the-telltale-batman"
+  ],
+
+  "store": "Epic Games Store",
+
+  "gamerpower_id": 3638,
+
+  "open_giveaway_url": "https://www.gamerpower.com/open/the-telltale-batman-shadows-edition-epic-games-giveaway",
+
+  "expiry_date": "2026-05-21 23:59:00",
+
+  "worth": "29.96"
+}
 ]
 
 
