@@ -40,7 +40,7 @@ MANUAL_GAMES = [
 
   "summary": "Step into the shadows and experience the twisted world of Telltale's Batman in a way that brings the fractured persona of the Dark Knight and the City of Gotham to life in a sinister, new way.",
 
-  "storyline": null,
+  "storyline": None,
 
   "genres": [
     "Point-and-click",
