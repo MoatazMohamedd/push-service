@@ -92,15 +92,15 @@ MANUAL_GAMES = [
     "https://x.com/tombraider"
   ],
 
-  "store": None,
+  "store": "Epic Games Store",
 
-  "gamerpower_id": None,
+  "gamerpower_id": 3650,
 
-  "open_giveaway_url": None,
+  "open_giveaway_url": "https://www.gamerpower.com/open/tomb-raider-1-3-remastered-starring-lara-croft-epic-games-giveaway",
 
-  "expiry_date": None,
+  "expiry_date": "2026-05-28 23:59:00",
 
-  "worth": None
+  "worth": "29.99"
 }
 ]
 
