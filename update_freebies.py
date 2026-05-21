@@ -27,7 +27,81 @@ FIRESTORE_PROJECT_ID = os.getenv("FIRESTORE_PROJECT_ID")
 # MANUAL GAMES (Added to top of Firestore array)
 # -----------------
 MANUAL_GAMES = [
-  
+  {
+  "id": 266683,
+  "name": "Tomb Raider I•II•III Remastered",
+  "title": "Tomb Raider I•II•III Remastered",
+
+  "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8xte.jpg",
+
+  "first_release_date": 1707868800,
+
+  "total_rating": 74.82383994951857,
+
+  "summary": "Tomb Raider I•II•III Remastered is a collection of the first three Tomb Raider games, originally released between 1996 and 1998, updated with enhanced visuals and modern controls.",
+
+  "storyline": None,
+
+  "genres": [
+    "Shooter",
+    "Puzzle",
+    "Strategy",
+    "Adventure"
+  ],
+
+  "game_modes": [
+    "Single player"
+  ],
+
+  "game_engines": [],
+
+  "player_perspectives": [
+    "Third person"
+  ],
+
+  "screenshots": [
+    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scoj9r.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scoj9s.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scoj9t.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scoj9v.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scoj9w.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scoj9u.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq50r.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq50s.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq50t.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq50u.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq50v.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq50w.jpg"
+  ],
+
+  "websites": [
+    "https://store.playstation.com/en-us/concept/10008568",
+    "https://www.nintendo.com/store/products/tomb-raider-i-iii-remastered-starring-lara-croft-switch/",
+    "https://store.epicgames.com/p/tomb-raider-iiii-remastered-538640",
+    "https://www.tombraider.com/products/games/tomb-raider-i-iii-remastered",
+    "https://www.xbox.com/en-US/games/store/tomb-raider-i-iii-remastered-starring-lara-croft/9N25D4T3L8JX",
+    "https://www.gog.com/en/game/tomb_raider_i_to_iii_remastered",
+    "https://store.steampowered.com/app/2478970/Tomb_Raider_IIII_Remastered/",
+    "https://www.twitch.tv/directory/category/tomb-raider-i-ii-iii-remastered",
+    "https://www.facebook.com/TombRaider",
+    "https://www.instagram.com/tombraider/",
+    "https://www.youtube.com/tombraider",
+    "https://discord.gg/invite/tomb-raider",
+    "https://play.google.com/store/apps/details?id=com.aspyr.trm",
+    "https://en.wikipedia.org/wiki/Tomb_Raider_I%E2%80%93III_Remastered",
+    "https://x.com/tombraider"
+  ],
+
+  "store": None,
+
+  "gamerpower_id": None,
+
+  "open_giveaway_url": None,
+
+  "expiry_date": None,
+
+  "worth": None
+}
 ]
 
 
