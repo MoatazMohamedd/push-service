@@ -5,6 +5,7 @@ import string
 import time
 import unicodedata
 from datetime import datetime, timedelta, timezone
+from difflib import SequenceMatcher
 
 import firebase_admin
 import requests
@@ -195,14 +196,19 @@ def fetch_igdb_data(title: str, normalized_target: str, gp_game: dict):
         
         for r in results:
             candidate_name = r.get("name", "") or ""
+            candidate_norm = normalize_title(candidate_name)
 
-            print(
-                        f"GP='{title}' "
-                        f"GP_NORM='{normalized_target}' "
-                        f"IGDB='{candidate_name}' "
-                        f"IGDB_NORM='{normalize_title(candidate_name)}'"
-                 )
-            if normalize_title(candidate_name) == normalized_target:
+            score = SequenceMatcher(
+                None,
+                normalized_target,
+                candidate_norm
+            ).ratio()
+
+            if (
+                score >= 0.90
+                or normalized_target in candidate_norm
+                or candidate_norm in normalized_target
+            ):  
                 if is_confusing_match(title, candidate_name):
                     append_skipped(gp_game, f"Confusing match with '{candidate_name}'")
                     continue
