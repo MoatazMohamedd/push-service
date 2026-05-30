@@ -1,15 +1,16 @@
-import os
 import json
+import os
 import re
 import string
-import unicodedata
-import requests
 import time
-from datetime import datetime, timezone, timedelta
+import unicodedata
+from datetime import datetime, timedelta, timezone
+
+import firebase_admin
+import requests
+from firebase_admin import messaging
 from google.cloud import firestore
 from google.oauth2 import service_account
-import firebase_admin
-from firebase_admin import messaging
 
 # -----------------
 # ENV VARIABLES
@@ -194,6 +195,13 @@ def fetch_igdb_data(title: str, normalized_target: str, gp_game: dict):
         
         for r in results:
             candidate_name = r.get("name", "") or ""
+
+            print(
+                        f"GP='{title}' "
+                        f"GP_NORM='{normalized_target}' "
+                        f"IGDB='{candidate_name}' "
+                        f"IGDB_NORM='{normalize_title(candidate_name)}'"
+                 )
             if normalize_title(candidate_name) == normalized_target:
                 if is_confusing_match(title, candidate_name):
                     append_skipped(gp_game, f"Confusing match with '{candidate_name}'")
