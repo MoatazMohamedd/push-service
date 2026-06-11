@@ -2,7 +2,7 @@ name: Update Freebies
 
 on:
   schedule:
-    - cron: "0 * * * *" # every hour
+    - cron: "13 * * * *"
   workflow_dispatch:
 
 permissions:
